@@ -1,0 +1,713 @@
+{
+ "version": 1,
+ "fields": {
+  "发色模式": {
+   "module": "发型",
+   "lv": 3,
+   "options": [
+    {
+     "l": "整体发色",
+     "z": "发色按整体统一处理",
+     "e": "uniform hair color",
+     "b": "整体发色"
+    },
+    {
+     "l": "分项自定义",
+     "z": "发色按分项自定义组合",
+     "e": "custom hair color combination",
+     "b": "分项自定义"
+    }
+   ]
+  },
+  "发色": {
+   "module": "发型",
+   "lv": 1,
+   "options": [
+    {
+     "l": "自然黑",
+     "z": "发色为自然黑",
+     "e": "natural black hair",
+     "b": "自然黑"
+    },
+    {
+     "l": "深棕",
+     "z": "发色为深棕色",
+     "e": "dark brown hair",
+     "b": "深棕"
+    },
+    {
+     "l": "巧克力棕",
+     "z": "发色为巧克力棕，色调饱和",
+     "e": "chocolate brown hair",
+     "b": "巧克力棕"
+    },
+    {
+     "l": "栗棕",
+     "z": "发色为栗棕色，带红调",
+     "e": "chestnut brown hair",
+     "b": "栗棕"
+    },
+    {
+     "l": "冷棕",
+     "z": "发色为冷棕，色调偏灰",
+     "e": "cool ash brown hair",
+     "b": "冷棕"
+    },
+    {
+     "l": "浅棕",
+     "z": "发色为浅棕色",
+     "e": "light brown hair",
+     "b": "浅棕"
+    },
+    {
+     "l": "亚麻",
+     "z": "发色为亚麻色，明度偏高",
+     "e": "flaxen linen hair",
+     "b": "亚麻"
+    },
+    {
+     "l": "灰棕",
+     "z": "发色为灰棕色",
+     "e": "gray brown hair",
+     "b": "灰棕"
+    },
+    {
+     "l": "银灰",
+     "z": "发色为银灰色，带冷光泽",
+     "e": "silver gray hair",
+     "b": "银灰"
+    },
+    {
+     "l": "白金",
+     "z": "发色为白金，接近漂浅色",
+     "e": "platinum blonde hair",
+     "b": "白金"
+    },
+    {
+     "l": "红棕",
+     "z": "发色为红棕色，带铜调",
+     "e": "auburn copper hair",
+     "b": "红棕"
+    },
+    {
+     "l": "酒红",
+     "z": "发色为深酒红",
+     "e": "deep burgundy hair",
+     "b": "酒红"
+    },
+    {
+     "l": "蓝黑",
+     "z": "发色为蓝黑，光下透蓝",
+     "e": "blue-black hair",
+     "b": "蓝黑"
+    },
+    {
+     "l": "墨绿",
+     "z": "发色为暗墨绿",
+     "e": "dark forest green hair",
+     "b": "墨绿"
+    },
+    {
+     "l": "橄榄棕",
+     "z": "发色为橄榄棕",
+     "e": "olive brown hair",
+     "b": "橄榄棕"
+    },
+    {
+     "l": "灰白",
+     "z": "发色为灰白，夹杂原有深色",
+     "e": "graying hair with dark strands",
+     "b": "灰白"
+    },
+    {
+     "l": "花白",
+     "z": "发色花白，黑白比例接近",
+     "e": "salt-and-pepper hair",
+     "b": "花白"
+    },
+    {
+     "l": "纯白",
+     "z": "发色为纯白",
+     "e": "pure white hair",
+     "b": "纯白"
+    }
+   ]
+  },
+  "发色色调": {
+   "module": "发型",
+   "lv": 2,
+   "options": [
+    {
+     "l": "冷调",
+     "z": "色调偏冷",
+     "e": "with a cool tone",
+     "b": "冷调"
+    },
+    {
+     "l": "暖调",
+     "z": "色调偏暖",
+     "e": "with a warm tone",
+     "b": "暖调"
+    },
+    {
+     "l": "中性调",
+     "z": "色调中性",
+     "e": "with a neutral tone",
+     "b": "中性调"
+    },
+    {
+     "l": "低饱和",
+     "z": "发色饱和度低，接近灰调",
+     "e": "low-saturation muted hair color",
+     "b": "低饱和"
+    },
+    {
+     "l": "高饱和",
+     "z": "发色饱和度高",
+     "e": "high-saturation vivid hair color",
+     "b": "高饱和"
+    },
+    {
+     "l": "哑光",
+     "z": "发色呈哑光，没有明显反光",
+     "e": "matte hair color",
+     "b": "哑光"
+    },
+    {
+     "l": "光泽感",
+     "z": "发色带健康光泽",
+     "e": "glossy shiny hair color",
+     "b": "光泽感"
+    },
+    {
+     "l": "根部偏深",
+     "z": "发根颜色偏深，向发尾渐变",
+     "e": "darker roots fading to lighter ends",
+     "b": "根部偏深"
+    },
+    {
+     "l": "发尾偏浅",
+     "z": "发尾明度偏高，形成渐变",
+     "e": "lighter gradient ends",
+     "b": "发尾偏浅"
+    },
+    {
+     "l": "均匀单一",
+     "z": "发色均匀，没有明显色差",
+     "e": "even single-tone hair color",
+     "b": "均匀单一"
+    },
+    {
+     "l": "带挑染",
+     "z": "整体发色里夹有细微挑染",
+     "e": "subtle highlights through the hair",
+     "b": "带挑染"
+    },
+    {
+     "l": "自然褪色",
+     "z": "发色有自然褪色感，边界不锐利",
+     "e": "naturally faded hair color",
+     "b": "自然褪色"
+    }
+   ]
+  },
+  "染色方式": {
+   "module": "发型",
+   "lv": 3,
+   "options": [
+    {
+     "l": "本色",
+     "z": "保持原生发色，未做染色",
+     "e": "undyed natural hair color",
+     "b": "本色"
+    },
+    {
+     "l": "全头染",
+     "z": "全头统一染色",
+     "e": "full-head dye",
+     "b": "全头染"
+    },
+    {
+     "l": "根部补色",
+     "z": "只对发根做补色处理",
+     "e": "root touch-up dye",
+     "b": "根部补色"
+    },
+    {
+     "l": "挑染",
+     "z": "加入细束挑染，走向自然",
+     "e": "fine woven highlights",
+     "b": "挑染"
+    },
+    {
+     "l": "渐变染",
+     "z": "发根到发尾做渐变染色",
+     "e": "gradient ombre dye",
+     "b": "渐变染"
+    },
+    {
+     "l": "局部片染",
+     "z": "只在一侧做片状染色",
+     "e": "sectional panel dye on one side",
+     "b": "局部片染"
+    },
+    {
+     "l": "漂后上色",
+     "z": "漂浅后重新上色，底色透出",
+     "e": "bleached then toned hair",
+     "b": "漂后上色"
+    },
+    {
+     "l": "染后新生",
+     "z": "染后新发长出，发根有明显色差",
+     "e": "visible regrowth at the roots",
+     "b": "染后新生"
+    },
+    {
+     "l": "一次性喷雾",
+     "z": "使用临时喷雾着色，边缘略不均匀",
+     "e": "temporary spray color",
+     "b": "一次性喷雾"
+    },
+    {
+     "l": "自然花白",
+     "z": "未染色，自然进入花白阶段",
+     "e": "naturally graying without dye",
+     "b": "自然花白"
+    }
+   ]
+  },
+  "头发长度": {
+   "module": "发型",
+   "lv": 1,
+   "options": [
+    {
+     "l": "寸头",
+     "z": "头发为寸头长度，紧贴头皮",
+     "e": "buzz-cut length hair",
+     "b": "寸头"
+    },
+    {
+     "l": "短碎发",
+     "z": "头发为短碎发，长度到耳上",
+     "e": "short textured crop",
+     "b": "短碎发"
+    },
+    {
+     "l": "盖耳短发",
+     "z": "头发长度盖过耳朵上缘",
+     "e": "short hair covering the ear tops",
+     "b": "盖耳短发"
+    },
+    {
+     "l": "齐耳长度",
+     "z": "头发长度到耳垂附近",
+     "e": "ear-length hair",
+     "b": "齐耳长度"
+    },
+    {
+     "l": "齐颈长度",
+     "z": "头发长度到颈部",
+     "e": "neck-length hair",
+     "b": "齐颈长度"
+    },
+    {
+     "l": "锁骨长度",
+     "z": "头发长度到锁骨",
+     "e": "collarbone-length hair",
+     "b": "锁骨长度"
+    },
+    {
+     "l": "肩下长发",
+     "z": "头发长度过肩，垂到胸前",
+     "e": "shoulder-length long hair",
+     "b": "肩下长发"
+    },
+    {
+     "l": "及背长发",
+     "z": "头发长度及背",
+     "e": "back-length long hair",
+     "b": "及背长发"
+    }
+   ]
+  },
+  "发质与卷度": {
+   "module": "发型",
+   "lv": 2,
+   "options": [
+    {
+     "l": "顺直发质",
+     "z": "发质顺直，发丝走向一致",
+     "e": "straight smooth hair",
+     "b": "顺直发质"
+    },
+    {
+     "l": "微卷",
+     "z": "头发带轻微卷度，轮廓松弛",
+     "e": "slightly wavy hair",
+     "b": "微卷"
+    },
+    {
+     "l": "自然卷",
+     "z": "头发为自然卷，卷径不规则",
+     "e": "naturally curly hair",
+     "b": "自然卷"
+    },
+    {
+     "l": "大波浪",
+     "z": "头发呈大波浪卷，弧度舒展",
+     "e": "loose large waves",
+     "b": "大波浪"
+    },
+    {
+     "l": "细碎卷",
+     "z": "头发呈细碎小卷，密度高",
+     "e": "tight small curls",
+     "b": "细碎卷"
+    },
+    {
+     "l": "粗硬发质",
+     "z": "发质粗硬，发丝有支撑力",
+     "e": "coarse thick hair strands",
+     "b": "粗硬发质"
+    },
+    {
+     "l": "细软发质",
+     "z": "发质细软，容易服帖",
+     "e": "fine soft flat hair",
+     "b": "细软发质"
+    },
+    {
+     "l": "蓬松发量",
+     "z": "发量蓬松，整体体积感明显",
+     "e": "voluminous fluffy hair",
+     "b": "蓬松发量"
+    },
+    {
+     "l": "服帖紧实",
+     "z": "头发服帖，紧贴头型",
+     "e": "sleek close-cropped hair",
+     "b": "服帖紧实"
+    },
+    {
+     "l": "半干湿发",
+     "z": "头发处于半干状态，发束分明",
+     "e": "damp half-dry hair with defined strands",
+     "b": "半干湿发"
+    },
+    {
+     "l": "油头背梳",
+     "z": "头发向后梳起，露出额头",
+     "e": "slicked-back polished hair",
+     "b": "油头背梳"
+    },
+    {
+     "l": "凌乱发束",
+     "z": "发束凌乱，方向不统一",
+     "e": "messy uneven hair strands",
+     "b": "凌乱发束"
+    }
+   ]
+  },
+  "发型造型": {
+   "module": "发型",
+   "lv": 1,
+   "options": [
+    {
+     "l": "圆寸",
+     "z": "发型为圆寸，长度均匀剃短",
+     "e": "rounded buzz cut",
+     "b": "圆寸"
+    },
+    {
+     "l": "板寸",
+     "z": "发型为板寸，顶部平整",
+     "e": "flat-top crew cut",
+     "b": "板寸"
+    },
+    {
+     "l": "卡尺寸头",
+     "z": "发型为卡尺寸头，边界整齐",
+     "e": "clipper-cut uniform buzz",
+     "b": "卡尺寸头"
+    },
+    {
+     "l": "侧边铲青",
+     "z": "两侧铲青，顶部保留长度",
+     "e": "shaved sides with length on top",
+     "b": "侧边铲青"
+    },
+    {
+     "l": "平头",
+     "z": "发型为平头，前额线水平",
+     "e": "crew cut with a level hairline",
+     "b": "平头"
+    },
+    {
+     "l": "侧分短发",
+     "z": "发型为侧分短发，分线清楚",
+     "e": "side-parted short hair",
+     "b": "侧分短发"
+    },
+    {
+     "l": "背头",
+     "z": "发型为背头，头发整体向后",
+     "e": "slicked-back hair",
+     "b": "背头"
+    },
+    {
+     "l": "油头三明治",
+     "z": "发型为油头，顶部有梳理纹理",
+     "e": "pompadour with combed texture",
+     "b": "油头"
+    },
+    {
+     "l": "自然碎发",
+     "z": "发型为自然碎发，发尾参差",
+     "e": "natural textured crop",
+     "b": "自然碎发"
+    },
+    {
+     "l": "微卷短发",
+     "z": "发型为微卷短发，发尾带弧",
+     "e": "short wavy hair",
+     "b": "微卷短发"
+    },
+    {
+     "l": "纹理烫",
+     "z": "头发做过纹理烫，形成连续波纹",
+     "e": "textured perm with visible waves",
+     "b": "纹理烫"
+    },
+    {
+     "l": "日系蘑菇头",
+     "z": "发型为日系蘑菇头，轮廓圆润",
+     "e": "Japanese bowl cut",
+     "b": "日系蘑菇头"
+    },
+    {
+     "l": "韩式刘海短发",
+     "z": "发型为韩式短发，前额留薄刘海",
+     "e": "Korean-style short hair with fringe",
+     "b": "韩式刘海短发"
+    },
+    {
+     "l": "莫西干",
+     "z": "发型为莫西干，中间竖立两侧剃短",
+     "e": "mohawk with shaved sides",
+     "b": "莫西干"
+    },
+    {
+     "l": "飞机头",
+     "z": "发型为飞机头，前发向上翘起",
+     "e": "quiff swept upward at the front",
+     "b": "飞机头"
+    },
+    {
+     "l": "中长发",
+     "z": "发型为中长发，自然垂落",
+     "e": "medium-length flowing hair",
+     "b": "中长发"
+    },
+    {
+     "l": "半扎发",
+     "z": "上半部分头发在脑后扎起",
+     "e": "half-up tied hair",
+     "b": "半扎发"
+    },
+    {
+     "l": "低马尾",
+     "z": "头发在颈后扎成低马尾",
+     "e": "low ponytail",
+     "b": "低马尾"
+    },
+    {
+     "l": "高马尾",
+     "z": "头发在头顶扎起高马尾",
+     "e": "high ponytail",
+     "b": "高马尾"
+    },
+    {
+     "l": "丸子头",
+     "z": "头发在头顶盘成小丸子",
+     "e": "top knot bun",
+     "b": "丸子头"
+    },
+    {
+     "l": "直发披肩",
+     "z": "头发顺直披在肩侧",
+     "e": "long straight hair over the shoulders",
+     "b": "直发披肩"
+    },
+    {
+     "l": "狼尾",
+     "z": "发型为狼尾，后颈留长",
+     "e": "wolf cut with long nape",
+     "b": "狼尾"
+    },
+    {
+     "l": "复古中分",
+     "z": "发型为复古中分，两侧对称下垂",
+     "e": "retro center-parted hair",
+     "b": "复古中分"
+    },
+    {
+     "l": "剃鬓角造型",
+     "z": "鬓角剃出锋利线条，顶部蓬松",
+     "e": "sharp-edged sideburn fade with volume on top",
+     "b": "剃鬓角造型"
+    },
+    {
+     "l": "顶部蓬松",
+     "z": "顶部头发向上蓬松，两侧收紧",
+     "e": "voluminous top with tight sides",
+     "b": "顶部蓬松"
+    },
+    {
+     "l": "湿发造型",
+     "z": "头发用湿发产品定型，发束分明",
+     "e": "wet-look styled hair",
+     "b": "湿发造型"
+    }
+   ]
+  },
+  "额前处理": {
+   "module": "发型",
+   "lv": 2,
+   "options": [
+    {
+     "l": "额头全露",
+     "z": "额头完全露出，没有遮挡",
+     "e": "fully exposed forehead",
+     "b": "额头全露"
+    },
+    {
+     "l": "薄刘海",
+     "z": "前额留一层薄刘海，可见额头",
+     "e": "thin see-through fringe",
+     "b": "薄刘海"
+    },
+    {
+     "l": "碎刘海",
+     "z": "前额碎刘海，长度不齐",
+     "e": "choppy uneven fringe",
+     "b": "碎刘海"
+    },
+    {
+     "l": "齐刘海",
+     "z": "前额齐刘海，边缘水平",
+     "e": "blunt straight fringe",
+     "b": "齐刘海"
+    },
+    {
+     "l": "中分",
+     "z": "前发从中线向两侧分开",
+     "e": "center-parted front hair",
+     "b": "中分"
+    },
+    {
+     "l": "侧分",
+     "z": "前发按侧线分向一边",
+     "e": "side-parted front hair",
+     "b": "侧分"
+    },
+    {
+     "l": "全部后梳",
+     "z": "前发全部向后梳，露出额头与眉骨",
+     "e": "front hair brushed fully back",
+     "b": "全部后梳"
+    },
+    {
+     "l": "额前贴伏",
+     "z": "前发贴伏在额头上，没有空隙",
+     "e": "flat hair lying on the forehead",
+     "b": "额前贴伏"
+    },
+    {
+     "l": "微湿前发",
+     "z": "前发微湿，形成几束纹理",
+     "e": "damp sculpted front strands",
+     "b": "微湿前发"
+    }
+   ]
+  },
+  "头部配饰": {
+   "module": "发型",
+   "lv": 2,
+   "options": [
+    {
+     "l": "不佩戴",
+     "z": "头部不佩戴配饰",
+     "e": "no head accessories",
+     "b": "不佩戴"
+    },
+    {
+     "l": "棒球帽",
+     "z": "头戴深色棒球帽，帽檐压低",
+     "e": "dark baseball cap pulled low",
+     "b": "棒球帽"
+    },
+    {
+     "l": "针织冷帽",
+     "z": "头戴针织冷帽，帽口压在眉上",
+     "e": "knit beanie above the brows",
+     "b": "针织冷帽"
+    },
+    {
+     "l": "渔夫帽",
+     "z": "头戴渔夫帽，帽檐平展",
+     "e": "flat-brim bucket hat",
+     "b": "渔夫帽"
+    },
+    {
+     "l": "宽檐毡帽",
+     "z": "头戴宽檐毡帽，帽檐阴影落在眼部",
+     "e": "wide-brim felt hat casting shadow on the eyes",
+     "b": "宽檐毡帽"
+    },
+    {
+     "l": "报童帽",
+     "z": "头戴报童帽，帽体低伏",
+     "e": "low eight-panel newsboy cap",
+     "b": "报童帽"
+    },
+    {
+     "l": "安全帽",
+     "z": "头戴工业安全帽，表面有使用痕迹",
+     "e": "worn industrial hard hat",
+     "b": "安全帽"
+    },
+    {
+     "l": "运动发带",
+     "z": "额前佩戴运动发带，吸汗压住鬓角",
+     "e": "sport headband across the forehead",
+     "b": "运动发带"
+    },
+    {
+     "l": "头巾",
+     "z": "头巾绕过额头在后脑系紧",
+     "e": "cloth bandana tied at the back",
+     "b": "头巾"
+    },
+    {
+     "l": "细金属框眼镜",
+     "z": "佩戴细金属框眼镜，镜片轻微反光",
+     "e": "thin metal-frame glasses with slight glare",
+     "b": "细金属框眼镜"
+    },
+    {
+     "l": "黑框眼镜",
+     "z": "佩戴黑框眼镜，框线较粗",
+     "e": "thick black-frame glasses",
+     "b": "黑框眼镜"
+    },
+    {
+     "l": "墨镜",
+     "z": "佩戴墨镜，遮住眼部与眼周",
+     "e": "sunglasses covering the eyes",
+     "b": "墨镜"
+    }
+   ]
+  }
+ }
+}

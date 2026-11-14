@@ -1,0 +1,5675 @@
+{
+  "version": 1,
+  "fields": {
+    "画面比例": {
+      "module": "主题",
+      "lv": 1,
+      "options": [
+        {
+          "l": "2:3竖构图",
+          "z": "2:3竖构图",
+          "e": "2:3 portrait composition",
+          "b": "2:3竖构图"
+        },
+        {
+          "l": "3:4竖构图",
+          "z": "3:4竖构图",
+          "e": "3:4 portrait composition",
+          "b": "3:4竖构图"
+        },
+        {
+          "l": "4:5竖构图",
+          "z": "4:5竖构图",
+          "e": "4:5 portrait composition",
+          "b": "4:5竖构图"
+        },
+        {
+          "l": "9:16竖构图",
+          "z": "9:16竖构图",
+          "e": "9:16 portrait composition",
+          "b": "9:16竖构图"
+        },
+        {
+          "l": "9:21竖构图",
+          "z": "9:21竖构图",
+          "e": "9:21 portrait composition",
+          "b": "9:21竖构图"
+        },
+        {
+          "l": "1:1方形构图",
+          "z": "1:1方形构图",
+          "e": "1:1 square composition",
+          "b": "1:1方形构图"
+        },
+        {
+          "l": "3:2横构图",
+          "z": "3:2横构图",
+          "e": "3:2 landscape composition",
+          "b": "3:2横构图"
+        },
+        {
+          "l": "4:3横构图",
+          "z": "4:3横构图",
+          "e": "4:3 landscape composition",
+          "b": "4:3横构图"
+        },
+        {
+          "l": "5:4横构图",
+          "z": "5:4横构图",
+          "e": "5:4 landscape composition",
+          "b": "5:4横构图"
+        },
+        {
+          "l": "16:9横构图",
+          "z": "16:9横构图",
+          "e": "16:9 landscape composition",
+          "b": "16:9横构图"
+        },
+        {
+          "l": "21:9横构图",
+          "z": "21:9横构图",
+          "e": "21:9 landscape composition",
+          "b": "21:9横构图"
+        }
+      ]
+    },
+    "成像媒介": {
+      "module": "主题",
+      "lv": 1,
+      "options": [
+        {
+          "l": "专业数码相机摄影",
+          "z": "呈现专业数码相机拍摄的真实照片质感",
+          "e": "professional digital photography",
+          "b": "呈现专业数码相机拍摄的真实照片质感"
+        },
+        {
+          "l": "全画幅微单摄影",
+          "z": "呈现全画幅微单相机拍摄的清晰自然质感",
+          "e": "full-frame mirrorless photography",
+          "b": "呈现全画幅微单相机拍摄的清晰自然质感"
+        },
+        {
+          "l": "半画幅微单摄影",
+          "z": "呈现半画幅微单相机拍摄的轻便自然质感",
+          "e": "crop mirrorless photography",
+          "b": "呈现半画幅微单相机拍摄的轻便自然质感"
+        },
+        {
+          "l": "数码单反摄影",
+          "z": "呈现数码单反相机拍摄的扎实摄影质感",
+          "e": "digital slr photography",
+          "b": "呈现数码单反相机拍摄的扎实摄影质感"
+        },
+        {
+          "l": "中画幅数码摄影",
+          "z": "呈现中画幅数码相机拍摄的细腻层次与平滑色调",
+          "e": "medium-format digital photography",
+          "b": "呈现中画幅数码相机拍摄的细腻层次与平滑色调"
+        },
+        {
+          "l": "手机计算摄影",
+          "z": "呈现智能手机计算摄影的自然高动态范围质感",
+          "e": "smartphone computational photography",
+          "b": "呈现智能手机计算摄影的自然高动态范围质感"
+        },
+        {
+          "l": "便携数码相机摄影",
+          "z": "呈现便携数码相机直出的轻快生活感",
+          "e": "compact digital photography",
+          "b": "呈现便携数码相机直出的轻快生活感"
+        },
+        {
+          "l": "早期CCD数码摄影",
+          "z": "呈现早期CCD数码相机的直接闪光与轻微色彩偏移质感",
+          "e": "early ccd digital photography",
+          "b": "呈现早期CCD数码相机的直接闪光与轻微色彩偏移质感"
+        },
+        {
+          "l": "35毫米胶片摄影",
+          "z": "呈现35毫米胶片拍摄的自然颗粒与柔和高光质感",
+          "e": "film 35mm photography",
+          "b": "呈现35毫米胶片拍摄的自然颗粒与柔和高光质感"
+        },
+        {
+          "l": "中画幅胶片摄影",
+          "z": "呈现中画幅胶片拍摄的细密颗粒与丰富色调层次",
+          "e": "medium-format film photography",
+          "b": "呈现中画幅胶片拍摄的细密颗粒与丰富色调层次"
+        },
+        {
+          "l": "即时成像相纸摄影",
+          "z": "呈现即时成像相纸的白色边框、柔和细节与自然显影色彩",
+          "e": "instant film photography",
+          "b": "呈现即时成像相纸的白色边框、柔和细节与自然显影色彩"
+        },
+        {
+          "l": "一次性胶片相机摄影",
+          "z": "呈现一次性胶片相机的固定焦点、直接闪光与随拍颗粒感",
+          "e": "disposable film photography",
+          "b": "呈现一次性胶片相机的固定焦点、直接闪光与随拍颗粒感"
+        }
+      ]
+    },
+    "场景大类": {
+      "module": "场景",
+      "lv": 1,
+      "options": [
+        {
+          "l": "居住空间",
+          "z": "日常居住空间",
+          "e": "residential interior",
+          "b": "日常居住空间"
+        },
+        {
+          "l": "餐饮与酒店",
+          "z": "餐饮或酒店空间",
+          "e": "dining and hotel interior",
+          "b": "餐饮或酒店空间"
+        },
+        {
+          "l": "商业零售",
+          "z": "商业零售空间",
+          "e": "retail interior",
+          "b": "商业零售空间"
+        },
+        {
+          "l": "文化艺术",
+          "z": "文化艺术空间",
+          "e": "cultural venue",
+          "b": "文化艺术空间"
+        },
+        {
+          "l": "办公工作",
+          "z": "办公与专业工作空间",
+          "e": "office interior",
+          "b": "办公与专业工作空间"
+        },
+        {
+          "l": "交通空间",
+          "z": "室内交通空间",
+          "e": "transit space",
+          "b": "室内交通空间"
+        },
+        {
+          "l": "运动康体",
+          "z": "运动与康体空间",
+          "e": "sports facility",
+          "b": "运动与康体空间"
+        },
+        {
+          "l": "东方传统",
+          "z": "东方传统室内空间",
+          "e": "traditional eastern setting",
+          "b": "东方传统室内空间"
+        },
+        {
+          "l": "工业功能",
+          "z": "工业与后勤功能空间",
+          "e": "industrial space",
+          "b": "工业与后勤功能空间"
+        },
+        {
+          "l": "专业特色",
+          "z": "具有明确用途的专业空间",
+          "e": "specialty set",
+          "b": "具有明确用途的专业空间"
+        },
+        {
+          "l": "自然户外",
+          "z": "自然植被、海岸与开阔户外空间",
+          "e": "natural outdoor setting",
+          "b": "自然植被、海岸与开阔户外空间"
+        },
+        {
+          "l": "都市户外",
+          "z": "城市街道、天台与现代建筑外部空间",
+          "e": "urban outdoor setting",
+          "b": "城市街道、天台与现代建筑外部空间"
+        }
+      ]
+    },
+    "场景地点": {
+      "module": "场景",
+      "lv": 1,
+      "options": [
+        {
+          "l": "夏日庭院",
+          "z": "场景位于枝叶浓密的夏日庭院",
+          "e": "a summer garden setting",
+          "b": "场景位于枝叶浓密的夏日庭院"
+        },
+        {
+          "l": "林间小径",
+          "z": "场景位于被高大树木包围的林间小径",
+          "e": "a forest path setting",
+          "b": "场景位于被高大树木包围的林间小径"
+        },
+        {
+          "l": "咖啡馆卡座",
+          "z": "场景位于带深色皮质卡座的暖木咖啡馆",
+          "e": "a cafe booth setting",
+          "b": "场景位于带深色皮质卡座的暖木咖啡馆"
+        },
+        {
+          "l": "咖啡馆窗边",
+          "z": "场景位于临街咖啡馆的靠窗座位",
+          "e": "a cafe window setting",
+          "b": "场景位于临街咖啡馆的靠窗座位"
+        },
+        {
+          "l": "奶油色公寓",
+          "z": "场景位于采光通透的奶油色公寓客厅",
+          "e": "a cream apartment setting",
+          "b": "场景位于采光通透的奶油色公寓客厅"
+        },
+        {
+          "l": "办公休息区",
+          "z": "场景位于现代办公楼内的简洁休息区",
+          "e": "an office lounge setting",
+          "b": "场景位于现代办公楼内的简洁休息区"
+        },
+        {
+          "l": "酒店走廊",
+          "z": "人物位于地毯、墙灯和连续房门组成的酒店走廊",
+          "e": "a hotel corridor setting",
+          "b": "人物位于地毯、墙灯和连续房门组成的酒店走廊"
+        },
+        {
+          "l": "室内门廊",
+          "z": "场景位于连接房间与走廊的室内门廊",
+          "e": "an apartment doorway setting",
+          "b": "场景位于连接房间与走廊的室内门廊"
+        },
+        {
+          "l": "高级灰影棚",
+          "z": "场景位于背景简洁的高级灰摄影棚",
+          "e": "a gray studio setting",
+          "b": "场景位于背景简洁的高级灰摄影棚"
+        },
+        {
+          "l": "新中式茶室",
+          "z": "人物位于木格栅、茶桌与留白墙面组成的新中式茶室",
+          "e": "a new chinese tearoom setting",
+          "b": "人物位于木格栅、茶桌与留白墙面组成的新中式茶室"
+        },
+        {
+          "l": "复古茶餐厅",
+          "z": "场景位于带卡座与旧式装饰的复古茶餐厅",
+          "e": "set in retro booth seating, patterned wall tiles, and warm pendant lights",
+          "b": "场景位于带卡座与旧式装饰的复古茶餐厅"
+        },
+        {
+          "l": "都市街道",
+          "z": "场景位于现代商业区的人行道",
+          "e": "an urban sidewalk setting",
+          "b": "场景位于现代商业区的人行道"
+        },
+        {
+          "l": "玻璃大堂",
+          "z": "场景位于带大面积玻璃幕墙的建筑大堂",
+          "e": "a glass lobby setting",
+          "b": "场景位于带大面积玻璃幕墙的建筑大堂"
+        },
+        {
+          "l": "酒店阳台",
+          "z": "场景位于面向开阔景观的酒店阳台",
+          "e": "a hotel balcony setting",
+          "b": "场景位于面向开阔景观的酒店阳台"
+        },
+        {
+          "l": "城市天台",
+          "z": "场景位于能够看见城市天际线的建筑天台",
+          "e": "a city rooftop setting",
+          "b": "场景位于能够看见城市天际线的建筑天台"
+        },
+        {
+          "l": "海边",
+          "z": "场景位于沙面平缓、视野开阔的海边",
+          "e": "a seaside setting",
+          "b": "场景位于沙面平缓、视野开阔的海边"
+        },
+        {
+          "l": "独立书店",
+          "z": "人物位于木质书架与阅读桌组成的独立书店",
+          "e": "an independent bookstore setting",
+          "b": "人物位于木质书架与阅读桌组成的独立书店"
+        },
+        {
+          "l": "当代美术馆",
+          "z": "场景位于白墙与高挑空间构成的当代美术馆",
+          "e": "an art gallery setting",
+          "b": "场景位于白墙与高挑空间构成的当代美术馆"
+        },
+        {
+          "l": "花店",
+          "z": "人物位于鲜花、绿植和包装台组成的临街花店",
+          "e": "a flower shop setting",
+          "b": "人物位于鲜花、绿植和包装台组成的临街花店"
+        },
+        {
+          "l": "室外网球场",
+          "z": "场景位于地面线条清楚的室外网球场",
+          "e": "set in a green outdoor tennis court with crisp white lines and a distant metal fence",
+          "b": "场景位于地面线条清楚的室外网球场"
+        },
+        {
+          "l": "健身训练室",
+          "z": "人物位于训练器械、镜墙和橡胶地面组成的健身训练室",
+          "e": "a fitness studio setting",
+          "b": "人物位于训练器械、镜墙和橡胶地面组成的健身训练室"
+        },
+        {
+          "l": "校园教室",
+          "z": "场景位于采光明亮的校园教室，整齐的课桌椅成排摆放",
+          "e": "a campus classroom setting",
+          "b": "场景位于采光明亮的校园教室"
+        },
+        {
+          "l": "校园操场",
+          "z": "场景位于铺着红色塑胶跑道的校园操场",
+          "e": "a campus playground setting",
+          "b": "场景位于铺着红色塑胶跑道的校园操场"
+        },
+        {
+          "l": "室外篮球场",
+          "z": "场景位于画着白色边线的室外篮球场",
+          "e": "an outdoor basketball court setting",
+          "b": "场景位于画着白色边线的室外篮球场"
+        },
+        {
+          "l": "石拱桥",
+          "z": "场景位于横跨河面的古老石拱桥",
+          "e": "a stone arch bridge setting",
+          "b": "场景位于横跨河面的古老石拱桥"
+        },
+        {
+          "l": "码头",
+          "z": "场景位于停靠着几艘小船的木质码头",
+          "e": "a wharf setting",
+          "b": "场景位于停靠着几艘小船的木质码头"
+        },
+        {
+          "l": "海边灯塔",
+          "z": "场景位于矗立在海岬上的白色灯塔",
+          "e": "a coastal lighthouse setting",
+          "b": "场景位于矗立在海岬上的白色灯塔"
+        },
+        {
+          "l": "温泉汤池",
+          "z": "场景位于热气氤氲的露天温泉汤池",
+          "e": "set in a steaming hot-spring pool against warm stone walls with soft ripples on the water",
+          "b": "场景位于热气氤氲的露天温泉汤池"
+        },
+        {
+          "l": "沙滩",
+          "z": "场景位于铺着细软白沙的沙滩",
+          "e": "a sandy beach setting",
+          "b": "场景位于铺着细软白沙的沙滩"
+        },
+        {
+          "l": "竹林",
+          "z": "场景位于青翠挺拔的竹林",
+          "e": "a bamboo grove setting",
+          "b": "场景位于青翠挺拔的竹林"
+        },
+        {
+          "l": "湖边",
+          "z": "场景位于波光粼粼的湖泊岸边",
+          "e": "a lakeside setting",
+          "b": "场景位于波光粼粼的湖泊岸边"
+        },
+        {
+          "l": "采光客厅",
+          "z": "人物位于窗户宽大、布置简洁的明亮客厅",
+          "e": "a sunlit living room setting",
+          "b": "人物位于窗户宽大、布置简洁的明亮客厅"
+        },
+        {
+          "l": "奶油色卧室",
+          "z": "人物位于床品柔软、色调统一的奶油色卧室",
+          "e": "a cream bedroom setting",
+          "b": "人物位于床品柔软、色调统一的奶油色卧室"
+        },
+        {
+          "l": "开放式厨房",
+          "z": "人物位于浅色台面与整齐橱柜组成的开放式厨房",
+          "e": "a compact kitchen setting",
+          "b": "人物位于浅色台面与整齐橱柜组成的开放式厨房"
+        },
+        {
+          "l": "窗边书房",
+          "z": "人物位于书桌靠近窗户、书架排列整齐的家庭书房",
+          "e": "a window home office setting",
+          "b": "人物位于书桌靠近窗户、书架排列整齐的家庭书房"
+        },
+        {
+          "l": "石材浴室",
+          "z": "人物位于浅色石材墙面与大镜面组成的现代浴室",
+          "e": "a marble bathroom setting",
+          "b": "人物位于浅色石材墙面与大镜面组成的现代浴室"
+        },
+        {
+          "l": "封闭阳台",
+          "z": "人物位于落地窗、绿植和休闲椅组成的封闭阳台",
+          "e": "an enclosed balcony setting",
+          "b": "人物位于落地窗、绿植和休闲椅组成的封闭阳台"
+        },
+        {
+          "l": "暖木咖啡馆",
+          "z": "人物位于暖木墙面与皮质卡座组成的咖啡馆",
+          "e": "a wood cafe setting",
+          "b": "人物位于暖木墙面与皮质卡座组成的咖啡馆"
+        },
+        {
+          "l": "酒店客房",
+          "z": "人物位于床头灯与软包墙面构成的现代酒店客房",
+          "e": "a hotel guest room setting",
+          "b": "人物位于床头灯与软包墙面构成的现代酒店客房"
+        },
+        {
+          "l": "酒店休息厅",
+          "z": "人物位于沙发、边几与低位灯具组成的酒店休息厅",
+          "e": "a hotel lounge setting",
+          "b": "人物位于沙发、边几与低位灯具组成的酒店休息厅"
+        },
+        {
+          "l": "餐厅卡座",
+          "z": "人物位于深色卡座与小型餐桌组成的餐厅座位区",
+          "e": "a restaurant booth setting",
+          "b": "人物位于深色卡座与小型餐桌组成的餐厅座位区"
+        },
+        {
+          "l": "鸡尾酒吧",
+          "z": "人物位于长吧台、玻璃杯架与暖色灯带组成的酒吧",
+          "e": "a cocktail bar setting",
+          "b": "人物位于长吧台、玻璃杯架与暖色灯带组成的酒吧"
+        },
+        {
+          "l": "唱片店",
+          "z": "人物位于黑胶唱片架与试听区域组成的复古唱片店",
+          "e": "a record store setting",
+          "b": "人物位于黑胶唱片架与试听区域组成的复古唱片店"
+        },
+        {
+          "l": "服装精品店",
+          "z": "人物位于服装挂架、试衣镜和展示台组成的精品店",
+          "e": "a fashion boutique setting",
+          "b": "人物位于服装挂架、试衣镜和展示台组成的精品店"
+        },
+        {
+          "l": "珠宝陈列室",
+          "z": "人物位于玻璃展柜与定向灯光组成的珠宝陈列室",
+          "e": "a jewelry showroom setting",
+          "b": "人物位于玻璃展柜与定向灯光组成的珠宝陈列室"
+        },
+        {
+          "l": "现代药店",
+          "z": "人物位于白色货架与清晰导视组成的现代药店",
+          "e": "a modern pharmacy setting",
+          "b": "人物位于白色货架与清晰导视组成的现代药店"
+        },
+        {
+          "l": "图书馆阅览室",
+          "z": "人物位于长桌、阅读灯和高书架组成的图书馆阅览室",
+          "e": "a library reading room setting",
+          "b": "人物位于长桌、阅读灯和高书架组成的图书馆阅览室"
+        },
+        {
+          "l": "白墙美术馆",
+          "z": "人物位于白墙、高挑顶面与大幅作品组成的当代美术馆",
+          "e": "a white art gallery setting",
+          "b": "人物位于白墙、高挑顶面与大幅作品组成的当代美术馆"
+        },
+        {
+          "l": "博物馆展厅",
+          "z": "人物位于展柜、石材地面和高顶组成的博物馆展厅",
+          "e": "a museum hall setting",
+          "b": "人物位于展柜、石材地面和高顶组成的博物馆展厅"
+        },
+        {
+          "l": "剧院前厅",
+          "z": "人物位于楼梯、立柱和暖色吊灯组成的剧院前厅",
+          "e": "a theater foyer setting",
+          "b": "人物位于楼梯、立柱和暖色吊灯组成的剧院前厅"
+        },
+        {
+          "l": "舞蹈排练室",
+          "z": "人物位于整面镜墙、木地板和扶杆组成的舞蹈排练室",
+          "e": "a dance rehearsal room setting",
+          "b": "人物位于整面镜墙、木地板和扶杆组成的舞蹈排练室"
+        },
+        {
+          "l": "陶艺工作室",
+          "z": "人物位于陶轮、木架和半成品陶器组成的陶艺工作室",
+          "e": "a pottery studio setting",
+          "b": "人物位于陶轮、木架和半成品陶器组成的陶艺工作室"
+        },
+        {
+          "l": "行政办公室",
+          "z": "人物位于深色办公桌、文件柜和城市窗景组成的行政办公室",
+          "e": "an executive office setting",
+          "b": "人物位于深色办公桌、文件柜和城市窗景组成的行政办公室"
+        },
+        {
+          "l": "玻璃会议室",
+          "z": "人物位于玻璃隔墙、长桌和显示屏组成的会议室",
+          "e": "a glass meeting room setting",
+          "b": "人物位于玻璃隔墙、长桌和显示屏组成的会议室"
+        },
+        {
+          "l": "创意工作室",
+          "z": "人物位于样稿墙、工作台和开放式置物架组成的创意工作室",
+          "e": "a creative studio setting",
+          "b": "人物位于样稿墙、工作台和开放式置物架组成的创意工作室"
+        },
+        {
+          "l": "服装工作室",
+          "z": "人物位于人台、面料卷和裁剪桌组成的服装工作室",
+          "e": "a fashion atelier setting",
+          "b": "人物位于人台、面料卷和裁剪桌组成的服装工作室"
+        },
+        {
+          "l": "新闻编辑室",
+          "z": "人物位于多排工作台与显示屏组成的新闻编辑室",
+          "e": "a newsroom setting",
+          "b": "人物位于多排工作台与显示屏组成的新闻编辑室"
+        },
+        {
+          "l": "洁净实验室",
+          "z": "人物位于浅色操作台、玻璃器皿与顶部灯板组成的实验室",
+          "e": "a clean laboratory setting",
+          "b": "人物位于浅色操作台、玻璃器皿与顶部灯板组成的实验室"
+        },
+        {
+          "l": "车站候车厅",
+          "z": "人物位于成排座椅、电子时刻屏和高顶组成的候车厅",
+          "e": "a station waiting hall setting",
+          "b": "人物位于成排座椅、电子时刻屏和高顶组成的候车厅"
+        },
+        {
+          "l": "地铁站台",
+          "z": "人物位于站台屏蔽门、导视牌和连续顶灯组成的地铁站台",
+          "e": "a subway platform setting",
+          "b": "人物位于站台屏蔽门、导视牌和连续顶灯组成的地铁站台"
+        },
+        {
+          "l": "机场休息室",
+          "z": "人物位于大窗、休闲座椅与航班信息屏组成的机场休息室",
+          "e": "an airport lounge setting",
+          "b": "人物位于大窗、休闲座椅与航班信息屏组成的机场休息室"
+        },
+        {
+          "l": "列车车厢",
+          "z": "人物位于两排列车座椅与连续车窗组成的客运车厢",
+          "e": "a train carriage setting",
+          "b": "人物位于两排列车座椅与连续车窗组成的客运车厢"
+        },
+        {
+          "l": "地下停车场",
+          "z": "人物位于混凝土立柱、车位线与顶部灯管组成的停车场",
+          "e": "set in a cool gray underground parking garage with columns, ceiling lights, and receding bay lines",
+          "b": "人物位于混凝土立柱、车位线与顶部灯管组成的停车场"
+        },
+        {
+          "l": "电梯厅",
+          "z": "人物位于金属电梯门、石材墙面和楼层指示灯组成的电梯厅",
+          "e": "an elevator lobby setting",
+          "b": "人物位于金属电梯门、石材墙面和楼层指示灯组成的电梯厅"
+        },
+        {
+          "l": "瑜伽教室",
+          "z": "人物位于木地板、瑜伽垫和柔和窗光组成的瑜伽教室",
+          "e": "a yoga studio setting",
+          "b": "人物位于木地板、瑜伽垫和柔和窗光组成的瑜伽教室"
+        },
+        {
+          "l": "室内泳池",
+          "z": "人物位于浅色池壁、水面反光与高窗组成的室内泳池",
+          "e": "an indoor pool setting",
+          "b": "人物位于浅色池壁、水面反光与高窗组成的室内泳池"
+        },
+        {
+          "l": "水疗休息区",
+          "z": "人物位于躺椅、毛巾和低位暖光组成的水疗休息区",
+          "e": "a spa lounge setting",
+          "b": "人物位于躺椅、毛巾和低位暖光组成的水疗休息区"
+        },
+        {
+          "l": "运动更衣室",
+          "z": "人物位于储物柜、长凳和顶灯组成的运动更衣室",
+          "e": "a sports locker room setting",
+          "b": "人物位于储物柜、长凳和顶灯组成的运动更衣室"
+        },
+        {
+          "l": "普拉提教室",
+          "z": "人物位于普拉提器械、落地窗与浅色地面组成的训练教室",
+          "e": "a pilates room setting",
+          "b": "人物位于普拉提器械、落地窗与浅色地面组成的训练教室"
+        },
+        {
+          "l": "寺院偏殿",
+          "z": "人物位于木柱、供桌与深色地砖组成的安静寺院偏殿",
+          "e": "a temple side hall setting",
+          "b": "人物位于木柱、供桌与深色地砖组成的安静寺院偏殿"
+        },
+        {
+          "l": "传统书斋",
+          "z": "人物位于书案、卷轴与木质博古架组成的传统书斋",
+          "e": "a traditional study setting",
+          "b": "人物位于书案、卷轴与木质博古架组成的传统书斋"
+        },
+        {
+          "l": "老宅厅堂",
+          "z": "人物位于木门、圈椅和旧式灯具组成的老宅厅堂",
+          "e": "an old mansion parlor setting",
+          "b": "人物位于木门、圈椅和旧式灯具组成的老宅厅堂"
+        },
+        {
+          "l": "传统织造坊",
+          "z": "人物位于木质织机、丝线和布匹组成的传统织造工坊",
+          "e": "a silk workshop setting",
+          "b": "人物位于木质织机、丝线和布匹组成的传统织造工坊"
+        },
+        {
+          "l": "茶馆内廊",
+          "z": "人物位于连续木门、灯笼和窄长通道组成的茶馆内廊",
+          "e": "a tea house corridor setting",
+          "b": "人物位于连续木门、灯笼和窄长通道组成的茶馆内廊"
+        },
+        {
+          "l": "仓库通道",
+          "z": "人物位于高货架、纸箱和顶部工业灯组成的仓库通道",
+          "e": "a warehouse aisle setting",
+          "b": "人物位于高货架、纸箱和顶部工业灯组成的仓库通道"
+        },
+        {
+          "l": "工厂走道",
+          "z": "人物位于金属设备、黄色标线与高窗组成的工厂走道",
+          "e": "a factory walkway setting",
+          "b": "人物位于金属设备、黄色标线与高窗组成的工厂走道"
+        },
+        {
+          "l": "机械设备间",
+          "z": "人物位于管线、阀门和大型设备组成的机械设备间",
+          "e": "a machine room setting",
+          "b": "人物位于管线、阀门和大型设备组成的机械设备间"
+        },
+        {
+          "l": "地下洗衣房",
+          "z": "人物位于成排洗衣机、折衣台和裸露管线组成的洗衣房",
+          "e": "a basement laundry setting",
+          "b": "人物位于成排洗衣机、折衣台和裸露管线组成的洗衣房"
+        },
+        {
+          "l": "后勤走廊",
+          "z": "人物位于浅色墙面、推车和功能门组成的后勤走廊",
+          "e": "a service corridor setting",
+          "b": "人物位于浅色墙面、推车和功能门组成的后勤走廊"
+        },
+        {
+          "l": "玻璃温室",
+          "z": "人物位于玻璃顶面、金属骨架与密集植物组成的室内温室",
+          "e": "a glass greenhouse setting",
+          "b": "人物位于玻璃顶面、金属骨架与密集植物组成的室内温室"
+        },
+        {
+          "l": "摄影棚",
+          "z": "人物位于无缝背景纸、灯架和监视器组成的摄影棚",
+          "e": "a photo studio setting",
+          "b": "人物位于无缝背景纸、灯架和监视器组成的摄影棚"
+        },
+        {
+          "l": "后台化妆间",
+          "z": "人物位于带灯镜台、服装架和化妆用品组成的后台化妆间",
+          "e": "a backstage dressing room setting",
+          "b": "人物位于带灯镜台、服装架和化妆用品组成的后台化妆间"
+        },
+        {
+          "l": "音乐排练室",
+          "z": "人物位于乐器、谱架与吸音墙面组成的音乐排练室",
+          "e": "a music rehearsal room setting",
+          "b": "人物位于乐器、谱架与吸音墙面组成的音乐排练室"
+        },
+        {
+          "l": "钟表工坊",
+          "z": "人物位于小型工具、零件抽屉和多座钟表组成的钟表工坊",
+          "e": "a clockmaker workshop setting",
+          "b": "人物位于小型工具、零件抽屉和多座钟表组成的钟表工坊"
+        },
+        {
+          "l": "天文观测室",
+          "z": "人物位于大型望远镜、圆顶结构与控制台组成的观测室",
+          "e": "an observatory room setting",
+          "b": "人物位于大型望远镜、圆顶结构与控制台组成的观测室"
+        },
+        {
+          "l": "档案室",
+          "z": "人物位于移动密集架、文件盒与窄通道组成的档案室",
+          "e": "an archive room setting",
+          "b": "人物位于移动密集架、文件盒与窄通道组成的档案室"
+        },
+        {
+          "l": "旋转楼梯",
+          "z": "人物位于造型别致的旋转楼梯",
+          "e": "a spiral staircase setting",
+          "b": "人物位于造型别致的旋转楼梯"
+        },
+        {
+          "l": "阳光房",
+          "z": "人物位于三面采光、通透明亮的阳光房",
+          "e": "a sunroom setting",
+          "b": "人物位于三面采光、通透明亮的阳光房"
+        },
+        {
+          "l": "壁炉客厅",
+          "z": "人物位于带壁炉的温暖客厅",
+          "e": "a fireplace living setting",
+          "b": "人物位于带壁炉的温暖客厅"
+        },
+        {
+          "l": "木屋阁楼",
+          "z": "人物位于木质横梁外露的阁楼",
+          "e": "an attic loft setting",
+          "b": "人物位于木质横梁外露的阁楼"
+        },
+        {
+          "l": "玻璃连廊",
+          "z": "人物位于连接两栋楼的玻璃连廊",
+          "e": "a glass corridor setting",
+          "b": "人物位于连接两栋楼的玻璃连廊"
+        },
+        {
+          "l": "花园门廊",
+          "z": "人物位于正对花园的开放式门廊",
+          "e": "a garden veranda setting",
+          "b": "人物位于正对花园的开放式门廊"
+        },
+        {
+          "l": "月夜森林",
+          "z": "场景位于月光照亮、薄雾沿地面展开的深色森林",
+          "e": "set in a dark moonlit forest with thin mist and a few glowing plants",
+          "b": "场景位于月光照亮、薄雾沿地面展开的深色森林"
+        },
+        {
+          "l": "哥特古堡厅堂",
+          "z": "场景位于尖拱、石柱与高窗构成的哥特古堡厅堂",
+          "e": "set in a restrained Gothic castle hall with pointed arches, stone columns, and tall windows",
+          "b": "场景位于尖拱、石柱与高窗构成的哥特古堡厅堂"
+        },
+        {
+          "l": "未来赛博街区",
+          "z": "场景位于霓虹标牌与湿润路面构成的未来城市街区",
+          "e": "set in a futuristic city district with neon signs, wet pavement, and high-rise buildings",
+          "b": "场景位于霓虹标牌与湿润路面构成的未来城市街区"
+        },
+        {
+          "l": "蒸汽机械空间",
+          "z": "场景位于铜色管道、齿轮与压力表组成的蒸汽机械空间",
+          "e": "set in a steampunk mechanical interior of copper pipes, gears, and pressure gauges",
+          "b": "场景位于铜色管道、齿轮与压力表组成的蒸汽机械空间"
+        },
+        {
+          "l": "超现实梦境花园",
+          "z": "场景位于尺度夸张的花朵与浅色雾气组成的梦境花园",
+          "e": "set in a surreal garden of oversized flowers, pale mist, and a curving path",
+          "b": "场景位于尺度夸张的花朵与浅色雾气组成的梦境花园"
+        },
+        {
+          "l": "星云神殿",
+          "z": "场景位于高大石柱、星云天空与发光纹路组成的幻想神殿",
+          "e": "set in a fantasy temple with tall stone columns, a nebula sky, and faint luminous patterns",
+          "b": "场景位于高大石柱、星云天空与发光纹路组成的幻想神殿"
+        },
+        {
+          "l": "水下幻境",
+          "z": "场景位于气泡与水生植物缓慢漂浮的通透水下空间",
+          "e": "set in a clear underwater dreamscape with floating bubbles and gently moving aquatic plants",
+          "b": "场景位于气泡与水生植物缓慢漂浮的通透水下空间"
+        },
+        {
+          "l": "冰雪宫殿",
+          "z": "场景位于半透明冰柱、冰晶拱门与覆雪地面组成的宫殿",
+          "e": "set in a cool ice palace of translucent columns, crystal arches, and snow-covered ground",
+          "b": "场景位于半透明冰柱、冰晶拱门与覆雪地面组成的宫殿"
+        },
+        {
+          "l": "云海仙境",
+          "z": "场景位于层叠云海、远山与浅色古典建筑组成的仙境",
+          "e": "set in layered clouds, distant mountains, and faint pale classical architecture",
+          "b": "场景位于层叠云海、远山与浅色古典建筑组成的仙境"
+        },
+        {
+          "l": "花瓣风暴装置空间",
+          "z": "场景位于留白影棚与大量悬浮花瓣组成的动态装置空间",
+          "e": "set in a minimal studio transformed by a dynamic installation of suspended petals",
+          "b": "场景位于留白影棚与大量悬浮花瓣组成的动态装置空间"
+        },
+        {
+          "l": "高亮庭院绿景",
+          "z": "场景位于高亮夏日庭院绿景，树木与灌木形成自然层次",
+          "e": "a bright green garden courtyard",
+          "b": "场景位于高亮夏日庭院绿景"
+        },
+        {
+          "l": "林间纵深",
+          "z": "场景位于向远处延伸的林间小径与高大树干",
+          "e": "a deep forest setting with receding tree trunks",
+          "b": "场景位于向远处延伸的林间小径与高大树干"
+        },
+        {
+          "l": "窗外街景",
+          "z": "场景位于透过玻璃窗可见的轻度虚化城市街景",
+          "e": "a window-side setting overlooking a city street",
+          "b": "场景位于透过玻璃窗可见的轻度虚化城市街景"
+        },
+        {
+          "l": "奶油色客厅",
+          "z": "场景位于奶油色墙面、浅色沙发与柔软窗帘",
+          "e": "an airy cream-toned living room",
+          "b": "场景位于奶油色墙面、浅色沙发与柔软窗帘"
+        },
+        {
+          "l": "办公沙发与墙面",
+          "z": "场景位于米杏色沙发、浅灰墙面与一株绿色植物",
+          "e": "a modern office lounge with a sofa and clean walls",
+          "b": "场景位于米杏色沙发、浅灰墙面与一株绿色植物"
+        },
+        {
+          "l": "暖色酒店走廊",
+          "z": "场景位于向远处延伸的现代酒店走廊、暖色墙灯与细腻地毯",
+          "e": "a warm modern hotel corridor",
+          "b": "场景位于向远处延伸的现代酒店走廊、暖色墙灯与细腻地毯"
+        },
+        {
+          "l": "灰色门板与走廊",
+          "z": "场景位于灰色门板、浅色墙面与暖色走廊",
+          "e": "a corridor framed by gray wooden doors",
+          "b": "场景位于灰色门板、浅色墙面与暖色走廊"
+        },
+        {
+          "l": "高级灰渐变背景",
+          "z": "场景位于明暗过渡平滑的高级灰影棚背景",
+          "e": "a refined gray gradient studio",
+          "b": "场景位于明暗过渡平滑的高级灰影棚背景"
+        },
+        {
+          "l": "木质新中式空间",
+          "z": "场景位于木质墙面、留白屏风与低矮桌案",
+          "e": "a restrained new-Chinese interior with warm wood",
+          "b": "场景位于木质墙面、留白屏风与低矮桌案"
+        },
+        {
+          "l": "复古茶餐厅内景",
+          "z": "场景位于旧式卡座、花纹墙砖与暖色吊灯",
+          "e": "a retro Hong Kong-style diner interior",
+          "b": "场景位于旧式卡座、花纹墙砖与暖色吊灯"
+        },
+        {
+          "l": "都市玻璃建筑",
+          "z": "场景位于现代玻璃建筑立面与轻度虚化的行人",
+          "e": "a modern urban glass building",
+          "b": "场景位于现代玻璃建筑立面与轻度虚化的行人"
+        },
+        {
+          "l": "大堂玻璃反射",
+          "z": "场景位于玻璃幕墙、石材地面与连续环境反射",
+          "e": "a glass-walled lobby with layered reflections",
+          "b": "场景位于玻璃幕墙、石材地面与连续环境反射"
+        },
+        {
+          "l": "阳台开阔景观",
+          "z": "场景位于阳台外开阔的城市或海岸景观",
+          "e": "a setting designed for morning balcony portrait among green plants",
+          "b": "场景位于阳台外开阔的城市或海岸景观"
+        },
+        {
+          "l": "城市天际线",
+          "z": "场景位于层次清楚的楼顶轮廓与远处城市天际线",
+          "e": "a rooftop overlooking the city skyline",
+          "b": "场景位于层次清楚的楼顶轮廓与远处城市天际线"
+        },
+        {
+          "l": "海面与地平线",
+          "z": "场景位于向远处延伸的海面与清晰地平线",
+          "e": "a setting designed for surfing sports portrait",
+          "b": "场景位于向远处延伸的海面与清晰地平线"
+        },
+        {
+          "l": "整齐书架",
+          "z": "场景位于排列整齐的木质书架与书籍脊背",
+          "e": "a setting designed for late-night solitary study-room portrait",
+          "b": "场景位于排列整齐的木质书架与书籍脊背"
+        },
+        {
+          "l": "白墙展厅",
+          "z": "场景位于留白充足的白色展墙与少量大型画作",
+          "e": "a white-walled contemporary gallery",
+          "b": "场景位于留白充足的白色展墙与少量大型画作"
+        },
+        {
+          "l": "鲜花陈列",
+          "z": "场景位于分层陈列的鲜花、绿叶与包装纸",
+          "e": "a street-facing flower shop filled with floral displays",
+          "b": "场景位于分层陈列的鲜花、绿叶与包装纸"
+        },
+        {
+          "l": "网球场围网",
+          "z": "场景位于绿色球场、白色边线与远处金属围网",
+          "e": "an outdoor tennis court beside a metal fence",
+          "b": "场景位于绿色球场、白色边线与远处金属围网"
+        },
+        {
+          "l": "健身房镜面",
+          "z": "场景位于大面积镜面、训练器械与浅色地面",
+          "e": "a bright mirrored fitness studio",
+          "b": "场景位于大面积镜面、训练器械与浅色地面"
+        },
+        {
+          "l": "校园教学楼",
+          "z": "场景位于绿树掩映的校园教学楼与操场",
+          "e": "a campus academic building",
+          "b": "场景位于绿树掩映的校园教学楼与操场"
+        },
+        {
+          "l": "密林暗影",
+          "z": "场景位于光线幽暗、层次分明的密林深处",
+          "e": "a shadowed dense forest",
+          "b": "场景位于光线幽暗、层次分明的密林深处"
+        },
+        {
+          "l": "沙漠沙丘",
+          "z": "场景位于连绵起伏、明暗分明的沙丘",
+          "e": "open desert dunes",
+          "b": "场景位于连绵起伏、明暗分明的沙丘"
+        },
+        {
+          "l": "雪山",
+          "z": "场景位于覆盖积雪、轮廓清晰的连绵山峦",
+          "e": "a setting designed for skiing sports portrait",
+          "b": "场景位于覆盖积雪、轮廓清晰的连绵山峦"
+        },
+        {
+          "l": "湖面倒影",
+          "z": "场景位于平静湖面与天光云影的倒影",
+          "e": "a quiet lakeside with natural reflections",
+          "b": "场景位于平静湖面与天光云影的倒影"
+        },
+        {
+          "l": "夜市灯火",
+          "z": "场景位于挂着彩灯、人头攒动的夜市摊位",
+          "e": "a setting designed for night-market documentary portrait",
+          "b": "场景位于挂着彩灯、人头攒动的夜市摊位"
+        },
+        {
+          "l": "高亮夏日树林庭院",
+          "z": "场景位于高亮虚化的夏日庭院绿景，浓密枝叶形成通透自然的空间层次",
+          "e": "a bright summer garden surrounded by dense foliage",
+          "b": "场景位于高亮虚化的夏日庭院绿景"
+        },
+        {
+          "l": "林间小径树干纵深",
+          "z": "场景位于向远处延伸的林间小径与高大树干，枝叶形成自然纵深",
+          "e": "set in a forest path receding between tall tree trunks and layered foliage",
+          "b": "场景位于向远处延伸的林间小径与高大树干"
+        },
+        {
+          "l": "暖木咖啡馆卡座",
+          "z": "场景位于暖木墙面、深棕色皮质卡座、餐桌和轻度虚化的菜单牌，保留真实咖啡馆生活细节",
+          "e": "a warm wood cafe with a dark leather booth",
+          "b": "场景位于暖木墙面、深棕色皮质卡座、餐桌和轻度虚化的菜单牌"
+        },
+        {
+          "l": "临街咖啡馆窗景",
+          "z": "场景位于临街咖啡馆靠窗座位，透过玻璃可见轻度虚化的城市街景",
+          "e": "a window seat in a street-facing cafe",
+          "b": "场景位于临街咖啡馆靠窗座位"
+        },
+        {
+          "l": "暖色走廊灰色门板",
+          "z": "场景位于暖色走廊、浅色墙面与地砖，灰色门板保持清晰材质层次",
+          "e": "a warm corridor framed by gray door panels",
+          "b": "场景位于暖色走廊、浅色墙面与地砖"
+        },
+        {
+          "l": "米杏沙发浅灰紫墙面",
+          "z": "背景保留米杏色沙发、浅灰紫墙面与左侧轻度虚化的绿色植物，空间简洁",
+          "e": "a simple office lounge with a beige sofa and pale gray-lilac wall",
+          "b": "背景保留米杏色沙发、浅灰紫墙面与左侧轻度虚化的绿色植物"
+        },
+        {
+          "l": "奶油色窗边室内",
+          "z": "场景位于奶油色窗边室内、浅色桌面和柔和窗帘，只保留少量生活细节",
+          "e": "a cream-toned interior beside a softly lit window",
+          "b": "场景位于奶油色窗边室内、浅色桌面和柔和窗帘"
+        },
+        {
+          "l": "奶油公寓客厅",
+          "z": "场景位于奶油色墙面、浅色沙发与柔软窗帘构成的通透公寓客厅",
+          "e": "set in an airy cream-toned apartment with a pale sofa and soft curtains",
+          "b": "场景位于奶油色墙面、浅色沙发与柔软窗帘构成的通透公寓客厅"
+        },
+        {
+          "l": "现代办公休息区",
+          "z": "场景位于现代办公楼内的简洁休息区，米杏沙发、浅灰墙面与绿植保持有序",
+          "e": "a clean modern office lounge",
+          "b": "场景位于现代办公楼内的简洁休息区"
+        },
+        {
+          "l": "玻璃幕墙都市夜景",
+          "z": "场景位于轻度虚化的玻璃幕墙与都市夜景光点，空间现代而不杂乱",
+          "e": "a modern glass-walled interior overlooking city lights at night",
+          "b": "场景位于轻度虚化的玻璃幕墙与都市夜景光点"
+        },
+        {
+          "l": "都市商业街",
+          "z": "场景位于现代商业区人行道、玻璃建筑立面与轻度虚化的行人",
+          "e": "set in a modern shopping street with glass facades and softly blurred pedestrians",
+          "b": "场景位于现代商业区人行道、玻璃建筑立面与轻度虚化的行人"
+        },
+        {
+          "l": "玻璃建筑大堂",
+          "z": "场景位于大面积玻璃幕墙、石材地面与连续环境反射构成的现代建筑大堂",
+          "e": "set in a modern glass-walled lobby with stone flooring and layered reflections",
+          "b": "场景位于大面积玻璃幕墙、石材地面与连续环境反射构成的现代建筑大堂"
+        },
+        {
+          "l": "酒店阳台开阔景观",
+          "z": "场景位于酒店阳台与开阔的城市或海岸景观，远处层次清楚",
+          "e": "set in a hotel balcony overlooking an open city or coastal view",
+          "b": "场景位于酒店阳台与开阔的城市或海岸景观"
+        },
+        {
+          "l": "城市天台天际线",
+          "z": "场景位于建筑天台、层次清楚的楼顶轮廓与远处城市天际线",
+          "e": "set in a rooftop with layered building silhouettes and a distant city skyline",
+          "b": "场景位于建筑天台、层次清楚的楼顶轮廓与远处城市天际线"
+        },
+        {
+          "l": "海边地平线",
+          "z": "场景位于平缓沙面、向远处延伸的海面与清晰地平线",
+          "e": "set in a sandy shore, open sea, and a clear horizon",
+          "b": "场景位于平缓沙面、向远处延伸的海面与清晰地平线"
+        },
+        {
+          "l": "独立书店书架",
+          "z": "场景位于独立书店内排列整齐的木质书架与书籍脊背",
+          "e": "set in orderly wooden bookshelves filled with visible book spines",
+          "b": "场景位于独立书店内排列整齐的木质书架与书籍脊背"
+        },
+        {
+          "l": "当代美术馆白墙",
+          "z": "场景位于留白充足的当代美术馆白色展墙与少量大型画作",
+          "e": "a spacious contemporary gallery with white walls",
+          "b": "场景位于留白充足的当代美术馆白色展墙与少量大型画作"
+        },
+        {
+          "l": "临街花店陈列",
+          "z": "场景位于临街花店内分层陈列的鲜花、绿叶与包装纸",
+          "e": "set in layered displays of flowers, green leaves, and wrapping paper in a street-facing flower shop",
+          "b": "场景位于临街花店内分层陈列的鲜花、绿叶与包装纸"
+        },
+        {
+          "l": "明亮健身训练室",
+          "z": "场景位于镜面、训练器械与浅色地面构成的明亮健身训练室",
+          "e": "set in a bright fitness studio with mirrors, training equipment, and pale flooring",
+          "b": "场景位于镜面、训练器械与浅色地面构成的明亮健身训练室"
+        },
+        {
+          "l": "高级灰摄影棚",
+          "z": "场景位于简洁高级灰摄影棚，明暗渐变平滑，道具数量保持克制",
+          "e": "set in a restrained gray studio with a smooth tonal gradient and minimal props",
+          "b": "场景位于简洁高级灰摄影棚"
+        },
+        {
+          "l": "木质新中式室内",
+          "z": "场景位于留白克制的木质新中式室内，只保留屏风、桌案和竹影三处细节",
+          "e": "set in a restrained new-Chinese wood interior with a screen, table, and bamboo shadows",
+          "b": "场景位于留白克制的木质新中式室内"
+        },
+        {
+          "l": "家庭烘焙厨房",
+          "z": "场景位于明亮整洁的家庭厨房，木质操作台、烤箱与少量烘焙器具形成生活层次",
+          "e": "set in a bright tidy home kitchen with a wooden worktop, oven, and a few baking tools",
+          "b": "场景位于明亮整洁的家庭厨房"
+        },
+        {
+          "l": "复古唱片店",
+          "z": "场景位于复古唱片店的木质唱片架、封套陈列与暖色墙灯",
+          "e": "set in a retro record store with wooden racks, album-cover displays, and warm wall lights",
+          "b": "场景位于复古唱片店的木质唱片架、封套陈列与暖色墙灯"
+        },
+        {
+          "l": "自然采光画室",
+          "z": "场景位于自然采光画室，画架、画布与少量颜料工具有序分布",
+          "e": "set in a naturally lit art studio with an easel, canvases, and neatly arranged painting tools",
+          "b": "场景位于自然采光画室"
+        },
+        {
+          "l": "周末市集摊位",
+          "z": "场景位于户外周末市集，布棚、鲜花与手作摊位沿街自然延伸",
+          "e": "set in an outdoor weekend market with awnings, flowers, and craft stalls receding along the street",
+          "b": "场景位于户外周末市集"
+        },
+        {
+          "l": "彩色几何摄影棚",
+          "z": "场景位于彩色几何块面构成的摄影棚，线条利落，道具保持克制",
+          "e": "set in a studio built from clean colorful geometric planes with minimal props",
+          "b": "场景位于彩色几何块面构成的摄影棚"
+        },
+        {
+          "l": "花艺装置摄影棚",
+          "z": "场景位于大型花枝与留白结构组成的花艺装置摄影棚",
+          "e": "set in a floral installation studio with large branches and generous negative space",
+          "b": "场景位于大型花枝与留白结构组成的花艺装置摄影棚"
+        },
+        {
+          "l": "婚纱礼服陈列厅",
+          "z": "场景位于明亮雅致的婚纱礼服陈列厅，垂落帘幕与镜面保持简洁",
+          "e": "a bright elegant bridal gown showroom",
+          "b": "场景位于明亮雅致的婚纱礼服陈列厅"
+        },
+        {
+          "l": "夜间便利店",
+          "z": "场景位于夜间便利店的明亮货架、玻璃门与街边灯光",
+          "e": "set in bright convenience-store shelves, glass doors, and street lights at night",
+          "b": "场景位于夜间便利店的明亮货架、玻璃门与街边灯光"
+        },
+        {
+          "l": "繁忙街道路口",
+          "z": "场景位于城市街道路口，斑马线、信号灯与轻度虚化的行人构成纪实层次",
+          "e": "set in an urban intersection with a crosswalk, traffic lights, and softly blurred pedestrians",
+          "b": "场景位于城市街道路口"
+        },
+        {
+          "l": "城市人行天桥",
+          "z": "场景位于现代城市人行天桥，栏杆线条与远处建筑形成清晰透视",
+          "e": "set in a modern pedestrian overpass with railing lines and strong architectural perspective",
+          "b": "场景位于现代城市人行天桥"
+        },
+        {
+          "l": "春日花海",
+          "z": "场景位于成片开放的春日花海与远处柔和绿地，空间开阔通透",
+          "e": "set in a broad field of spring flowers opening toward soft distant greenery",
+          "b": "场景位于成片开放的春日花海与远处柔和绿地"
+        },
+        {
+          "l": "静谧湖畔",
+          "z": "场景位于平静湖面、近岸草地与远处树线，水面保留自然反光",
+          "e": "set in a calm lake, near-shore grass, and a distant tree line with natural reflections",
+          "b": "场景位于平静湖面、近岸草地与远处树线"
+        },
+        {
+          "l": "开阔草原",
+          "z": "场景位于开阔草原与低缓地平线，远处天空占据较大画面面积",
+          "e": "set in open grassland beneath a broad sky and a low distant horizon",
+          "b": "场景位于开阔草原与低缓地平线"
+        },
+        {
+          "l": "秋日枫林",
+          "z": "场景位于层次分明的秋日枫林与落叶小径，红橙叶片自然交叠",
+          "e": "set in layered red-orange maple foliage and a leaf-covered path",
+          "b": "场景位于层次分明的秋日枫林与落叶小径"
+        },
+        {
+          "l": "冬日雪林",
+          "z": "场景位于安静的冬日雪林，积雪地面与深色树干形成冷暖层次",
+          "e": "set in a quiet snowy forest with pale ground and dark tree trunks",
+          "b": "场景位于安静的冬日雪林"
+        },
+        {
+          "l": "清幽竹林",
+          "z": "场景位于纵向延伸的清幽竹林与窄小石径，画面留白克制",
+          "e": "set in a tranquil bamboo grove with vertical depth and a narrow stone path",
+          "b": "场景位于纵向延伸的清幽竹林与窄小石径"
+        },
+        {
+          "l": "海岸悬崖",
+          "z": "场景位于海岸悬崖、翻涌海面与开阔天空，远近层次清楚",
+          "e": "set in a coastal cliff above rolling sea and open sky",
+          "b": "场景位于海岸悬崖、翻涌海面与开阔天空"
+        },
+        {
+          "l": "沙漠旷野",
+          "z": "场景位于连绵沙丘与开阔地平线，沙面保留清晰风纹",
+          "e": "set in rolling desert dunes with clear wind patterns and an open horizon",
+          "b": "场景位于连绵沙丘与开阔地平线"
+        },
+        {
+          "l": "乡间小路",
+          "z": "场景位于穿过田野与树篱的乡间小路，空间自然延伸至远处",
+          "e": "set in a country lane winding through fields and hedges into the distance",
+          "b": "场景位于穿过田野与树篱的乡间小路"
+        },
+        {
+          "l": "海岛小镇街巷",
+          "z": "场景位于临海小镇的浅色街巷、低矮建筑与远处海面",
+          "e": "set in pale lanes and low buildings in an island town with the sea beyond",
+          "b": "场景位于临海小镇的浅色街巷、低矮建筑与远处海面"
+        },
+        {
+          "l": "山间露营地",
+          "z": "场景位于山间草地、简洁帐篷与远处层叠山线，道具数量克制",
+          "e": "set in a restrained mountain campsite with grass, a simple tent, and layered ridgelines",
+          "b": "场景位于山间草地、简洁帐篷与远处层叠山线"
+        },
+        {
+          "l": "葡萄园庄园",
+          "z": "场景位于排列整齐的葡萄藤、浅色庄园建筑与缓坡地形",
+          "e": "set in ordered vineyard rows, a pale manor building, and gently sloping terrain",
+          "b": "场景位于排列整齐的葡萄藤、浅色庄园建筑与缓坡地形"
+        },
+        {
+          "l": "火车站候车厅",
+          "z": "场景位于火车站候车厅的长椅、时刻屏与向远处延伸的站台入口",
+          "e": "a railway-station waiting hall",
+          "b": "场景位于火车站候车厅的长椅、时刻屏与向远处延伸的站台入口"
+        },
+        {
+          "l": "拳击训练馆",
+          "z": "场景位于拳击训练馆的拳台、沙袋与深色训练器械",
+          "e": "set in a boxing gym with a ring, heavy bags, and dark training equipment",
+          "b": "场景位于拳击训练馆的拳台、沙袋与深色训练器械"
+        },
+        {
+          "l": "户外骑行道路",
+          "z": "场景位于开阔的户外骑行道路、连续护栏与远处自然景观",
+          "e": "set in an open cycling road with continuous guardrails and distant natural scenery",
+          "b": "场景位于开阔的户外骑行道路、连续护栏与远处自然景观"
+        },
+        {
+          "l": "室内羽毛球馆",
+          "z": "场景位于明亮室内羽毛球馆，球网、场地边线与高顶结构清晰可辨",
+          "e": "set in a bright indoor badminton court with a visible net, boundary lines, and high roof structure",
+          "b": "场景位于明亮室内羽毛球馆"
+        },
+        {
+          "l": "室内攀岩馆",
+          "z": "场景位于室内攀岩馆的彩色岩点与高墙结构，空间纵深明确",
+          "e": "set in a deep indoor climbing space with colorful holds and high wall structures",
+          "b": "场景位于室内攀岩馆的彩色岩点与高墙结构"
+        },
+        {
+          "l": "江南园林",
+          "z": "场景位于江南园林的白墙黛瓦、曲折回廊与湿润石径",
+          "e": "set in a Jiangnan garden with white walls, dark roof tiles, winding corridors, and damp stone paths",
+          "b": "场景位于江南园林的白墙黛瓦、曲折回廊与湿润石径"
+        },
+        {
+          "l": "敦煌壁画空间",
+          "z": "场景位于受敦煌壁画启发的赭石墙面、飞天纹样与克制金色细节",
+          "e": "set in an ochre interior inspired by Dunhuang murals with flying-apsara motifs and restrained gold details",
+          "b": "场景位于受敦煌壁画启发的赭石墙面、飞天纹样与克制金色细节"
+        },
+        {
+          "l": "明制中式庭院",
+          "z": "场景位于规整的中式庭院、木构门窗与青砖地面，空间秩序清楚",
+          "e": "set in an orderly Ming-style courtyard with timber doors, windows, and gray brick paving",
+          "b": "场景位于规整的中式庭院、木构门窗与青砖地面"
+        },
+        {
+          "l": "传统书院",
+          "z": "场景位于传统书院的木质书架、长案与透入室内的庭院光线",
+          "e": "set in a traditional academy with wooden shelves, a long table, and courtyard light entering the room",
+          "b": "场景位于传统书院的木质书架、长案与透入室内的庭院光线"
+        },
+        {
+          "l": "七十年代客厅",
+          "z": "场景位于七十年代暖调客厅，木质家具、花纹织物与旧式台灯协调陈列",
+          "e": "set in a warm 1970s living room with wooden furniture, patterned textiles, and a vintage lamp",
+          "b": "场景位于七十年代暖调客厅"
+        },
+        {
+          "l": "复古迪斯科舞厅",
+          "z": "场景位于复古迪斯科舞厅的镜面球、彩色灯带与深色舞池",
+          "e": "set in a retro disco with a mirror ball, colored light strips, and a dark dance floor",
+          "b": "场景位于复古迪斯科舞厅的镜面球、彩色灯带与深色舞池"
+        },
+        {
+          "l": "经典火车站月台",
+          "z": "场景位于经典火车站月台、旧式站牌与向远处延伸的轨道",
+          "e": "set in a classic railway platform with an old station sign and tracks receding into the distance",
+          "b": "场景位于经典火车站月台、旧式站牌与向远处延伸的轨道"
+        },
+        {
+          "l": "美式公路餐厅",
+          "z": "场景位于美式公路餐厅的红色卡座、金属包边桌面与霓虹招牌",
+          "e": "set in an American roadside diner with red booths, metal-edged tables, and neon signage",
+          "b": "场景位于美式公路餐厅的红色卡座、金属包边桌面与霓虹招牌"
+        },
+        {
+          "l": "和风木造庭院",
+          "z": "场景位于日式木造庭院、枯山水与纸拉门，光影清透而克制",
+          "e": "set in a Japanese timber courtyard with a dry garden, shoji doors, and translucent light",
+          "b": "场景位于日式木造庭院、枯山水与纸拉门"
+        },
+        {
+          "l": "瀑布溪流",
+          "z": "场景位于倾泻而下的瀑布与清澈溪流，水雾朦胧、岩壁湿润",
+          "e": "set in a waterfall and clear stream with misty spray and wet rock walls",
+          "b": "场景位于倾泻而下的瀑布与清澈溪流"
+        },
+        {
+          "l": "剧院舞台",
+          "z": "场景位于昏暗的剧院舞台、深红帷幕与一束顶光，空间纵深幽深",
+          "e": "set in a dim theater stage with deep red curtains and a single overhead beam",
+          "b": "场景位于昏暗的剧院舞台、深红帷幕与一束顶光"
+        },
+        {
+          "l": "海港码头",
+          "z": "场景位于延伸入海的码头、缆桩与停泊船只，海风气息浓厚",
+          "e": "set in a pier extending into the sea with bollards and moored boats",
+          "b": "场景位于延伸入海的码头、缆桩与停泊船只"
+        },
+        {
+          "l": "天使羽翼殿堂",
+          "z": "场景位于柔和光雾缭绕的纯白殿堂，光柱倾泻而下",
+          "e": "set in a pure white hall filled with soft luminous mist and descending light columns",
+          "b": "场景位于柔和光雾缭绕的纯白殿堂"
+        },
+        {
+          "l": "少数民族集市",
+          "z": "场景位于色彩浓郁的民族风情集市，织锦与银饰悬挂其间",
+          "e": "set in a richly colored folk market with hanging brocade and silver ornaments",
+          "b": "场景位于色彩浓郁的民族风情集市"
+        },
+        {
+          "l": "昭和和风房间",
+          "z": "场景位于昭和年代的和风房间，障子门、矮桌与旧式暖灯",
+          "e": "set in a Showa-era Japanese room with shoji doors, a low table, and an old warm lamp",
+          "b": "场景位于昭和年代的和风房间"
+        },
+        {
+          "l": "上海滩街景",
+          "z": "场景位于老上海滩街景，霓虹招牌、石库门与黄包车剪影",
+          "e": "set in a vintage Shanghai street with neon signs, shikumen buildings, and rickshaw silhouettes",
+          "b": "场景位于老上海滩街景"
+        },
+        {
+          "l": "公园草地",
+          "z": "场景位于阳光下的公园草地",
+          "e": "a sunlit park lawn",
+          "b": "场景位于阳光下的公园草地"
+        },
+        {
+          "l": "复古会所",
+          "z": "场景位于昏暗复古会所",
+          "e": "a dimly lit vintage club interior",
+          "b": "场景位于昏暗复古会所"
+        },
+        {
+          "l": "工业地下通道",
+          "z": "场景位于地下工业通道",
+          "e": "an underground industrial passage",
+          "b": "场景位于地下工业通道"
+        },
+        {
+          "l": "驾驶座车内",
+          "z": "场景位于驾驶座，方向盘与前挡风玻璃构成前景",
+          "e": "from the driver's seat inside a car, steering wheel and windshield framing the shot",
+          "b": "场景位于驾驶座"
+        },
+        {
+          "l": "副驾座位",
+          "z": "场景位于副驾驶座位，侧窗与中控台入画",
+          "e": "seated in the passenger seat, side window and center console in frame",
+          "b": "场景位于副驾驶座位"
+        }
+      ]
+    },
+    "时间切片": {
+      "module": "场景",
+      "lv": 1,
+      "options": [
+        {
+          "l": "晴朗清晨",
+          "z": "时间为太阳升起后的晴朗清晨",
+          "e": "during clear morning",
+          "b": "时间为太阳升起后的晴朗清晨"
+        },
+        {
+          "l": "上午晚些时候",
+          "z": "时间为日光明亮的上午晚些时候",
+          "e": "during late morning",
+          "b": "时间为日光明亮的上午晚些时候"
+        },
+        {
+          "l": "正午",
+          "z": "时间为太阳位置较高的正午时分",
+          "e": "during midday",
+          "b": "时间为太阳位置较高的正午时分"
+        },
+        {
+          "l": "夏日午后",
+          "z": "时间为阳光穿过枝叶的夏日午后",
+          "e": "during summer afternoon",
+          "b": "时间为阳光穿过枝叶的夏日午后"
+        },
+        {
+          "l": "阴天下午",
+          "z": "时间为天空被云层覆盖的下午",
+          "e": "during overcast afternoon",
+          "b": "时间为天空被云层覆盖的下午"
+        },
+        {
+          "l": "日落前金色时刻",
+          "z": "时间为日落前一小时的金色时刻",
+          "e": "during golden hour",
+          "b": "时间为日落前一小时的金色时刻"
+        },
+        {
+          "l": "傍晚",
+          "z": "时间为天空亮度逐渐降低的傍晚",
+          "e": "during dusk",
+          "b": "时间为天空亮度逐渐降低的傍晚"
+        },
+        {
+          "l": "蓝调时刻",
+          "z": "时间为日落后的蓝调时刻",
+          "e": "during blue hour",
+          "b": "时间为日落后的蓝调时刻"
+        },
+        {
+          "l": "入夜不久",
+          "z": "时间为室内灯光刚刚亮起的入夜时分",
+          "e": "during early evening",
+          "b": "时间为室内灯光刚刚亮起的入夜时分"
+        },
+        {
+          "l": "夜间",
+          "z": "时间为环境完全进入夜间",
+          "e": "during night",
+          "b": "时间为室外环境完全进入夜间"
+        },
+        {
+          "l": "深夜",
+          "z": "时间为街道人流稀少的深夜",
+          "e": "during late night",
+          "b": "时间为街道人流稀少的深夜"
+        },
+        {
+          "l": "初秋午后",
+          "z": "时间为日光柔和的初秋午后",
+          "e": "during early autumn afternoon",
+          "b": "时间为日光柔和的初秋午后"
+        },
+        {
+          "l": "黎明破晓",
+          "z": "时间为太阳即将升起的黎明时分，天际泛起淡金曙光",
+          "e": "during dawn",
+          "b": "时间为太阳即将升起的黎明时分"
+        },
+        {
+          "l": "冬日午后",
+          "z": "时间为阳光低垂而温暖的冬日下午",
+          "e": "during winter afternoon",
+          "b": "时间为阳光低垂而温暖的冬日下午"
+        },
+        {
+          "l": "雨后清晨",
+          "z": "时间为空气清冽通透的雨后清晨",
+          "e": "during post rain morning",
+          "b": "时间为空气清冽通透的雨后清晨"
+        },
+        {
+          "l": "月光之夜",
+          "z": "时间为月光明亮、万物镀上银辉的夜晚",
+          "e": "during moonlit night",
+          "b": "时间为月光明亮、万物镀上银辉的夜晚"
+        },
+        {
+          "l": "暮色黄昏",
+          "z": "时间为天色由暖转冷的暮色黄昏",
+          "e": "during twilight",
+          "b": "时间为天色由暖转冷的暮色黄昏"
+        }
+      ]
+    },
+    "天气状态": {
+      "module": "场景",
+      "lv": 2,
+      "options": [
+        {
+          "l": "晴朗日照",
+          "z": "天气呈现晴朗天空与稳定日照",
+          "e": "clear sun conditions",
+          "b": "室外环境呈现晴朗天空与稳定日照"
+        },
+        {
+          "l": "薄云天气",
+          "z": "天气呈现薄云覆盖，光线被均匀打散",
+          "e": "thin clouds conditions",
+          "b": "室外环境呈现薄云覆盖，光线被均匀打散"
+        },
+        {
+          "l": "阴天",
+          "z": "天气呈现云层均匀覆盖形成的低反差天光",
+          "e": "overcast conditions",
+          "b": "室外环境呈现云层均匀覆盖形成的低反差天光"
+        },
+        {
+          "l": "细雨",
+          "z": "天气呈现连续细雨与湿润地面",
+          "e": "light rain conditions",
+          "b": "室外环境呈现连续细雨与湿润地面"
+        },
+        {
+          "l": "雨后",
+          "z": "天气呈现雨后湿润空气与地面积水反光",
+          "e": "after rain conditions",
+          "b": "室外环境呈现雨后湿润空气与地面积水反光"
+        },
+        {
+          "l": "薄雾",
+          "z": "天气呈现远处景物边缘柔化的轻薄雾气",
+          "e": "light fog conditions",
+          "b": "室外环境呈现远处景物边缘柔化的轻薄雾气"
+        },
+        {
+          "l": "海风",
+          "z": "天气呈现能够轻微吹动发丝与衣摆的稳定海风",
+          "e": "sea breeze conditions",
+          "b": "室外环境呈现能够轻微吹动发丝与衣摆的稳定海风"
+        },
+        {
+          "l": "小雪",
+          "z": "天气呈现缓慢飘落的小片雪花",
+          "e": "light snow conditions",
+          "b": "室外环境呈现缓慢飘落的小片雪花"
+        },
+        {
+          "l": "湿润夏日",
+          "z": "天气呈现空气湿度较高、植物颜色浓郁的夏日天气",
+          "e": "humid summer conditions",
+          "b": "室外环境呈现空气湿度较高、植物颜色浓郁的夏日天气"
+        },
+        {
+          "l": "初秋微风",
+          "z": "天气呈现轻微吹动树叶与衣料的初秋微风",
+          "e": "autumn breeze conditions",
+          "b": "室外环境呈现轻微吹动树叶与衣料的初秋微风"
+        },
+        {
+          "l": "大雨",
+          "z": "天气呈现倾泻而下的大雨与连成一片的雨幕",
+          "e": "heavy rain conditions",
+          "b": "室外环境呈现倾泻而下的大雨与连成一片的雨幕"
+        },
+        {
+          "l": "雷雨将至",
+          "z": "天气呈现乌云翻滚、雷雨将至的压抑天色",
+          "e": "thunderstorm conditions",
+          "b": "室外环境呈现乌云翻滚、雷雨将至的压抑天色"
+        },
+        {
+          "l": "雨后彩虹",
+          "z": "天气呈现雨过天晴后挂在天边的一道彩虹",
+          "e": "rainbow conditions",
+          "b": "室外环境呈现雨过天晴后挂在天边的一道彩虹"
+        },
+        {
+          "l": "多云",
+          "z": "天气呈现云层厚重、明暗交替的多云天气",
+          "e": "partly cloudy conditions",
+          "b": "室外环境呈现云层厚重、明暗交替的多云天气"
+        }
+      ]
+    },
+    "前景框景": {
+      "module": "场景",
+      "lv": 2,
+      "options": [
+        {
+          "l": "失焦绿叶",
+          "z": "前景由靠近镜头的失焦绿色叶片形成自然遮挡",
+          "e": "blurred green leaves in the foreground",
+          "b": "前景由靠近镜头的失焦绿色叶片形成自然遮挡"
+        },
+        {
+          "l": "嫩绿枫叶",
+          "z": "前景由大片失焦嫩绿色枫叶形成柔和框景",
+          "e": "blurred maple leaves in the foreground",
+          "b": "前景由大片失焦嫩绿色枫叶形成柔和框景"
+        },
+        {
+          "l": "小白花",
+          "z": "前景由靠近镜头的小白花与细枝形成局部遮挡",
+          "e": "small white flowers in the foreground",
+          "b": "前景由靠近镜头的小白花与细枝形成局部遮挡"
+        },
+        {
+          "l": "浅木桌沿",
+          "z": "前景由画面下方的浅木色桌沿形成稳定边界",
+          "e": "wood table edge in the foreground",
+          "b": "前景由画面下方的浅木色桌沿形成稳定边界"
+        },
+        {
+          "l": "虚化咖啡杯",
+          "z": "前景由靠近镜头的咖啡杯与碟子形成轻度虚化层",
+          "e": "coffee cup blur in the foreground",
+          "b": "前景由靠近镜头的咖啡杯与碟子形成轻度虚化层"
+        },
+        {
+          "l": "纵向门框",
+          "z": "前景由一侧门板与门框形成清晰纵向框景",
+          "e": "doorframe vertical in the foreground",
+          "b": "前景由一侧门板与门框形成清晰纵向框景"
+        },
+        {
+          "l": "窗帘边缘",
+          "z": "前景由一侧柔软窗帘边缘形成纵向遮挡",
+          "e": "curtain edge in the foreground",
+          "b": "前景由一侧柔软窗帘边缘形成纵向遮挡"
+        },
+        {
+          "l": "玻璃反射",
+          "z": "前景由靠近镜头的玻璃表面形成浅淡环境反射",
+          "e": "glass reflection in the foreground",
+          "b": "前景由靠近镜头的玻璃表面形成浅淡环境反射"
+        },
+        {
+          "l": "栏杆",
+          "z": "前景由画面下方的栏杆形成横向空间边界",
+          "e": "railing in the foreground",
+          "b": "前景由画面下方的栏杆形成横向空间边界"
+        },
+        {
+          "l": "屏风边缘",
+          "z": "前景由木质屏风边缘形成克制的侧面框景",
+          "e": "screen edge in the foreground",
+          "b": "前景由木质屏风边缘形成克制的侧面框景"
+        },
+        {
+          "l": "椅背边缘",
+          "z": "前景由靠近镜头的椅背边缘形成柔和遮挡",
+          "e": "chair back in the foreground",
+          "b": "前景由靠近镜头的椅背边缘形成柔和遮挡"
+        },
+        {
+          "l": "桌面文件",
+          "z": "前景由画面下方的桌面与文件夹形成职场前景",
+          "e": "desk folder in the foreground",
+          "b": "前景由画面下方的桌面与文件夹形成职场前景"
+        },
+        {
+          "l": "花桶与枝叶",
+          "z": "前景由靠近镜头的花桶和枝叶形成丰富前景层次",
+          "e": "flower buckets in the foreground",
+          "b": "前景由靠近镜头的花桶和枝叶形成丰富前景层次"
+        },
+        {
+          "l": "失焦光点",
+          "z": "前景由靠近镜头边缘的失焦光点形成局部亮部",
+          "e": "soft light spots in the foreground",
+          "b": "前景由靠近镜头边缘的失焦光点形成局部亮部"
+        },
+        {
+          "l": "展墙边缘",
+          "z": "前景由一侧展墙边缘形成几何框景",
+          "e": "gallery wall edge in the foreground",
+          "b": "前景由一侧展墙边缘形成几何框景"
+        },
+        {
+          "l": "长椅边缘",
+          "z": "前景由画面下方的长椅边缘形成横向前景",
+          "e": "bench edge in the foreground",
+          "b": "前景由画面下方的长椅边缘形成横向前景"
+        },
+        {
+          "l": "虚化训练器械",
+          "z": "前景由一侧轻度虚化的训练器械形成边缘遮挡",
+          "e": "equipment edge in the foreground",
+          "b": "前景由一侧轻度虚化的训练器械形成边缘遮挡"
+        },
+        {
+          "l": "发丝前景",
+          "z": "前景由垂在镜头前的几缕发丝形成轻柔遮挡",
+          "e": "hair strand in the foreground",
+          "b": "前景由垂在镜头前的几缕发丝形成轻柔遮挡"
+        },
+        {
+          "l": "树枝前景",
+          "z": "前景由横过画面的一枝带叶枝条形成自然框景",
+          "e": "branch in the foreground",
+          "b": "前景由横过画面的一枝带叶枝条形成自然框景"
+        },
+        {
+          "l": "雨滴玻璃",
+          "z": "前景由凝着细密雨珠的玻璃形成朦胧遮挡",
+          "e": "rain glass in the foreground",
+          "b": "前景由凝着细密雨珠的玻璃形成朦胧遮挡"
+        },
+        {
+          "l": "水面光斑",
+          "z": "前景由水面反射的细碎光斑形成闪烁前景",
+          "e": "water glint in the foreground",
+          "b": "前景由水面反射的细碎光斑形成闪烁前景"
+        },
+        {
+          "l": "纱帘前景",
+          "z": "前景由半透纱帘的边缘形成柔和遮挡",
+          "e": "sheer curtain in the foreground",
+          "b": "前景由半透纱帘的边缘形成柔和遮挡"
+        },
+        {
+          "l": "失焦嫩绿枫叶框景",
+          "z": "前景有大片失焦嫩绿色枫叶形成自然遮挡与框景",
+          "e": "large out-of-focus tender green maple leaves creating natural foreground framing",
+          "b": "前景有大片失焦嫩绿色枫叶形成自然遮挡与框景"
+        },
+        {
+          "l": "浅木色桌沿前景",
+          "z": "画面下方由浅木色桌沿形成稳定的前景边界",
+          "e": "a pale wooden table edge defining the lower foreground",
+          "b": "画面下方由浅木色桌沿形成稳定的前景边界"
+        },
+        {
+          "l": "灰色门框纵向框景",
+          "z": "灰色门板与门框形成清晰的纵向框景",
+          "e": "gray door panels and a doorframe creating vertical framing",
+          "b": "灰色门板与门框形成清晰的纵向框景"
+        },
+        {
+          "l": "深灰文件夹前景",
+          "z": "深灰色文件夹竖立在画面前景，与人物手部形成明确互动",
+          "e": "a dark gray folder held upright in the foreground",
+          "b": "深灰色文件夹竖立在画面前景"
+        },
+        {
+          "l": "虚化咖啡杯与桌角",
+          "z": "前景保留轻度虚化的咖啡杯与桌角，增强生活空间层次",
+          "e": "a softly blurred coffee cup and table corner in the foreground",
+          "b": "前景保留轻度虚化的咖啡杯与桌角"
+        },
+        {
+          "l": "窗框留白框景",
+          "z": "一侧窗框形成简洁纵向框景，并保留适量画面留白",
+          "e": "a window frame creating clean vertical framing and negative space",
+          "b": "一侧窗框形成简洁纵向框景"
+        },
+        {
+          "l": "无明显前景",
+          "z": "前景保持干净通透，以人物作为唯一视觉中心",
+          "e": "a clean unobstructed foreground",
+          "b": "前景保持干净通透"
+        },
+        {
+          "l": "方向盘边缘",
+          "z": "方向盘边缘作为前景压住画面下缘",
+          "e": "steering wheel rim as a foreground element along the bottom edge",
+          "b": "方向盘边缘作为前景"
+        }
+      ]
+    },
+    "背景环境": {
+      "module": "场景",
+      "lv": 2,
+      "options": [
+        {
+          "l": "高亮庭院绿景",
+          "z": "背景为高亮夏日庭院绿景，树木与灌木形成自然层次",
+          "e": "bright green garden in the background",
+          "b": "背景为高亮夏日庭院绿景"
+        },
+        {
+          "l": "林间纵深",
+          "z": "背景为向远处延伸的林间小径与高大树干",
+          "e": "forest depth in the background",
+          "b": "背景为向远处延伸的林间小径与高大树干"
+        },
+        {
+          "l": "暖木咖啡馆",
+          "z": "背景为暖木墙面、皮质卡座与轻度虚化的餐桌",
+          "e": "warm wood cafe in the background",
+          "b": "背景为暖木墙面、皮质卡座与轻度虚化的餐桌"
+        },
+        {
+          "l": "窗外街景",
+          "z": "背景为透过玻璃窗可见的轻度虚化城市街景",
+          "e": "street through window in the background",
+          "b": "背景为透过玻璃窗可见的轻度虚化城市街景"
+        },
+        {
+          "l": "奶油色客厅",
+          "z": "背景为奶油色墙面、浅色沙发与柔软窗帘",
+          "e": "cream living room in the background",
+          "b": "背景为奶油色墙面、浅色沙发与柔软窗帘"
+        },
+        {
+          "l": "办公沙发与墙面",
+          "z": "背景为米杏色沙发、浅灰墙面与一株绿色植物",
+          "e": "office sofa wall in the background",
+          "b": "背景为米杏色沙发、浅灰墙面与一株绿色植物"
+        },
+        {
+          "l": "暖色酒店走廊",
+          "z": "背景为向远处延伸的现代酒店走廊、暖色墙灯与细腻地毯",
+          "e": "warm hotel corridor in the background",
+          "b": "背景为向远处延伸的现代酒店走廊、暖色墙灯与细腻地毯"
+        },
+        {
+          "l": "灰色门板与走廊",
+          "z": "背景为灰色门板、浅色墙面与暖色走廊",
+          "e": "gray door wall in the background",
+          "b": "背景为灰色门板、浅色墙面与暖色走廊"
+        },
+        {
+          "l": "高级灰渐变背景",
+          "z": "背景为明暗过渡平滑的高级灰影棚背景",
+          "e": "gray studio gradient in the background",
+          "b": "背景为明暗过渡平滑的高级灰影棚背景"
+        },
+        {
+          "l": "木质新中式空间",
+          "z": "背景为木质墙面、留白屏风与低矮桌案",
+          "e": "new chinese wood in the background",
+          "b": "背景为木质墙面、留白屏风与低矮桌案"
+        },
+        {
+          "l": "复古茶餐厅内景",
+          "z": "背景为旧式卡座、花纹墙砖与暖色吊灯",
+          "e": "retro diner interior in the background",
+          "b": "背景为旧式卡座、花纹墙砖与暖色吊灯"
+        },
+        {
+          "l": "都市玻璃建筑",
+          "z": "背景为现代玻璃建筑立面与轻度虚化的行人",
+          "e": "urban glass buildings in the background",
+          "b": "背景为现代玻璃建筑立面与轻度虚化的行人"
+        },
+        {
+          "l": "大堂玻璃反射",
+          "z": "背景为玻璃幕墙、石材地面与连续环境反射",
+          "e": "lobby reflections in the background",
+          "b": "背景为玻璃幕墙、石材地面与连续环境反射"
+        },
+        {
+          "l": "阳台开阔景观",
+          "z": "背景为阳台外开阔的城市或海岸景观",
+          "e": "balcony landscape in the background",
+          "b": "背景为阳台外开阔的城市或海岸景观"
+        },
+        {
+          "l": "城市天际线",
+          "z": "背景为层次清楚的楼顶轮廓与远处城市天际线",
+          "e": "city skyline in the background",
+          "b": "背景为层次清楚的楼顶轮廓与远处城市天际线"
+        },
+        {
+          "l": "海面与地平线",
+          "z": "背景为向远处延伸的海面与清晰地平线",
+          "e": "sea horizon in the background",
+          "b": "背景为向远处延伸的海面与清晰地平线"
+        },
+        {
+          "l": "整齐书架",
+          "z": "背景为排列整齐的木质书架与书籍脊背",
+          "e": "book shelves in the background",
+          "b": "背景为排列整齐的木质书架与书籍脊背"
+        },
+        {
+          "l": "白墙展厅",
+          "z": "背景为留白充足的白色展墙与少量大型画作",
+          "e": "white gallery in the background",
+          "b": "背景为留白充足的白色展墙与少量大型画作"
+        },
+        {
+          "l": "鲜花陈列",
+          "z": "背景为分层陈列的鲜花、绿叶与包装纸",
+          "e": "flower display in the background",
+          "b": "背景为分层陈列的鲜花、绿叶与包装纸"
+        },
+        {
+          "l": "网球场围网",
+          "z": "背景为绿色球场、白色边线与远处金属围网",
+          "e": "tennis fence in the background",
+          "b": "背景为绿色球场、白色边线与远处金属围网"
+        },
+        {
+          "l": "健身房镜面",
+          "z": "背景为大面积镜面、训练器械与浅色地面",
+          "e": "gym mirrors in the background",
+          "b": "背景为大面积镜面、训练器械与浅色地面"
+        },
+        {
+          "l": "校园教学楼",
+          "z": "背景为绿树掩映的校园教学楼与操场",
+          "e": "campus building in the background",
+          "b": "背景为绿树掩映的校园教学楼与操场"
+        },
+        {
+          "l": "密林暗影",
+          "z": "背景为光线幽暗、层次分明的密林深处",
+          "e": "dense forest shadow in the background",
+          "b": "背景为光线幽暗、层次分明的密林深处"
+        },
+        {
+          "l": "沙漠沙丘",
+          "z": "背景为连绵起伏、明暗分明的沙丘",
+          "e": "desert dune in the background",
+          "b": "背景为连绵起伏、明暗分明的沙丘"
+        },
+        {
+          "l": "雪山",
+          "z": "背景为覆盖积雪、轮廓清晰的连绵山峦",
+          "e": "snow mountain in the background",
+          "b": "背景为覆盖积雪、轮廓清晰的连绵山峦"
+        },
+        {
+          "l": "湖面倒影",
+          "z": "背景为平静湖面与天光云影的倒影",
+          "e": "lake reflection in the background",
+          "b": "背景为平静湖面与天光云影的倒影"
+        },
+        {
+          "l": "夜市灯火",
+          "z": "背景为挂着彩灯、人头攒动的夜市摊位",
+          "e": "night market glow in the background",
+          "b": "背景为挂着彩灯、人头攒动的夜市摊位"
+        },
+        {
+          "l": "高亮夏日树林庭院",
+          "z": "背景为高亮虚化的夏日庭院绿景，浓密枝叶形成通透自然的空间层次",
+          "e": "a bright softly blurred summer garden with dense green foliage",
+          "b": "背景为高亮虚化的夏日庭院绿景"
+        },
+        {
+          "l": "林间小径树干纵深",
+          "z": "背景为向远处延伸的林间小径与高大树干，枝叶形成自然纵深",
+          "e": "a forest path receding between tall tree trunks and layered foliage",
+          "b": "背景为向远处延伸的林间小径与高大树干"
+        },
+        {
+          "l": "暖木咖啡馆卡座",
+          "z": "背景为暖木墙面、深棕色皮质卡座、餐桌和轻度虚化的菜单牌，保留真实咖啡馆生活细节",
+          "e": "warm wood walls, a dark leather booth, tables, and a softly blurred menu board",
+          "b": "背景为暖木墙面、深棕色皮质卡座、餐桌和轻度虚化的菜单牌"
+        },
+        {
+          "l": "临街咖啡馆窗景",
+          "z": "背景为临街咖啡馆靠窗座位，透过玻璃可见轻度虚化的城市街景",
+          "e": "a street-facing cafe window with a softly blurred urban view",
+          "b": "背景为临街咖啡馆靠窗座位"
+        },
+        {
+          "l": "暖色走廊灰色门板",
+          "z": "背景为暖色走廊、浅色墙面与地砖，灰色门板保持清晰材质层次",
+          "e": "a warm corridor with pale walls, floor tiles, and textured gray door panels",
+          "b": "背景为暖色走廊、浅色墙面与地砖"
+        },
+        {
+          "l": "米杏沙发浅灰紫墙面",
+          "z": "背景保留米杏色沙发、浅灰紫墙面与左侧轻度虚化的绿色植物，空间简洁",
+          "e": "a beige sofa, pale gray-lilac wall, and a softly blurred green plant",
+          "b": "背景保留米杏色沙发、浅灰紫墙面与左侧轻度虚化的绿色植物"
+        },
+        {
+          "l": "奶油色窗边室内",
+          "z": "背景为奶油色窗边室内、浅色桌面和柔和窗帘，只保留少量生活细节",
+          "e": "a cream-toned window interior with a pale tabletop and soft curtains",
+          "b": "背景为奶油色窗边室内、浅色桌面和柔和窗帘"
+        },
+        {
+          "l": "奶油公寓客厅",
+          "z": "背景为奶油色墙面、浅色沙发与柔软窗帘构成的通透公寓客厅",
+          "e": "an airy cream-toned apartment with a pale sofa and soft curtains",
+          "b": "背景为奶油色墙面、浅色沙发与柔软窗帘构成的通透公寓客厅"
+        },
+        {
+          "l": "现代办公休息区",
+          "z": "背景为现代办公楼内的简洁休息区，米杏沙发、浅灰墙面与绿植保持有序",
+          "e": "a tidy modern office lounge with a beige sofa, pale gray walls, and green plants",
+          "b": "背景为现代办公楼内的简洁休息区"
+        },
+        {
+          "l": "玻璃幕墙都市夜景",
+          "z": "背景为轻度虚化的玻璃幕墙与都市夜景光点，空间现代而不杂乱",
+          "e": "softly blurred glass walls and city lights at night",
+          "b": "背景为轻度虚化的玻璃幕墙与都市夜景光点"
+        },
+        {
+          "l": "都市商业街",
+          "z": "背景为现代商业区人行道、玻璃建筑立面与轻度虚化的行人",
+          "e": "a modern shopping street with glass facades and softly blurred pedestrians",
+          "b": "背景为现代商业区人行道、玻璃建筑立面与轻度虚化的行人"
+        },
+        {
+          "l": "玻璃建筑大堂",
+          "z": "背景为大面积玻璃幕墙、石材地面与连续环境反射构成的现代建筑大堂",
+          "e": "a modern glass-walled lobby with stone flooring and layered reflections",
+          "b": "背景为大面积玻璃幕墙、石材地面与连续环境反射构成的现代建筑大堂"
+        },
+        {
+          "l": "酒店阳台开阔景观",
+          "z": "背景为酒店阳台与开阔的城市或海岸景观，远处层次清楚",
+          "e": "a hotel balcony overlooking an open city or coastal view",
+          "b": "背景为酒店阳台与开阔的城市或海岸景观"
+        },
+        {
+          "l": "城市天台天际线",
+          "z": "背景为建筑天台、层次清楚的楼顶轮廓与远处城市天际线",
+          "e": "a rooftop with layered building silhouettes and a distant city skyline",
+          "b": "背景为建筑天台、层次清楚的楼顶轮廓与远处城市天际线"
+        },
+        {
+          "l": "海边地平线",
+          "z": "背景为平缓沙面、向远处延伸的海面与清晰地平线",
+          "e": "a sandy shore, open sea, and a clear horizon",
+          "b": "背景为平缓沙面、向远处延伸的海面与清晰地平线"
+        },
+        {
+          "l": "独立书店书架",
+          "z": "背景为独立书店内排列整齐的木质书架与书籍脊背",
+          "e": "orderly wooden bookshelves filled with visible book spines",
+          "b": "背景为独立书店内排列整齐的木质书架与书籍脊背"
+        },
+        {
+          "l": "当代美术馆白墙",
+          "z": "背景为留白充足的当代美术馆白色展墙与少量大型画作",
+          "e": "spacious white contemporary-gallery walls with a few large artworks",
+          "b": "背景为留白充足的当代美术馆白色展墙与少量大型画作"
+        },
+        {
+          "l": "临街花店陈列",
+          "z": "背景为临街花店内分层陈列的鲜花、绿叶与包装纸",
+          "e": "layered displays of flowers, green leaves, and wrapping paper in a street-facing flower shop",
+          "b": "背景为临街花店内分层陈列的鲜花、绿叶与包装纸"
+        },
+        {
+          "l": "室外网球场",
+          "z": "背景为绿色室外网球场、清晰白色边线与远处金属围网",
+          "e": "a green outdoor tennis court with crisp white lines and a distant metal fence",
+          "b": "背景为绿色室外网球场、清晰白色边线与远处金属围网"
+        },
+        {
+          "l": "明亮健身训练室",
+          "z": "背景为镜面、训练器械与浅色地面构成的明亮健身训练室",
+          "e": "a bright fitness studio with mirrors, training equipment, and pale flooring",
+          "b": "背景为镜面、训练器械与浅色地面构成的明亮健身训练室"
+        },
+        {
+          "l": "复古茶餐厅",
+          "z": "背景为旧式卡座、花纹墙砖与暖色吊灯构成的复古茶餐厅",
+          "e": "retro booth seating, patterned wall tiles, and warm pendant lights",
+          "b": "背景为旧式卡座、花纹墙砖与暖色吊灯构成的复古茶餐厅"
+        },
+        {
+          "l": "高级灰摄影棚",
+          "z": "背景为简洁高级灰摄影棚，明暗渐变平滑，道具数量保持克制",
+          "e": "a restrained gray studio with a smooth tonal gradient and minimal props",
+          "b": "背景为简洁高级灰摄影棚"
+        },
+        {
+          "l": "木质新中式室内",
+          "z": "背景为留白克制的木质新中式室内，只保留屏风、桌案和竹影三处细节",
+          "e": "a restrained new-Chinese wood interior with a screen, table, and bamboo shadows",
+          "b": "背景为留白克制的木质新中式室内"
+        },
+        {
+          "l": "家庭烘焙厨房",
+          "z": "背景为明亮整洁的家庭厨房，木质操作台、烤箱与少量烘焙器具形成生活层次",
+          "e": "a bright tidy home kitchen with a wooden worktop, oven, and a few baking tools",
+          "b": "背景为明亮整洁的家庭厨房"
+        },
+        {
+          "l": "复古唱片店",
+          "z": "背景为复古唱片店的木质唱片架、封套陈列与暖色墙灯",
+          "e": "a retro record store with wooden racks, album-cover displays, and warm wall lights",
+          "b": "背景为复古唱片店的木质唱片架、封套陈列与暖色墙灯"
+        },
+        {
+          "l": "自然采光画室",
+          "z": "背景为自然采光画室，画架、画布与少量颜料工具有序分布",
+          "e": "a naturally lit art studio with an easel, canvases, and neatly arranged painting tools",
+          "b": "背景为自然采光画室"
+        },
+        {
+          "l": "周末市集摊位",
+          "z": "背景为户外周末市集，布棚、鲜花与手作摊位沿街自然延伸",
+          "e": "an outdoor weekend market with awnings, flowers, and craft stalls receding along the street",
+          "b": "背景为户外周末市集"
+        },
+        {
+          "l": "彩色几何摄影棚",
+          "z": "背景为彩色几何块面构成的摄影棚，线条利落，道具保持克制",
+          "e": "a studio built from clean colorful geometric planes with minimal props",
+          "b": "背景为彩色几何块面构成的摄影棚"
+        },
+        {
+          "l": "花艺装置摄影棚",
+          "z": "背景为大型花枝与留白结构组成的花艺装置摄影棚",
+          "e": "a floral installation studio with large branches and generous negative space",
+          "b": "背景为大型花枝与留白结构组成的花艺装置摄影棚"
+        },
+        {
+          "l": "婚纱礼服陈列厅",
+          "z": "背景为明亮雅致的婚纱礼服陈列厅，垂落帘幕与镜面保持简洁",
+          "e": "a bright elegant bridal showroom with simple drapery and mirrors",
+          "b": "背景为明亮雅致的婚纱礼服陈列厅"
+        },
+        {
+          "l": "夜间便利店",
+          "z": "背景为夜间便利店的明亮货架、玻璃门与街边灯光",
+          "e": "bright convenience-store shelves, glass doors, and street lights at night",
+          "b": "背景为夜间便利店的明亮货架、玻璃门与街边灯光"
+        },
+        {
+          "l": "地下停车场",
+          "z": "背景为冷灰色地下停车场，立柱、顶灯与车位线形成纵深",
+          "e": "a cool gray underground parking garage with columns, ceiling lights, and receding bay lines",
+          "b": "背景为冷灰色地下停车场"
+        },
+        {
+          "l": "繁忙街道路口",
+          "z": "背景为城市街道路口，斑马线、信号灯与轻度虚化的行人构成纪实层次",
+          "e": "an urban intersection with a crosswalk, traffic lights, and softly blurred pedestrians",
+          "b": "背景为城市街道路口"
+        },
+        {
+          "l": "城市人行天桥",
+          "z": "背景为现代城市人行天桥，栏杆线条与远处建筑形成清晰透视",
+          "e": "a modern pedestrian overpass with railing lines and strong architectural perspective",
+          "b": "背景为现代城市人行天桥"
+        },
+        {
+          "l": "春日花海",
+          "z": "背景为成片开放的春日花海与远处柔和绿地，空间开阔通透",
+          "e": "a broad field of spring flowers opening toward soft distant greenery",
+          "b": "背景为成片开放的春日花海与远处柔和绿地"
+        },
+        {
+          "l": "静谧湖畔",
+          "z": "背景为平静湖面、近岸草地与远处树线，水面保留自然反光",
+          "e": "a calm lake, near-shore grass, and a distant tree line with natural reflections",
+          "b": "背景为平静湖面、近岸草地与远处树线"
+        },
+        {
+          "l": "开阔草原",
+          "z": "背景为开阔草原与低缓地平线，远处天空占据较大画面面积",
+          "e": "open grassland beneath a broad sky and a low distant horizon",
+          "b": "背景为开阔草原与低缓地平线"
+        },
+        {
+          "l": "秋日枫林",
+          "z": "背景为层次分明的秋日枫林与落叶小径，红橙叶片自然交叠",
+          "e": "layered red-orange maple foliage and a leaf-covered path",
+          "b": "背景为层次分明的秋日枫林与落叶小径"
+        },
+        {
+          "l": "冬日雪林",
+          "z": "背景为安静的冬日雪林，积雪地面与深色树干形成冷暖层次",
+          "e": "a quiet snowy forest with pale ground and dark tree trunks",
+          "b": "背景为安静的冬日雪林"
+        },
+        {
+          "l": "清幽竹林",
+          "z": "背景为纵向延伸的清幽竹林与窄小石径，画面留白克制",
+          "e": "a tranquil bamboo grove with vertical depth and a narrow stone path",
+          "b": "背景为纵向延伸的清幽竹林与窄小石径"
+        },
+        {
+          "l": "海岸悬崖",
+          "z": "背景为海岸悬崖、翻涌海面与开阔天空，远近层次清楚",
+          "e": "a coastal cliff above rolling sea and open sky",
+          "b": "背景为海岸悬崖、翻涌海面与开阔天空"
+        },
+        {
+          "l": "沙漠旷野",
+          "z": "背景为连绵沙丘与开阔地平线，沙面保留清晰风纹",
+          "e": "rolling desert dunes with clear wind patterns and an open horizon",
+          "b": "背景为连绵沙丘与开阔地平线"
+        },
+        {
+          "l": "乡间小路",
+          "z": "背景为穿过田野与树篱的乡间小路，空间自然延伸至远处",
+          "e": "a country lane winding through fields and hedges into the distance",
+          "b": "背景为穿过田野与树篱的乡间小路"
+        },
+        {
+          "l": "海岛小镇街巷",
+          "z": "背景为临海小镇的浅色街巷、低矮建筑与远处海面",
+          "e": "pale lanes and low buildings in an island town with the sea beyond",
+          "b": "背景为临海小镇的浅色街巷、低矮建筑与远处海面"
+        },
+        {
+          "l": "山间露营地",
+          "z": "背景为山间草地、简洁帐篷与远处层叠山线，道具数量克制",
+          "e": "a restrained mountain campsite with grass, a simple tent, and layered ridgelines",
+          "b": "背景为山间草地、简洁帐篷与远处层叠山线"
+        },
+        {
+          "l": "葡萄园庄园",
+          "z": "背景为排列整齐的葡萄藤、浅色庄园建筑与缓坡地形",
+          "e": "ordered vineyard rows, a pale manor building, and gently sloping terrain",
+          "b": "背景为排列整齐的葡萄藤、浅色庄园建筑与缓坡地形"
+        },
+        {
+          "l": "火车站候车厅",
+          "z": "背景为火车站候车厅的长椅、时刻屏与向远处延伸的站台入口",
+          "e": "station benches, a timetable display, and a platform entrance receding into the distance",
+          "b": "背景为火车站候车厅的长椅、时刻屏与向远处延伸的站台入口"
+        },
+        {
+          "l": "拳击训练馆",
+          "z": "背景为拳击训练馆的拳台、沙袋与深色训练器械",
+          "e": "a boxing gym with a ring, heavy bags, and dark training equipment",
+          "b": "背景为拳击训练馆的拳台、沙袋与深色训练器械"
+        },
+        {
+          "l": "户外骑行道路",
+          "z": "背景为开阔的户外骑行道路、连续护栏与远处自然景观",
+          "e": "an open cycling road with continuous guardrails and distant natural scenery",
+          "b": "背景为开阔的户外骑行道路、连续护栏与远处自然景观"
+        },
+        {
+          "l": "室内羽毛球馆",
+          "z": "背景为明亮室内羽毛球馆，球网、场地边线与高顶结构清晰可辨",
+          "e": "a bright indoor badminton court with a visible net, boundary lines, and high roof structure",
+          "b": "背景为明亮室内羽毛球馆"
+        },
+        {
+          "l": "室内攀岩馆",
+          "z": "背景为室内攀岩馆的彩色岩点与高墙结构，空间纵深明确",
+          "e": "a deep indoor climbing space with colorful holds and high wall structures",
+          "b": "背景为室内攀岩馆的彩色岩点与高墙结构"
+        },
+        {
+          "l": "江南园林",
+          "z": "背景为江南园林的白墙黛瓦、曲折回廊与湿润石径",
+          "e": "a Jiangnan garden with white walls, dark roof tiles, winding corridors, and damp stone paths",
+          "b": "背景为江南园林的白墙黛瓦、曲折回廊与湿润石径"
+        },
+        {
+          "l": "敦煌壁画空间",
+          "z": "背景为受敦煌壁画启发的赭石墙面、飞天纹样与克制金色细节",
+          "e": "an ochre interior inspired by Dunhuang murals with flying-apsara motifs and restrained gold details",
+          "b": "背景为受敦煌壁画启发的赭石墙面、飞天纹样与克制金色细节"
+        },
+        {
+          "l": "明制中式庭院",
+          "z": "背景为规整的中式庭院、木构门窗与青砖地面，空间秩序清楚",
+          "e": "an orderly Ming-style courtyard with timber doors, windows, and gray brick paving",
+          "b": "背景为规整的中式庭院、木构门窗与青砖地面"
+        },
+        {
+          "l": "传统书院",
+          "z": "背景为传统书院的木质书架、长案与透入室内的庭院光线",
+          "e": "a traditional academy with wooden shelves, a long table, and courtyard light entering the room",
+          "b": "背景为传统书院的木质书架、长案与透入室内的庭院光线"
+        },
+        {
+          "l": "七十年代客厅",
+          "z": "背景为七十年代暖调客厅，木质家具、花纹织物与旧式台灯协调陈列",
+          "e": "a warm 1970s living room with wooden furniture, patterned textiles, and a vintage lamp",
+          "b": "背景为七十年代暖调客厅"
+        },
+        {
+          "l": "复古迪斯科舞厅",
+          "z": "背景为复古迪斯科舞厅的镜面球、彩色灯带与深色舞池",
+          "e": "a retro disco with a mirror ball, colored light strips, and a dark dance floor",
+          "b": "背景为复古迪斯科舞厅的镜面球、彩色灯带与深色舞池"
+        },
+        {
+          "l": "经典火车站月台",
+          "z": "背景为经典火车站月台、旧式站牌与向远处延伸的轨道",
+          "e": "a classic railway platform with an old station sign and tracks receding into the distance",
+          "b": "背景为经典火车站月台、旧式站牌与向远处延伸的轨道"
+        },
+        {
+          "l": "美式公路餐厅",
+          "z": "背景为美式公路餐厅的红色卡座、金属包边桌面与霓虹招牌",
+          "e": "an American roadside diner with red booths, metal-edged tables, and neon signage",
+          "b": "背景为美式公路餐厅的红色卡座、金属包边桌面与霓虹招牌"
+        },
+        {
+          "l": "月夜森林",
+          "z": "背景为月光照亮的深色森林、薄雾与少量发光植物，空间真实可辨",
+          "e": "a dark moonlit forest with thin mist and a few glowing plants",
+          "b": "背景为月光照亮的深色森林、薄雾与少量发光植物"
+        },
+        {
+          "l": "哥特古堡厅堂",
+          "z": "背景为哥特古堡厅堂的尖拱、石柱与高窗，结构庄严而克制",
+          "e": "a restrained Gothic castle hall with pointed arches, stone columns, and tall windows",
+          "b": "背景为哥特古堡厅堂的尖拱、石柱与高窗"
+        },
+        {
+          "l": "未来赛博街区",
+          "z": "背景为未来城市街区的霓虹标牌、湿润路面与高层建筑",
+          "e": "a futuristic city district with neon signs, wet pavement, and high-rise buildings",
+          "b": "背景为未来城市街区的霓虹标牌、湿润路面与高层建筑"
+        },
+        {
+          "l": "蒸汽机械空间",
+          "z": "背景为铜色管道、齿轮与压力表组成的蒸汽机械空间",
+          "e": "a steampunk mechanical interior of copper pipes, gears, and pressure gauges",
+          "b": "背景为铜色管道、齿轮与压力表组成的蒸汽机械空间"
+        },
+        {
+          "l": "超现实梦境花园",
+          "z": "背景为尺度夸张的花朵、浅色雾气与弯曲小径组成的超现实花园",
+          "e": "a surreal garden of oversized flowers, pale mist, and a curving path",
+          "b": "背景为尺度夸张的花朵、浅色雾气与弯曲小径组成的超现实花园"
+        },
+        {
+          "l": "星云神殿",
+          "z": "背景为高大石柱、星云天空与微弱发光纹路组成的幻想神殿",
+          "e": "a fantasy temple with tall stone columns, a nebula sky, and faint luminous patterns",
+          "b": "背景为高大石柱、星云天空与微弱发光纹路组成的幻想神殿"
+        },
+        {
+          "l": "水下幻境",
+          "z": "背景为通透水下空间、漂浮气泡与缓慢摆动的水生植物",
+          "e": "a clear underwater dreamscape with floating bubbles and gently moving aquatic plants",
+          "b": "背景为通透水下空间、漂浮气泡与缓慢摆动的水生植物"
+        },
+        {
+          "l": "冰雪宫殿",
+          "z": "背景为半透明冰柱、冰晶拱门与覆雪地面组成的冷色宫殿",
+          "e": "a cool ice palace of translucent columns, crystal arches, and snow-covered ground",
+          "b": "背景为半透明冰柱、冰晶拱门与覆雪地面组成的冷色宫殿"
+        },
+        {
+          "l": "云海仙境",
+          "z": "背景为层叠云海、远山与若隐若现的浅色古典建筑",
+          "e": "layered clouds, distant mountains, and faint pale classical architecture",
+          "b": "背景为层叠云海、远山与若隐若现的浅色古典建筑"
+        },
+        {
+          "l": "花瓣风暴装置空间",
+          "z": "背景为简洁摄影棚与大量悬浮花瓣组成的动态装置空间",
+          "e": "a minimal studio transformed by a dynamic installation of suspended petals",
+          "b": "背景为简洁摄影棚与大量悬浮花瓣组成的动态装置空间"
+        },
+        {
+          "l": "温泉汤池",
+          "z": "背景为蒸汽氤氲的温泉汤池与暖色石壁，水面泛起柔和涟漪",
+          "e": "a steaming hot-spring pool against warm stone walls with soft ripples on the water",
+          "b": "背景为蒸汽氤氲的温泉汤池与暖色石壁"
+        },
+        {
+          "l": "和风木造庭院",
+          "z": "背景为日式木造庭院、枯山水与纸拉门，光影清透而克制",
+          "e": "a Japanese timber courtyard with a dry garden, shoji doors, and translucent light",
+          "b": "背景为日式木造庭院、枯山水与纸拉门"
+        },
+        {
+          "l": "瀑布溪流",
+          "z": "背景为倾泻而下的瀑布与清澈溪流，水雾朦胧、岩壁湿润",
+          "e": "a waterfall and clear stream with misty spray and wet rock walls",
+          "b": "背景为倾泻而下的瀑布与清澈溪流"
+        },
+        {
+          "l": "剧院舞台",
+          "z": "背景为昏暗的剧院舞台、深红帷幕与一束顶光，空间纵深幽深",
+          "e": "a dim theater stage with deep red curtains and a single overhead beam",
+          "b": "背景为昏暗的剧院舞台、深红帷幕与一束顶光"
+        },
+        {
+          "l": "海港码头",
+          "z": "背景为延伸入海的码头、缆桩与停泊船只，海风气息浓厚",
+          "e": "a pier extending into the sea with bollards and moored boats",
+          "b": "背景为延伸入海的码头、缆桩与停泊船只"
+        },
+        {
+          "l": "天使羽翼殿堂",
+          "z": "背景为柔和光雾缭绕的纯白殿堂，光柱倾泻而下",
+          "e": "a pure white hall filled with soft luminous mist and descending light columns",
+          "b": "背景为柔和光雾缭绕的纯白殿堂"
+        },
+        {
+          "l": "少数民族集市",
+          "z": "背景为色彩浓郁的民族风情集市，织锦与银饰悬挂其间",
+          "e": "a richly colored folk market with hanging brocade and silver ornaments",
+          "b": "背景为色彩浓郁的民族风情集市"
+        },
+        {
+          "l": "昭和和风房间",
+          "z": "背景为昭和年代的和风房间，障子门、矮桌与旧式暖灯",
+          "e": "a Showa-era Japanese room with shoji doors, a low table, and an old warm lamp",
+          "b": "背景为昭和年代的和风房间"
+        },
+        {
+          "l": "上海滩街景",
+          "z": "背景为老上海滩街景，霓虹招牌、石库门与黄包车剪影",
+          "e": "a vintage Shanghai street with neon signs, shikumen buildings, and rickshaw silhouettes",
+          "b": "背景为老上海滩街景"
+        },
+        {
+          "l": "阳光公园草坪",
+          "z": "背景为阳光下的公园草坪与虚化树木",
+          "e": "a sunlit park lawn with softly blurred trees",
+          "b": "背景为阳光下的公园草坪与虚化树木"
+        },
+        {
+          "l": "复古会所雕花座椅",
+          "z": "背景为深色雕花座椅与东方装饰屏风",
+          "e": "a dark ornate armchair and an East Asian decorative screen",
+          "b": "背景为深色雕花座椅与东方装饰屏风"
+        },
+        {
+          "l": "工业通道铁丝网",
+          "z": "背景为铁丝网、混凝土地面与幽暗工业通道",
+          "e": "chain-link fencing, concrete flooring, and a dark industrial passage",
+          "b": "背景为铁丝网、混凝土地面与幽暗工业通道"
+        },
+        {
+          "l": "珊瑚粉薄荷绿渐变背景",
+          "z": "背景为珊瑚粉与薄荷绿色柔和渐变",
+          "e": "a soft coral-pink and mint-green gradient backdrop",
+          "b": "背景为珊瑚粉与薄荷绿色柔和渐变"
+        },
+        {
+          "l": "明亮落地窗客厅",
+          "z": "背景为浅灰布艺沙发、通透落地窗与室内绿植",
+          "e": "a bright living room with a gray sofa, floor-to-ceiling windows, and indoor plants",
+          "b": "背景为浅灰布艺沙发、通透落地窗与室内绿植"
+        },
+        {
+          "l": "旧式旅馆房间",
+          "z": "背景为窗户、床铺、旧木家具与暖黄台灯组成的旧式旅馆房间",
+          "e": "an old hotel room with a window, bed, worn wooden furniture, and a warm table lamp",
+          "b": "背景为窗户、床铺、旧木家具与暖黄台灯组成的旧式旅馆房间"
+        },
+        {
+          "l": "挡风玻璃外城市街景",
+          "z": "背景是挡风玻璃外的城市街景，雨刷与玻璃反光入画",
+          "e": "city street seen through the windshield, wipers and glass reflections in frame",
+          "b": "背景是挡风玻璃外的城市街景"
+        }
+      ]
+    },
+    "环境细节": {
+      "module": "场景",
+      "lv": 3,
+      "options": [
+        {
+          "l": "浓密枝叶",
+          "z": "场景中保留浓密绿色枝叶",
+          "e": "environment details: dense leaves",
+          "b": "场景中保留浓密绿色枝叶"
+        },
+        {
+          "l": "白色小雏菊",
+          "z": "场景中保留零散开放的白色小雏菊",
+          "e": "environment details: white daisies",
+          "b": "场景中保留零散开放的白色小雏菊"
+        },
+        {
+          "l": "浅色石板路",
+          "z": "场景中只保留向远处延伸的浅色石板路",
+          "e": "environment details: stone path",
+          "b": "场景中只保留向远处延伸的浅色石板路"
+        },
+        {
+          "l": "浅木餐桌",
+          "z": "场景中保留纹理清楚的浅木色餐桌",
+          "e": "environment details: wood table",
+          "b": "场景中保留纹理清楚的浅木色餐桌"
+        },
+        {
+          "l": "菜单牌",
+          "z": "场景中保留位于背景墙面的简洁菜单牌",
+          "e": "environment details: menu board",
+          "b": "场景中保留位于背景墙面的简洁菜单牌"
+        },
+        {
+          "l": "咖啡杯碟",
+          "z": "场景中保留桌面上的咖啡杯与小碟",
+          "e": "environment details: coffee set",
+          "b": "场景中保留桌面上的咖啡杯与小碟"
+        },
+        {
+          "l": "亚麻窗帘",
+          "z": "场景中保留自然垂落的浅色亚麻窗帘",
+          "e": "environment details: linen curtain",
+          "b": "场景中保留自然垂落的浅色亚麻窗帘"
+        },
+        {
+          "l": "落地灯",
+          "z": "场景中保留造型简洁的暖色落地灯",
+          "e": "environment details: floor lamp",
+          "b": "场景中保留造型简洁的暖色落地灯"
+        },
+        {
+          "l": "绿色植物",
+          "z": "场景中保留一株叶片清楚的室内绿色植物",
+          "e": "environment details: green plant",
+          "b": "场景中保留一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "走廊壁灯",
+          "z": "场景中保留沿走廊等距排列的暖色壁灯",
+          "e": "environment details: wall lamps",
+          "b": "场景中保留沿走廊等距排列的暖色壁灯"
+        },
+        {
+          "l": "地毯纹理",
+          "z": "场景中保留纵向延伸的低对比地毯纹理",
+          "e": "environment details: carpet lines",
+          "b": "场景中保留纵向延伸的低对比地毯纹理"
+        },
+        {
+          "l": "金属门把手",
+          "z": "场景中保留反光克制的金属门把手",
+          "e": "environment details: door handle",
+          "b": "场景中保留反光克制的金属门把手"
+        },
+        {
+          "l": "高脚椅",
+          "z": "场景中保留结构简洁的影棚高脚椅",
+          "e": "environment details: studio stool",
+          "b": "场景中保留结构简洁的影棚高脚椅"
+        },
+        {
+          "l": "无缝背景纸",
+          "z": "场景中保留从墙面延伸到地面的影棚背景纸",
+          "e": "environment details: studio seamless",
+          "b": "场景中保留从墙面延伸到地面的影棚背景纸"
+        },
+        {
+          "l": "木质屏风",
+          "z": "场景中保留格栅结构清楚的木质屏风",
+          "e": "environment details: wood screen",
+          "b": "场景中保留格栅结构清楚的木质屏风"
+        },
+        {
+          "l": "茶具",
+          "z": "场景中保留低矮桌案上的陶瓷茶壶与茶杯",
+          "e": "environment details: tea set",
+          "b": "场景中保留低矮桌案上的陶瓷茶壶与茶杯"
+        },
+        {
+          "l": "竹影",
+          "z": "场景中保留落在墙面与地面的细碎竹影",
+          "e": "environment details: bamboo shadow",
+          "b": "场景中保留落在墙面与地面的细碎竹影"
+        },
+        {
+          "l": "复古花纹墙砖",
+          "z": "场景中保留颜色温暖的复古花纹墙砖",
+          "e": "environment details: retro tiles",
+          "b": "场景中保留颜色温暖的复古花纹墙砖"
+        },
+        {
+          "l": "旧式吊扇",
+          "z": "场景中保留安装在天花板上的旧式吊扇",
+          "e": "environment details: ceiling fan",
+          "b": "场景中保留安装在天花板上的旧式吊扇"
+        },
+        {
+          "l": "霓虹招牌",
+          "z": "场景中保留位于街道背景的彩色霓虹招牌",
+          "e": "environment details: neon sign",
+          "b": "场景中保留位于街道背景的彩色霓虹招牌"
+        },
+        {
+          "l": "湿润路面",
+          "z": "场景中保留带灯光反射的湿润路面",
+          "e": "environment details: wet pavement",
+          "b": "场景中保留带灯光反射的湿润路面"
+        },
+        {
+          "l": "远处车辆",
+          "z": "场景中保留位于远处道路上的轻度虚化车辆",
+          "e": "environment details: passing cars",
+          "b": "场景中保留位于远处道路上的轻度虚化车辆"
+        },
+        {
+          "l": "玻璃立柱",
+          "z": "场景中保留垂直排列的玻璃与金属立柱",
+          "e": "environment details: glass columns",
+          "b": "场景中保留垂直排列的玻璃与金属立柱"
+        },
+        {
+          "l": "浅色石材地面",
+          "z": "场景中只保留接缝整齐的浅色石材地面",
+          "e": "environment details: stone floor",
+          "b": "场景中只保留接缝整齐的浅色石材地面"
+        },
+        {
+          "l": "户外单椅",
+          "z": "场景中保留靠近栏杆的简洁户外单椅",
+          "e": "environment details: balcony chair",
+          "b": "场景中保留靠近栏杆的简洁户外单椅"
+        },
+        {
+          "l": "细小海浪",
+          "z": "场景中只保留靠近岸边的细小海浪",
+          "e": "environment details: sea waves",
+          "b": "场景中只保留靠近岸边的细小海浪"
+        },
+        {
+          "l": "叠放书籍",
+          "z": "场景中保留桌面上整齐叠放的几本书",
+          "e": "environment details: book stack",
+          "b": "场景中保留桌面上整齐叠放的几本书"
+        },
+        {
+          "l": "大型画作",
+          "z": "场景中保留悬挂在展墙中央的大型画作",
+          "e": "environment details: large painting",
+          "b": "场景中保留悬挂在展墙中央的大型画作"
+        },
+        {
+          "l": "花束包装纸",
+          "z": "场景中保留边缘自然展开的花束包装纸",
+          "e": "environment details: flower wrapping",
+          "b": "场景中保留边缘自然展开的花束包装纸"
+        },
+        {
+          "l": "网球拍",
+          "z": "场景中保留靠在长椅旁的网球拍",
+          "e": "environment details: tennis racket",
+          "b": "场景中保留靠在长椅旁的网球拍"
+        },
+        {
+          "l": "训练长椅",
+          "z": "场景中保留结构简洁的黑色训练长椅",
+          "e": "environment details: gym bench",
+          "b": "场景中保留结构简洁的黑色训练长椅"
+        },
+        {
+          "l": "毛巾与水瓶",
+          "z": "场景中只保留并排放置的运动毛巾与透明水瓶",
+          "e": "environment details: towel bottle",
+          "b": "场景中只保留并排放置的运动毛巾与透明水瓶"
+        },
+        {
+          "l": "城市灯光",
+          "z": "场景中保留远处建筑窗口形成的细小城市灯光",
+          "e": "environment details: city lights",
+          "b": "场景中保留远处建筑窗口形成的细小城市灯光"
+        },
+        {
+          "l": "白色纱帘",
+          "z": "场景中保留随风微动的白色纱帘",
+          "e": "environment details: white gauze curtain",
+          "b": "场景中保留随风微动的白色纱帘"
+        },
+        {
+          "l": "绿植盆栽",
+          "z": "场景中保留窗边错落的几盆绿植",
+          "e": "environment details: potted plants",
+          "b": "场景中保留窗边错落的几盆绿植"
+        },
+        {
+          "l": "暖黄台灯",
+          "z": "场景中保留一盏发出暖黄光的台灯",
+          "e": "environment details: warm table lamp",
+          "b": "场景中保留一盏发出暖黄光的台灯"
+        },
+        {
+          "l": "木地板反光",
+          "z": "场景中保留反射着柔和光泽的木地板",
+          "e": "environment details: wooden floor reflection",
+          "b": "场景中保留反射着柔和光泽的木地板"
+        },
+        {
+          "l": "落地镜",
+          "z": "场景中保留倚墙而立的一面落地镜",
+          "e": "environment details: floor mirror",
+          "b": "场景中保留倚墙而立的一面落地镜"
+        },
+        {
+          "l": "墙面挂画",
+          "z": "场景中保留墙上挂着的一两幅画作",
+          "e": "environment details: wall art",
+          "b": "场景中保留墙上挂着的一两幅画作"
+        },
+        {
+          "l": "书架",
+          "z": "场景中保留靠墙而立的深色书架",
+          "e": "environment details: bookshelf",
+          "b": "场景中保留靠墙而立的深色书架"
+        },
+        {
+          "l": "窗外雨滴",
+          "z": "场景中保留玻璃窗上滑落的雨滴",
+          "e": "environment details: rain window",
+          "b": "场景中保留玻璃窗上滑落的雨滴"
+        },
+        {
+          "l": "浓密枝叶、白色小雏菊、浅色石板路",
+          "z": "场景中只保留浓密绿色枝叶、零散开放的白色小雏菊和向远处延伸的浅色石板路",
+          "e": "environment details: dense leaves, white daisies, stone path",
+          "b": "场景中只保留浓密绿色枝叶、零散开放的白色小雏菊和向远处延伸的浅色石板路"
+        },
+        {
+          "l": "浓密枝叶、浅色石板路",
+          "z": "场景中只保留浓密绿色枝叶和向远处延伸的浅色石板路",
+          "e": "environment details: dense leaves, stone path",
+          "b": "场景中只保留浓密绿色枝叶和向远处延伸的浅色石板路"
+        },
+        {
+          "l": "浅木餐桌、菜单牌、咖啡杯碟",
+          "z": "场景中只保留纹理清楚的浅木色餐桌、位于背景墙面的简洁菜单牌和桌面上的咖啡杯与小碟",
+          "e": "environment details: wood table, menu board, coffee set",
+          "b": "场景中只保留纹理清楚的浅木色餐桌、位于背景墙面的简洁菜单牌和桌面上的咖啡杯与小碟"
+        },
+        {
+          "l": "浅木餐桌、咖啡杯碟",
+          "z": "场景中只保留纹理清楚的浅木色餐桌和桌面上的咖啡杯与小碟",
+          "e": "environment details: wood table, coffee set",
+          "b": "场景中只保留纹理清楚的浅木色餐桌和桌面上的咖啡杯与小碟"
+        },
+        {
+          "l": "亚麻窗帘、落地灯、绿色植物",
+          "z": "场景中只保留自然垂落的浅色亚麻窗帘、造型简洁的暖色落地灯和一株叶片清楚的室内绿色植物",
+          "e": "environment details: linen curtain, floor lamp, green plant",
+          "b": "场景中只保留自然垂落的浅色亚麻窗帘、造型简洁的暖色落地灯和一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "绿色植物、玻璃立柱、浅色石材地面",
+          "z": "场景中只保留一株叶片清楚的室内绿色植物、垂直排列的玻璃与金属立柱和接缝整齐的浅色石材地面",
+          "e": "environment details: green plant, glass columns, stone floor",
+          "b": "场景中只保留一株叶片清楚的室内绿色植物、垂直排列的玻璃与金属立柱和接缝整齐的浅色石材地面"
+        },
+        {
+          "l": "走廊壁灯、地毯纹理",
+          "z": "场景中只保留沿走廊等距排列的暖色壁灯和纵向延伸的低对比地毯纹理",
+          "e": "environment details: wall lamps, carpet lines",
+          "b": "场景中只保留沿走廊等距排列的暖色壁灯和纵向延伸的低对比地毯纹理"
+        },
+        {
+          "l": "金属门把手、浅色石材地面",
+          "z": "场景中只保留反光克制的金属门把手和接缝整齐的浅色石材地面",
+          "e": "environment details: door handle, stone floor",
+          "b": "场景中只保留反光克制的金属门把手和接缝整齐的浅色石材地面"
+        },
+        {
+          "l": "高脚椅、无缝背景纸",
+          "z": "场景中只保留结构简洁的影棚高脚椅和从墙面延伸到地面的影棚背景纸",
+          "e": "environment details: studio stool, studio seamless",
+          "b": "场景中只保留结构简洁的影棚高脚椅和从墙面延伸到地面的影棚背景纸"
+        },
+        {
+          "l": "木质屏风、茶具、竹影",
+          "z": "场景中只保留格栅结构清楚的木质屏风、低矮桌案上的陶瓷茶壶与茶杯和落在墙面与地面的细碎竹影",
+          "e": "environment details: wood screen, tea set, bamboo shadow",
+          "b": "场景中只保留格栅结构清楚的木质屏风、低矮桌案上的陶瓷茶壶与茶杯和落在墙面与地面的细碎竹影"
+        },
+        {
+          "l": "复古花纹墙砖、旧式吊扇、咖啡杯碟",
+          "z": "场景中只保留颜色温暖的复古花纹墙砖、安装在天花板上的旧式吊扇和桌面上的咖啡杯与小碟",
+          "e": "environment details: retro tiles, ceiling fan, coffee set",
+          "b": "场景中只保留颜色温暖的复古花纹墙砖、安装在天花板上的旧式吊扇和桌面上的咖啡杯与小碟"
+        },
+        {
+          "l": "霓虹招牌、湿润路面、远处车辆",
+          "z": "场景中只保留位于街道背景的彩色霓虹招牌、带灯光反射的湿润路面和位于远处道路上的轻度虚化车辆",
+          "e": "environment details: neon sign, wet pavement, passing cars",
+          "b": "场景中只保留位于街道背景的彩色霓虹招牌、带灯光反射的湿润路面和位于远处道路上的轻度虚化车辆"
+        },
+        {
+          "l": "玻璃立柱、浅色石材地面",
+          "z": "场景中只保留垂直排列的玻璃与金属立柱和接缝整齐的浅色石材地面",
+          "e": "environment details: glass columns, stone floor",
+          "b": "场景中只保留垂直排列的玻璃与金属立柱和接缝整齐的浅色石材地面"
+        },
+        {
+          "l": "户外单椅、亚麻窗帘",
+          "z": "场景中只保留靠近栏杆的简洁户外单椅和自然垂落的浅色亚麻窗帘",
+          "e": "environment details: balcony chair, linen curtain",
+          "b": "场景中只保留靠近栏杆的简洁户外单椅和自然垂落的浅色亚麻窗帘"
+        },
+        {
+          "l": "城市灯光、远处车辆",
+          "z": "场景中只保留远处建筑窗口形成的细小城市灯光和位于远处道路上的轻度虚化车辆",
+          "e": "environment details: city lights, passing cars",
+          "b": "场景中只保留远处建筑窗口形成的细小城市灯光和位于远处道路上的轻度虚化车辆"
+        },
+        {
+          "l": "细小海浪、浅色石板路",
+          "z": "场景中只保留靠近岸边的细小海浪和向远处延伸的浅色石板路",
+          "e": "environment details: sea waves, stone path",
+          "b": "场景中只保留靠近岸边的细小海浪和向远处延伸的浅色石板路"
+        },
+        {
+          "l": "叠放书籍、落地灯",
+          "z": "场景中只保留桌面上整齐叠放的几本书和造型简洁的暖色落地灯",
+          "e": "environment details: book stack, floor lamp",
+          "b": "场景中只保留桌面上整齐叠放的几本书和造型简洁的暖色落地灯"
+        },
+        {
+          "l": "大型画作、浅色石材地面",
+          "z": "场景中只保留悬挂在展墙中央的大型画作和接缝整齐的浅色石材地面",
+          "e": "environment details: large painting, stone floor",
+          "b": "场景中只保留悬挂在展墙中央的大型画作和接缝整齐的浅色石材地面"
+        },
+        {
+          "l": "花束包装纸、绿色植物",
+          "z": "场景中只保留边缘自然展开的花束包装纸和一株叶片清楚的室内绿色植物",
+          "e": "environment details: flower wrapping, green plant",
+          "b": "场景中只保留边缘自然展开的花束包装纸和一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "网球拍、毛巾与水瓶",
+          "z": "场景中只保留靠在长椅旁的网球拍和并排放置的运动毛巾与透明水瓶",
+          "e": "environment details: tennis racket, towel bottle",
+          "b": "场景中只保留靠在长椅旁的网球拍和并排放置的运动毛巾与透明水瓶"
+        },
+        {
+          "l": "训练长椅、毛巾与水瓶",
+          "z": "场景中只保留结构简洁的黑色训练长椅和并排放置的运动毛巾与透明水瓶",
+          "e": "environment details: gym bench, towel bottle",
+          "b": "场景中只保留结构简洁的黑色训练长椅和并排放置的运动毛巾与透明水瓶"
+        },
+        {
+          "l": "叠放书籍、绿色植物",
+          "z": "场景中只保留桌面上整齐叠放的几本书和一株叶片清楚的室内绿色植物",
+          "e": "environment details: book stack, green plant",
+          "b": "场景中只保留桌面上整齐叠放的几本书和一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "竹影、浓密枝叶",
+          "z": "场景中只保留落在墙面与地面的细碎竹影和浓密绿色枝叶",
+          "e": "environment details: bamboo shadow, dense leaves",
+          "b": "场景中只保留落在墙面与地面的细碎竹影和浓密绿色枝叶"
+        },
+        {
+          "l": "亚麻窗帘、绿色植物",
+          "z": "场景中只保留自然垂落的浅色亚麻窗帘和一株叶片清楚的室内绿色植物",
+          "e": "environment details: linen curtain, green plant",
+          "b": "场景中只保留自然垂落的浅色亚麻窗帘和一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "亚麻窗帘、落地灯",
+          "z": "场景中只保留自然垂落的浅色亚麻窗帘和造型简洁的暖色落地灯",
+          "e": "environment details: linen curtain, floor lamp",
+          "b": "场景中只保留自然垂落的浅色亚麻窗帘和造型简洁的暖色落地灯"
+        },
+        {
+          "l": "户外单椅、绿色植物",
+          "z": "场景中只保留靠近栏杆的简洁户外单椅和一株叶片清楚的室内绿色植物",
+          "e": "environment details: balcony chair, green plant",
+          "b": "场景中只保留靠近栏杆的简洁户外单椅和一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "浅木餐桌、咖啡杯碟、菜单牌",
+          "z": "场景中只保留纹理清楚的浅木色餐桌、桌面上的咖啡杯与小碟和位于背景墙面的简洁菜单牌",
+          "e": "environment details: wood table, coffee set, menu board",
+          "b": "场景中只保留纹理清楚的浅木色餐桌、桌面上的咖啡杯与小碟和位于背景墙面的简洁菜单牌"
+        },
+        {
+          "l": "落地灯、亚麻窗帘",
+          "z": "场景中只保留造型简洁的暖色落地灯和自然垂落的浅色亚麻窗帘",
+          "e": "environment details: floor lamp, linen curtain",
+          "b": "场景中只保留造型简洁的暖色落地灯和自然垂落的浅色亚麻窗帘"
+        },
+        {
+          "l": "落地灯、绿色植物",
+          "z": "场景中只保留造型简洁的暖色落地灯和一株叶片清楚的室内绿色植物",
+          "e": "environment details: floor lamp, green plant",
+          "b": "场景中只保留造型简洁的暖色落地灯和一株叶片清楚的室内绿色植物"
+        },
+        {
+          "l": "霓虹招牌、城市灯光",
+          "z": "场景中只保留位于街道背景的彩色霓虹招牌和远处建筑窗口形成的细小城市灯光",
+          "e": "environment details: neon sign, city lights",
+          "b": "场景中只保留位于街道背景的彩色霓虹招牌和远处建筑窗口形成的细小城市灯光"
+        },
+        {
+          "l": "叠放书籍、浅木餐桌",
+          "z": "场景中只保留桌面上整齐叠放的几本书和纹理清楚的浅木色餐桌",
+          "e": "environment details: book stack, wood table",
+          "b": "场景中只保留桌面上整齐叠放的几本书和纹理清楚的浅木色餐桌"
+        },
+        {
+          "l": "霓虹招牌、复古花纹墙砖",
+          "z": "场景中只保留位于街道背景的彩色霓虹招牌和颜色温暖的复古花纹墙砖",
+          "e": "environment details: neon sign, retro tiles",
+          "b": "场景中只保留位于街道背景的彩色霓虹招牌和颜色温暖的复古花纹墙砖"
+        },
+        {
+          "l": "玻璃立柱、大型画作",
+          "z": "场景中只保留垂直排列的玻璃与金属立柱和悬挂在展墙中央的大型画作",
+          "e": "environment details: glass columns, large painting",
+          "b": "场景中只保留垂直排列的玻璃与金属立柱和悬挂在展墙中央的大型画作"
+        },
+        {
+          "l": "毛巾与水瓶、亚麻窗帘",
+          "z": "场景中只保留并排放置的运动毛巾与透明水瓶和自然垂落的浅色亚麻窗帘",
+          "e": "environment details: towel bottle, linen curtain",
+          "b": "场景中只保留并排放置的运动毛巾与透明水瓶和自然垂落的浅色亚麻窗帘"
+        },
+        {
+          "l": "叠放书籍、城市灯光",
+          "z": "场景中只保留桌面上整齐叠放的几本书和远处建筑窗口形成的细小城市灯光",
+          "e": "environment details: book stack, city lights",
+          "b": "场景中只保留桌面上整齐叠放的几本书和远处建筑窗口形成的细小城市灯光"
+        },
+        {
+          "l": "亚麻窗帘、高脚椅",
+          "z": "场景中只保留自然垂落的浅色亚麻窗帘和结构简洁的影棚高脚椅",
+          "e": "environment details: linen curtain, studio stool",
+          "b": "场景中只保留自然垂落的浅色亚麻窗帘和结构简洁的影棚高脚椅"
+        },
+        {
+          "l": "霓虹招牌、玻璃立柱",
+          "z": "场景中只保留位于街道背景的彩色霓虹招牌和垂直排列的玻璃与金属立柱",
+          "e": "environment details: neon sign, glass columns",
+          "b": "场景中只保留位于街道背景的彩色霓虹招牌和垂直排列的玻璃与金属立柱"
+        },
+        {
+          "l": "毛巾与水瓶、玻璃立柱",
+          "z": "场景中只保留并排放置的运动毛巾与透明水瓶和垂直排列的玻璃与金属立柱",
+          "e": "environment details: towel bottle, glass columns",
+          "b": "场景中只保留并排放置的运动毛巾与透明水瓶和垂直排列的玻璃与金属立柱"
+        },
+        {
+          "l": "茶具、木质屏风、竹影",
+          "z": "场景中只保留低矮桌案上的陶瓷茶壶与茶杯、格栅结构清楚的木质屏风和落在墙面与地面的细碎竹影",
+          "e": "environment details: tea set, wood screen, bamboo shadow",
+          "b": "场景中只保留低矮桌案上的陶瓷茶壶与茶杯、格栅结构清楚的木质屏风和落在墙面与地面的细碎竹影"
+        },
+        {
+          "l": "叠放书籍、木质屏风",
+          "z": "场景中只保留桌面上整齐叠放的几本书和格栅结构清楚的木质屏风",
+          "e": "environment details: book stack, wood screen",
+          "b": "场景中只保留桌面上整齐叠放的几本书和格栅结构清楚的木质屏风"
+        },
+        {
+          "l": "走廊壁灯、高脚椅",
+          "z": "场景中只保留沿走廊等距排列的暖色壁灯和结构简洁的影棚高脚椅",
+          "e": "environment details: wall lamps, studio stool",
+          "b": "场景中只保留沿走廊等距排列的暖色壁灯和结构简洁的影棚高脚椅"
+        },
+        {
+          "l": "浓密枝叶、少量发光植物",
+          "z": "场景中只保留浓密枝叶、少量发光植物",
+          "e": "environment details consistent with moonlit forest fantasy",
+          "b": "场景中只保留浓密枝叶、少量发光植物"
+        },
+        {
+          "l": "尖拱、高窗、石柱",
+          "z": "场景中只保留尖拱、高窗、石柱",
+          "e": "environment details consistent with gothic castle dark",
+          "b": "场景中只保留尖拱、高窗、石柱"
+        },
+        {
+          "l": "霓虹标牌、湿润路面、远处车辆",
+          "z": "场景中只保留霓虹标牌、湿润路面、远处车辆",
+          "e": "environment details consistent with cyber future city",
+          "b": "场景中只保留霓虹标牌、湿润路面、远处车辆"
+        },
+        {
+          "l": "铜色管道、齿轮、压力表",
+          "z": "场景中只保留铜色管道、齿轮、压力表",
+          "e": "environment details consistent with steampunk mechanical",
+          "b": "场景中只保留铜色管道、齿轮、压力表"
+        },
+        {
+          "l": "巨大花朵、浅色雾气、弯曲小径",
+          "z": "场景中只保留巨大花朵、浅色雾气、弯曲小径",
+          "e": "environment details consistent with surreal dream garden",
+          "b": "场景中只保留巨大花朵、浅色雾气、弯曲小径"
+        },
+        {
+          "l": "高大石柱、发光纹路、星云天空",
+          "z": "场景中只保留高大石柱、发光纹路、星云天空",
+          "e": "environment details consistent with nebula temple",
+          "b": "场景中只保留高大石柱、发光纹路、星云天空"
+        },
+        {
+          "l": "漂浮气泡、水生植物、折射光纹",
+          "z": "场景中只保留漂浮气泡、水生植物、折射光纹",
+          "e": "environment details: floating bubbles, aquatic plants, and refracted light patterns",
+          "b": "场景中只保留漂浮气泡、水生植物、折射光纹"
+        },
+        {
+          "l": "冰晶拱门、半透明冰柱、覆雪地面",
+          "z": "场景中只保留冰晶拱门、半透明冰柱、覆雪地面",
+          "e": "environment details consistent with ice palace fantasy",
+          "b": "场景中只保留冰晶拱门、半透明冰柱、覆雪地面"
+        },
+        {
+          "l": "层叠云海、远山、浅色古典建筑",
+          "z": "场景中只保留层叠云海、远山、浅色古典建筑",
+          "e": "environment details consistent with cloud realm fantasy",
+          "b": "场景中只保留层叠云海、远山、浅色古典建筑"
+        },
+        {
+          "l": "悬浮花瓣、留白背景、少量花枝",
+          "z": "场景中只保留悬浮花瓣、留白背景、少量花枝",
+          "e": "environment details consistent with petal storm concept",
+          "b": "场景中只保留悬浮花瓣、留白背景、少量花枝"
+        },
+        {
+          "l": "复古自行车与白玫瑰",
+          "z": "复古自行车、白玫瑰与明亮草坪",
+          "e": "a vintage bicycle, white roses, and a bright lawn",
+          "b": "复古自行车、白玫瑰与明亮草坪"
+        },
+        {
+          "l": "仙鹤屏风与深色家具",
+          "z": "东方仙鹤装饰屏风与深色木质家具",
+          "e": "a crane-decorated screen and dark wooden furniture",
+          "b": "东方仙鹤装饰屏风与深色木质家具"
+        },
+        {
+          "l": "铁丝网与工业地面",
+          "z": "铁丝网、混凝土地面与彩色灯光反射",
+          "e": "chain-link fencing and a textured industrial floor",
+          "b": "铁丝网、混凝土地面与彩色灯光反射"
+        },
+        {
+          "l": "美容反光板",
+          "z": "影棚渐变背景与下方美容反光板",
+          "e": "a restrained beauty reflector near the frame edge",
+          "b": "影棚渐变背景与下方美容反光板"
+        },
+        {
+          "l": "沙发落地窗与绿植",
+          "z": "浅灰布艺沙发、落地窗与室内绿植",
+          "e": "a pale gray sofa, floor-to-ceiling windows, and indoor plants",
+          "b": "浅灰布艺沙发、落地窗与室内绿植"
+        },
+        {
+          "l": "旧木家具与暖黄台灯",
+          "z": "旧木家具、床铺与暖黄台灯",
+          "e": "worn wooden furniture and a warm amber table lamp",
+          "b": "旧木家具、床铺与暖黄台灯"
+        },
+        {
+          "l": "仪表盘与出风口细节",
+          "z": "细节包括仪表盘刻度与出风口格栅",
+          "e": "dashboard dials and air vent grilles as detail",
+          "b": "细节包括仪表盘与出风口"
+        }
+      ]
+    },
+    "空间材质": {
+      "module": "场景",
+      "lv": 2,
+      "options": [
+        {
+          "l": "暖木材质",
+          "z": "空间材质以纹理自然的暖色木材为主",
+          "e": "warm wood surfaces",
+          "b": "空间材质以纹理自然的暖色木材为主"
+        },
+        {
+          "l": "浅木材质",
+          "z": "空间材质以明度较高的浅色木材为主",
+          "e": "light wood surfaces",
+          "b": "空间材质以明度较高的浅色木材为主"
+        },
+        {
+          "l": "灰色木饰面",
+          "z": "空间材质以纹理细密的灰色木饰面为主",
+          "e": "gray wood surfaces",
+          "b": "空间材质以纹理细密的灰色木饰面为主"
+        },
+        {
+          "l": "米杏织物",
+          "z": "空间材质以表面柔软的米杏色织物为主",
+          "e": "cream fabric surfaces",
+          "b": "空间材质以表面柔软的米杏色织物为主"
+        },
+        {
+          "l": "深棕皮革",
+          "z": "空间材质以带自然褶皱与低光泽的深棕色皮革为主",
+          "e": "brown leather surfaces",
+          "b": "空间材质以带自然褶皱与低光泽的深棕色皮革为主"
+        },
+        {
+          "l": "浅灰石材",
+          "z": "空间材质以接缝整齐、表面细腻的浅灰石材为主",
+          "e": "gray stone surfaces",
+          "b": "空间材质以接缝整齐、表面细腻的浅灰石材为主"
+        },
+        {
+          "l": "通透玻璃",
+          "z": "空间材质以反射清楚但保持通透的玻璃为主",
+          "e": "clear glass surfaces",
+          "b": "空间材质以反射清楚但保持通透的玻璃为主"
+        },
+        {
+          "l": "拉丝金属",
+          "z": "空间材质以表面反光克制的拉丝金属为主",
+          "e": "brushed metal surfaces",
+          "b": "空间材质以表面反光克制的拉丝金属为主"
+        },
+        {
+          "l": "白色涂料墙面",
+          "z": "空间材质以表面平整的白色涂料墙面为主",
+          "e": "white plaster surfaces",
+          "b": "空间材质以表面平整的白色涂料墙面为主"
+        },
+        {
+          "l": "复古瓷砖",
+          "z": "空间材质以釉面反光柔和的复古瓷砖为主",
+          "e": "retro tile surfaces",
+          "b": "空间材质以釉面反光柔和的复古瓷砖为主"
+        },
+        {
+          "l": "亚麻织物",
+          "z": "空间材质以织纹可见、垂坠自然的亚麻织物为主",
+          "e": "linen textile surfaces",
+          "b": "空间材质以织纹可见、垂坠自然的亚麻织物为主"
+        },
+        {
+          "l": "运动橡胶地面",
+          "z": "空间材质以颗粒细密、反光较低的运动橡胶地面为主",
+          "e": "rubber floor surfaces",
+          "b": "空间材质以颗粒细密、反光较低的运动橡胶地面为主"
+        },
+        {
+          "l": "红砖墙面",
+          "z": "空间材质以裸露的红砖墙面为主",
+          "e": "red brick surfaces",
+          "b": "空间材质以裸露的红砖墙面为主"
+        },
+        {
+          "l": "清水混凝土",
+          "z": "空间材质以素净的清水混凝土为主",
+          "e": "raw concrete surfaces",
+          "b": "空间材质以素净的清水混凝土为主"
+        },
+        {
+          "l": "藤编材质",
+          "z": "空间材质以天然藤编材质为主",
+          "e": "rattan surfaces",
+          "b": "空间材质以天然藤编材质为主"
+        },
+        {
+          "l": "水磨石地面",
+          "z": "空间材质以带细小石粒的水磨石地面为主",
+          "e": "terrazzo surfaces",
+          "b": "空间材质以带细小石粒的水磨石地面为主"
+        },
+        {
+          "l": "车舱皮革",
+          "z": "材质以车舱皮革为主，缝线与皮质纹理清晰",
+          "e": "dominated by car cabin leather with visible stitching and grain",
+          "b": "材质以车舱皮革为主"
+        }
+      ]
+    },
+    "空间层次": {
+      "module": "场景",
+      "lv": 3,
+      "options": [
+        {
+          "l": "前中后三层",
+          "z": "画面空间呈现前景遮挡、人物主体与背景环境组成的三层纵深",
+          "e": "foreground subject background spatial depth",
+          "b": "画面空间呈现前景遮挡、人物主体与背景环境组成的三层纵深"
+        },
+        {
+          "l": "纵向框景",
+          "z": "画面空间呈现门框或立柱包围人物的纵向框景关系",
+          "e": "vertical frame spatial depth",
+          "b": "画面空间呈现门框或立柱包围人物的纵向框景关系"
+        },
+        {
+          "l": "窗内外层次",
+          "z": "画面空间呈现室内人物、玻璃反射与窗外景物构成的内外层次",
+          "e": "window depth spatial depth",
+          "b": "画面空间呈现室内人物、玻璃反射与窗外景物构成的内外层次"
+        },
+        {
+          "l": "走廊纵深",
+          "z": "画面空间呈现墙面与地面线条向远处收拢的走廊纵深",
+          "e": "corridor depth spatial depth",
+          "b": "画面空间呈现墙面与地面线条向远处收拢的走廊纵深"
+        },
+        {
+          "l": "单侧环境留白",
+          "z": "画面空间呈现人物一侧保留开阔环境留白的空间关系",
+          "e": "open negative space spatial depth",
+          "b": "画面空间呈现人物一侧保留开阔环境留白的空间关系"
+        },
+        {
+          "l": "紧凑室内层次",
+          "z": "画面空间呈现前景家具、人物与近距离背景组成的紧凑室内层次",
+          "e": "shallow interior spatial depth",
+          "b": "画面空间呈现前景家具、人物与近距离背景组成的紧凑室内层次"
+        },
+        {
+          "l": "开阔户外纵深",
+          "z": "画面空间呈现人物、近处地面与远处地平线组成的开阔纵深",
+          "e": "deep outdoor spatial depth",
+          "b": "画面空间呈现人物、近处地面与远处地平线组成的开阔纵深"
+        },
+        {
+          "l": "几何展厅层次",
+          "z": "画面空间呈现展墙边缘、人物与远处画作组成的几何空间层次",
+          "e": "geometric gallery spatial depth",
+          "b": "画面空间呈现展墙边缘、人物与远处画作组成的几何空间层次"
+        },
+        {
+          "l": "植物层叠空间",
+          "z": "画面空间呈现前景叶片、人物与背景植被构成的植物层叠空间",
+          "e": "layered plants spatial depth",
+          "b": "画面空间呈现前景叶片、人物与背景植被构成的植物层叠空间"
+        },
+        {
+          "l": "反射空间层次",
+          "z": "画面空间呈现真实人物、玻璃反射与远处环境共同形成的反射层次",
+          "e": "reflection depth spatial depth",
+          "b": "画面空间呈现真实人物、玻璃反射与远处环境共同形成的反射层次"
+        },
+        {
+          "l": "镜面对称层次",
+          "z": "画面空间呈现镜面反射形成的对称层次",
+          "e": "mirror symmetry spatial depth",
+          "b": "画面空间呈现镜面反射形成的对称层次"
+        },
+        {
+          "l": "俯视纵深",
+          "z": "画面空间呈现自上而下的纵深感",
+          "e": "top down depth spatial depth",
+          "b": "画面空间呈现自上而下的纵深感"
+        },
+        {
+          "l": "前景遮挡层次",
+          "z": "画面空间呈现前景遮挡与背景呼应的层次",
+          "e": "foreground occlusion spatial depth",
+          "b": "画面空间呈现前景遮挡与背景呼应的层次"
+        }
+      ]
+    },
+    "主光来源": {
+      "module": "光影",
+      "lv": 1,
+      "options": [
+        {
+          "l": "窗户日光",
+          "z": "主光来自窗户进入的自然日光",
+          "e": "lit by window daylight",
+          "b": "主光来自窗户进入的自然日光"
+        },
+        {
+          "l": "阴天天光",
+          "z": "主光来自云层散射形成的均匀天光",
+          "e": "lit by soft overcast skylight",
+          "b": "主光来自云层散射形成的均匀天光"
+        },
+        {
+          "l": "直射阳光",
+          "z": "主光来自无遮挡的直射阳光",
+          "e": "lit by direct sunlight",
+          "b": "主光来自无遮挡的直射阳光"
+        },
+        {
+          "l": "叶隙阳光",
+          "z": "主光来自穿过树叶间隙的阳光",
+          "e": "lit by sunlight filtered through leaves",
+          "b": "主光来自穿过树叶间隙的阳光"
+        },
+        {
+          "l": "日落阳光",
+          "z": "主光来自接近地平线的暖色阳光",
+          "e": "lit by warm sunset light",
+          "b": "主光来自接近地平线的暖色阳光"
+        },
+        {
+          "l": "大型柔光箱",
+          "z": "主光来自靠近人物的大型柔光箱",
+          "e": "lit by a large softbox",
+          "b": "主光来自靠近人物的大型柔光箱"
+        },
+        {
+          "l": "雷达罩美人光",
+          "z": "主光来自位于镜头上方的雷达罩柔光",
+          "e": "lit by a beauty dish",
+          "b": "主光来自位于镜头上方的雷达罩柔光"
+        },
+        {
+          "l": "环形补光",
+          "z": "主光来自环绕镜头的柔和环形补光",
+          "e": "lit by ring-light fill",
+          "b": "主光来自环绕镜头的柔和环形补光"
+        },
+        {
+          "l": "镜头方向硬闪",
+          "z": "主光来自镜头方向直接发出的硬质闪光",
+          "e": "lit by hard on-camera flash",
+          "b": "主光来自镜头方向直接发出的硬质闪光"
+        },
+        {
+          "l": "柔化直闪",
+          "z": "主光来自经过柔化的镜头方向闪光",
+          "e": "lit by soft flash",
+          "b": "主光来自经过柔化的镜头方向闪光"
+        },
+        {
+          "l": "柔光灯板",
+          "z": "主光来自大面积连续柔光灯板",
+          "e": "lit by a continuous LED panel",
+          "b": "主光来自大面积连续柔光灯板"
+        },
+        {
+          "l": "室内钨丝灯",
+          "z": "主光来自画面内暖色钨丝灯具",
+          "e": "lit by tungsten practical lamps",
+          "b": "主光来自画面内暖色钨丝灯具"
+        },
+        {
+          "l": "霓虹灯牌",
+          "z": "主光来自街道霓虹灯牌与店铺灯光",
+          "e": "lit by neon signage",
+          "b": "主光来自街道霓虹灯牌与店铺灯光"
+        },
+        {
+          "l": "室内顶光",
+          "z": "主光来自室内顶部灯具与环境反射光",
+          "e": "lit by soft ambient ceiling light",
+          "b": "主光来自室内顶部灯具与环境反射光"
+        },
+        {
+          "l": "橱窗灯光",
+          "z": "主光来自商店橱窗向外投射的灯光",
+          "e": "lit by storefront light",
+          "b": "主光来自商店橱窗向外投射的灯光"
+        },
+        {
+          "l": "反射补光",
+          "z": "主光来自浅色墙面或反光板返回的柔和光线",
+          "e": "lit by reflected bounce light",
+          "b": "主光来自浅色墙面或反光板返回的柔和光线"
+        },
+        {
+          "l": "烛光",
+          "z": "主光来自摇曳的烛光",
+          "e": "lit by candlelight",
+          "b": "主光来自摇曳的烛光"
+        },
+        {
+          "l": "篝火",
+          "z": "主光来自篝火跃动的火光",
+          "e": "lit by a campfire",
+          "b": "主光来自篝火跃动的火光"
+        },
+        {
+          "l": "手机屏幕光",
+          "z": "主光来自手机屏幕发出的冷光",
+          "e": "lit by a phone screen",
+          "b": "主光来自手机屏幕发出的冷光"
+        },
+        {
+          "l": "投影光",
+          "z": "主光来自投影仪打出的光束",
+          "e": "lit by projected light",
+          "b": "主光来自投影仪打出的光束"
+        },
+        {
+          "l": "车灯光",
+          "z": "主光来自驶近车辆的车灯光",
+          "e": "lit by car headlights",
+          "b": "主光来自驶近车辆的车灯光"
+        }
+      ]
+    },
+    "光线方向": {
+      "module": "光影",
+      "lv": 1,
+      "options": [
+        {
+          "l": "正面",
+          "z": "光线从镜头正面方向照向人物",
+          "e": "with light coming from the front",
+          "b": "光线从镜头正面方向照向人物"
+        },
+        {
+          "l": "左前方",
+          "z": "光线从人物左前方约四十五度照入",
+          "e": "with light coming from the front left",
+          "b": "光线从人物左前方约四十五度照入"
+        },
+        {
+          "l": "右前方",
+          "z": "光线从人物右前方约四十五度照入",
+          "e": "with light coming from the front right",
+          "b": "光线从人物右前方约四十五度照入"
+        },
+        {
+          "l": "左侧",
+          "z": "光线从人物左侧横向照入",
+          "e": "with light coming from the side left",
+          "b": "光线从人物左侧横向照入"
+        },
+        {
+          "l": "右侧",
+          "z": "光线从人物右侧横向照入",
+          "e": "with light coming from the side right",
+          "b": "光线从人物右侧横向照入"
+        },
+        {
+          "l": "左后方",
+          "z": "光线从人物左后方形成轮廓光",
+          "e": "with light coming from the back left",
+          "b": "光线从人物左后方形成轮廓光"
+        },
+        {
+          "l": "右后方",
+          "z": "光线从人物右后方形成轮廓光",
+          "e": "with light coming from the back right",
+          "b": "光线从人物右后方形成轮廓光"
+        },
+        {
+          "l": "正后方",
+          "z": "光线从人物正后方照向镜头",
+          "e": "with light coming from the back",
+          "b": "光线从人物正后方照向镜头"
+        },
+        {
+          "l": "前上方",
+          "z": "光线从镜头上方偏前的位置向下照射",
+          "e": "with light coming from the top front",
+          "b": "光线从镜头上方偏前的位置向下照射"
+        },
+        {
+          "l": "顶部",
+          "z": "光线从人物正上方向下照射",
+          "e": "with light coming from the top",
+          "b": "光线从人物正上方向下照射"
+        },
+        {
+          "l": "下方补光",
+          "z": "光线从镜头下方向上轻微补亮人物",
+          "e": "with light coming from the below front",
+          "b": "光线从镜头下方向上轻微补亮人物"
+        }
+      ]
+    },
+    "光线质地": {
+      "module": "光影",
+      "lv": 2,
+      "options": [
+        {
+          "l": "极柔和",
+          "z": "光线呈现边缘过渡宽缓的极柔和质地",
+          "e": "with very soft lighting",
+          "b": "光线呈现边缘过渡宽缓的极柔和质地"
+        },
+        {
+          "l": "柔和散射",
+          "z": "光线呈现均匀散射、边缘柔软的质地",
+          "e": "with soft, diffused lighting",
+          "b": "光线呈现均匀散射、边缘柔软的质地"
+        },
+        {
+          "l": "柔和定向",
+          "z": "光线呈现方向明确但阴影边缘柔和的质地",
+          "e": "with soft directional lighting",
+          "b": "光线呈现方向明确但阴影边缘柔和的质地"
+        },
+        {
+          "l": "清晰硬光",
+          "z": "光线呈现边缘清楚、反差直接的硬光质地",
+          "e": "with crisp, hard lighting",
+          "b": "光线呈现边缘清楚、反差直接的硬光质地"
+        },
+        {
+          "l": "斑驳光影",
+          "z": "光线呈现被枝叶切分的斑驳光影",
+          "e": "with dappled lighting",
+          "b": "光线呈现被枝叶切分的斑驳光影"
+        },
+        {
+          "l": "发光逆光",
+          "z": "光线呈现带轻微空气散射的明亮逆光",
+          "e": "with luminous backlighting",
+          "b": "光线呈现带轻微空气散射的明亮逆光"
+        },
+        {
+          "l": "均匀平光",
+          "z": "光线呈现亮度均匀、阴影很浅的平光质地",
+          "e": "with soft, even lighting",
+          "b": "光线呈现亮度均匀、阴影很浅的平光质地"
+        },
+        {
+          "l": "高光鲜明",
+          "z": "光线呈现在光滑材质上形成清楚反光的质地",
+          "e": "with specular lighting",
+          "b": "光线呈现在光滑材质上形成清楚反光的质地"
+        },
+        {
+          "l": "低调定向光",
+          "z": "光线呈现照明范围集中、明暗分区明确的低调质地",
+          "e": "with low-key lighting",
+          "b": "光线呈现照明范围集中、明暗分区明确的低调质地"
+        },
+        {
+          "l": "混合色光",
+          "z": "光线呈现冷暖光源同时存在的混合色光质地",
+          "e": "with mixed-color lighting",
+          "b": "光线呈现冷暖光源同时存在的混合色光质地"
+        },
+        {
+          "l": "逆光剪影",
+          "z": "光线呈现将人物勾成剪影的强逆光",
+          "e": "with silhouette backlighting",
+          "b": "光线呈现将人物勾成剪影的强逆光"
+        },
+        {
+          "l": "伦勃朗光",
+          "z": "光线呈现在脸颊形成三角光斑的伦勃朗光",
+          "e": "with Rembrandt lighting",
+          "b": "光线呈现在脸颊形成三角光斑的伦勃朗光"
+        },
+        {
+          "l": "蝴蝶光",
+          "z": "光线呈现鼻下形成蝶形阴影的蝴蝶光",
+          "e": "with classic butterfly lighting",
+          "b": "光线呈现鼻下形成蝶形阴影的蝴蝶光"
+        }
+      ]
+    },
+    "照明落点": {
+      "module": "光影",
+      "lv": 3,
+      "options": [
+        {
+          "l": "面部与双眼",
+          "z": "主光主要照亮人物面部与双眼",
+          "e": "illuminating face eyes",
+          "b": "主光主要照亮人物面部与双眼"
+        },
+        {
+          "l": "面部与肩颈",
+          "z": "主光主要照亮人物面部、肩颈与锁骨区域",
+          "e": "illuminating face shoulders",
+          "b": "主光主要照亮人物面部、肩颈与锁骨区域"
+        },
+        {
+          "l": "面部与手部",
+          "z": "主光主要照亮人物面部与靠近面部的手部动作",
+          "e": "illuminating face hands",
+          "b": "主光主要照亮人物面部与靠近面部的手部动作"
+        },
+        {
+          "l": "上半身",
+          "z": "主光主要照亮人物面部与上半身",
+          "e": "illuminating upper body",
+          "b": "主光主要照亮人物面部与上半身"
+        },
+        {
+          "l": "完整人物",
+          "z": "主光主要照亮人物从头部到脚部的完整轮廓",
+          "e": "illuminating full figure",
+          "b": "主光主要照亮人物从头部到脚部的完整轮廓"
+        },
+        {
+          "l": "发丝轮廓",
+          "z": "主光主要照亮头发边缘与肩部轮廓",
+          "e": "illuminating hair edge",
+          "b": "主光主要照亮头发边缘与肩部轮廓"
+        },
+        {
+          "l": "服装材质",
+          "z": "主光主要照亮服装表面的纹理与褶皱",
+          "e": "illuminating garment texture",
+          "b": "主光主要照亮服装表面的纹理与褶皱"
+        },
+        {
+          "l": "腿部与鞋子",
+          "z": "主光主要照亮腿部线条与鞋面材质",
+          "e": "illuminating legs shoes",
+          "b": "主光主要照亮腿部线条与鞋面材质"
+        },
+        {
+          "l": "人物与近处背景",
+          "z": "主光主要照亮人物和紧邻人物的背景结构",
+          "e": "illuminating subject background",
+          "b": "主光主要照亮人物和紧邻人物的背景结构"
+        },
+        {
+          "l": "道具与双手",
+          "z": "主光主要照亮手中道具与双手的接触细节",
+          "e": "illuminating prop hands",
+          "b": "主光主要照亮手中道具与双手的接触细节"
+        }
+      ]
+    },
+    "阴影表现": {
+      "module": "光影",
+      "lv": 3,
+      "options": [
+        {
+          "l": "极浅阴影",
+          "z": "阴影呈现很浅的明暗差，面部轮廓平缓",
+          "e": "with barely visible shadows",
+          "b": "阴影呈现很浅的明暗差"
+        },
+        {
+          "l": "柔和渐变",
+          "z": "阴影呈现边缘宽缓的柔和渐变",
+          "e": "with soft gradation shadows",
+          "b": "阴影呈现边缘宽缓的柔和渐变"
+        },
+        {
+          "l": "自然轮廓阴影",
+          "z": "阴影呈现沿鼻梁、下颌与颈部形成自然层次",
+          "e": "with natural contour shadows",
+          "b": "阴影呈现沿鼻梁、下颌与颈部形成自然层次"
+        },
+        {
+          "l": "清晰闪光阴影",
+          "z": "阴影呈现贴近人物轮廓的清晰闪光投影",
+          "e": "with clear flash shadows",
+          "b": "阴影呈现贴近人物轮廓的清晰闪光投影"
+        },
+        {
+          "l": "枝叶投影",
+          "z": "阴影呈现落在面部、肩颈和衣料上的枝叶形状",
+          "e": "with dappled leaf shadows",
+          "b": "阴影呈现落在面部、肩颈和衣料上的枝叶形状"
+        },
+        {
+          "l": "日落长影",
+          "z": "阴影呈现方向一致、长度明显的日落投影",
+          "e": "with long sunset shadows",
+          "b": "阴影呈现方向一致、长度明显的日落投影"
+        },
+        {
+          "l": "深侧影",
+          "z": "阴影呈现一侧明亮、另一侧明显压暗的深侧影",
+          "e": "with deep side shadows",
+          "b": "阴影呈现一侧明亮、另一侧明显压暗的深侧影"
+        },
+        {
+          "l": "轮廓分离",
+          "z": "阴影呈现暗部边缘被轮廓光勾亮的分离效果",
+          "e": "with rim separation shadows",
+          "b": "阴影呈现暗部边缘被轮廓光勾亮的分离效果"
+        },
+        {
+          "l": "窗格投影",
+          "z": "阴影呈现窗框或百叶在人物与墙面上的几何投影",
+          "e": "with window pattern shadows",
+          "b": "阴影呈现窗框或百叶在人物与墙面上的几何投影"
+        },
+        {
+          "l": "多光源软影",
+          "z": "阴影呈现由多处环境光叠加形成的浅软阴影",
+          "e": "with mixed soft shadows",
+          "b": "阴影呈现由多处环境光叠加形成的浅软阴影"
+        }
+      ]
+    },
+    "主配色": {
+      "module": "光影",
+      "lv": 1,
+      "options": [
+        {
+          "l": "薄荷绿与白",
+          "z": "画面以嫩绿色、薄荷绿与白色为主要配色",
+          "e": "with a mint white color palette",
+          "b": "画面以嫩绿色、薄荷绿与白色为主要配色"
+        },
+        {
+          "l": "暖棕与奶白",
+          "z": "画面以暖棕色、奶油白与自然肤色为主要配色",
+          "e": "with a warm brown cream color palette",
+          "b": "画面以暖棕色、奶油白与自然肤色为主要配色"
+        },
+        {
+          "l": "暖灰与玄黑",
+          "z": "画面以暖灰色、玄黑色与少量酒红色为主要配色",
+          "e": "with a warm gray black color palette",
+          "b": "画面以暖灰色、玄黑色与少量酒红色为主要配色"
+        },
+        {
+          "l": "冷灰与蓝",
+          "z": "画面以冷灰色、雾蓝色与低饱和肤色为主要配色",
+          "e": "with a cool gray blue color palette",
+          "b": "画面以冷灰色、雾蓝色与低饱和肤色为主要配色"
+        },
+        {
+          "l": "奶油米杏",
+          "z": "画面以奶油白、米杏色与浅木色为主要配色",
+          "e": "with a cream beige color palette",
+          "b": "画面以奶油白、米杏色与浅木色为主要配色"
+        },
+        {
+          "l": "黑红金",
+          "z": "画面以黑色、深红色与少量金色为主要配色",
+          "e": "with a black red gold color palette",
+          "b": "画面以黑色、深红色与少量金色为主要配色"
+        },
+        {
+          "l": "青橙对照",
+          "z": "画面以蓝绿色环境光与暖橙色肤光为主要配色",
+          "e": "with a teal orange color palette",
+          "b": "画面以蓝绿色环境光与暖橙色肤光为主要配色"
+        },
+        {
+          "l": "港风绿红",
+          "z": "画面以暗绿色、复古红色与钨丝灯黄为主要配色",
+          "e": "with a hongkong green red color palette",
+          "b": "画面以暗绿色、复古红色与钨丝灯黄为主要配色"
+        },
+        {
+          "l": "新中式木色",
+          "z": "画面以深木色、宣纸白与低饱和青绿色为主要配色",
+          "e": "with a new chinese wood color palette",
+          "b": "画面以深木色、宣纸白与低饱和青绿色为主要配色"
+        },
+        {
+          "l": "海天蓝与沙色",
+          "z": "画面以天空蓝、海水蓝与暖沙色为主要配色",
+          "e": "with a sky blue sand color palette",
+          "b": "画面以天空蓝、海水蓝与暖沙色为主要配色"
+        },
+        {
+          "l": "白与银灰",
+          "z": "画面以纯白色、银灰色与自然肤色为主要配色",
+          "e": "with a white silver color palette",
+          "b": "画面以纯白色、银灰色与自然肤色为主要配色"
+        },
+        {
+          "l": "裸粉与奶油色",
+          "z": "画面以柔和裸粉色、奶油白与浅杏色为主要配色",
+          "e": "with a pink cream color palette",
+          "b": "画面以柔和裸粉色、奶油白与浅杏色为主要配色"
+        },
+        {
+          "l": "大地绿棕",
+          "z": "画面以苔绿色、泥土棕与低饱和卡其色为主要配色",
+          "e": "with an earth green color palette",
+          "b": "画面以苔绿色、泥土棕与低饱和卡其色为主要配色"
+        },
+        {
+          "l": "紫蓝霓虹",
+          "z": "画面以深紫色、蓝色与少量洋红色为主要配色",
+          "e": "with a purple blue neon color palette",
+          "b": "画面以深紫色、蓝色与少量洋红色为主要配色"
+        },
+        {
+          "l": "商品中性色",
+          "z": "画面以中性白、浅灰与准确还原的商品颜色为主要配色",
+          "e": "with a neutral product color palette",
+          "b": "画面以中性白、浅灰与准确还原的商品颜色为主要配色"
+        },
+        {
+          "l": "黑白灰阶",
+          "z": "画面以从深黑到亮白的连续灰阶为主要配色",
+          "e": "with a monochrome color palette",
+          "b": "画面以从深黑到亮白的连续灰阶为主要配色"
+        },
+        {
+          "l": "莫兰迪色系",
+          "z": "画面以低饱和、带灰调的莫兰迪色系为主要配色",
+          "e": "with a morandi color palette",
+          "b": "画面以低饱和、带灰调的莫兰迪色系为主要配色"
+        },
+        {
+          "l": "马卡龙色系",
+          "z": "画面以明快甜美的马卡龙色系为主要配色",
+          "e": "with a macaron color palette",
+          "b": "画面以明快甜美的马卡龙色系为主要配色"
+        },
+        {
+          "l": "日落橙紫",
+          "z": "画面以日落橙与暮紫色为主要配色",
+          "e": "with a sunset orange purple color palette",
+          "b": "画面以日落橙与暮紫色为主要配色"
+        },
+        {
+          "l": "森林绿棕",
+          "z": "画面以森林绿与大地棕色为主要配色",
+          "e": "with a forest green brown color palette",
+          "b": "画面以森林绿与大地棕色为主要配色"
+        },
+        {
+          "l": "黑白红",
+          "z": "画面以黑白主调与正红点缀为主要配色",
+          "e": "with a black white red color palette",
+          "b": "画面以黑白主调与正红点缀为主要配色"
+        },
+        {
+          "l": "珊瑚粉与薄荷绿",
+          "z": "珊瑚粉与薄荷绿",
+          "e": "with a coral pink and mint green color palette",
+          "b": "珊瑚粉与薄荷绿"
+        },
+        {
+          "l": "浅灰与暖白",
+          "z": "浅灰与暖白",
+          "e": "with a light gray and warm white color palette",
+          "b": "浅灰与暖白"
+        },
+        {
+          "l": "香槟粉与深棕黑",
+          "z": "香槟粉与深棕黑",
+          "e": "with a champagne pink and deep brown-black color palette",
+          "b": "香槟粉与深棕黑"
+        },
+        {
+          "l": "冷蓝与暖黄",
+          "z": "冷蓝与暖黄",
+          "e": "with a cool blue and warm amber color palette",
+          "b": "冷蓝与暖黄"
+        }
+      ]
+    },
+    "色温倾向": {
+      "module": "光影",
+      "lv": 2,
+      "options": [
+        {
+          "l": "偏暖",
+          "z": "整体色温偏暖，肤色保留自然红润感",
+          "e": "with a warm color temperature",
+          "b": "整体色温偏暖"
+        },
+        {
+          "l": "轻微偏暖",
+          "z": "整体色温轻微偏暖，白色区域仍接近中性",
+          "e": "with a slightly warm color temperature",
+          "b": "整体色温轻微偏暖"
+        },
+        {
+          "l": "中性",
+          "z": "整体色温保持中性，肤色与白色还原准确",
+          "e": "with a neutral color temperature",
+          "b": "整体色温保持中性"
+        },
+        {
+          "l": "轻微偏冷",
+          "z": "整体色温轻微偏冷，肤色仍保持自然",
+          "e": "with a slightly cool color temperature",
+          "b": "整体色温轻微偏冷"
+        },
+        {
+          "l": "偏冷",
+          "z": "整体色温偏冷，环境中的蓝灰色更明显",
+          "e": "with a cool color temperature",
+          "b": "整体色温偏冷"
+        },
+        {
+          "l": "人物暖背景冷",
+          "z": "整体色温让人物偏暖、背景偏冷",
+          "e": "with a warm subject cool bg color temperature",
+          "b": "整体色温让人物偏暖、背景偏冷"
+        },
+        {
+          "l": "人物冷背景暖",
+          "z": "整体色温让人物偏中性冷色、背景保留暖光",
+          "e": "with a cool subject warm bg color temperature",
+          "b": "整体色温让人物偏中性冷色、背景保留暖光"
+        },
+        {
+          "l": "冷暖混合",
+          "z": "整体色温呈现可辨认的冷暖光源混合",
+          "e": "with a mixed warm cool color temperature",
+          "b": "整体色温呈现可辨认的冷暖光源混合"
+        }
+      ]
+    },
+    "画面对比": {
+      "module": "光影",
+      "lv": 3,
+      "options": [
+        {
+          "l": "极低反差",
+          "z": "整体反差很低，亮部与暗部过渡平缓",
+          "e": "with very low contrast",
+          "b": "整体反差很低"
+        },
+        {
+          "l": "低反差",
+          "z": "整体反差偏低，保留柔和灰阶",
+          "e": "with low contrast",
+          "b": "整体反差偏低"
+        },
+        {
+          "l": "中低反差",
+          "z": "整体反差中等偏低，人物层次清楚但不过硬",
+          "e": "with medium low contrast",
+          "b": "整体反差中等偏低"
+        },
+        {
+          "l": "自然反差",
+          "z": "整体反差自然，黑白层次接近日常观看效果",
+          "e": "with natural contrast",
+          "b": "整体反差自然"
+        },
+        {
+          "l": "中高反差",
+          "z": "整体反差中等偏高，轮廓与材质更鲜明",
+          "e": "with medium high contrast",
+          "b": "整体反差中等偏高"
+        },
+        {
+          "l": "高反差",
+          "z": "整体反差较高，明暗区域分界清楚",
+          "e": "with high contrast",
+          "b": "整体反差较高"
+        },
+        {
+          "l": "柔亮深黑",
+          "z": "整体反差亮部柔和而黑色区域保持深沉",
+          "e": "with soft highlights deep blacks contrast",
+          "b": "整体反差亮部柔和而黑色区域保持深沉"
+        },
+        {
+          "l": "压缩灰阶",
+          "z": "整体反差被压缩在较窄灰阶范围内，呈现克制层次",
+          "e": "with compressed tones contrast",
+          "b": "整体反差被压缩在较窄灰阶范围内"
+        }
+      ]
+    },
+    "景别": {
+      "module": "镜头",
+      "lv": 1,
+      "options": [
+        {
+          "l": "面部特写",
+          "z": "采用面部特写构图",
+          "e": "face closeup framing",
+          "b": "采用面部特写构图"
+        },
+        {
+          "l": "头肩近景",
+          "z": "采用头部与肩部入画的近景构图",
+          "e": "head shoulders framing",
+          "b": "采用头部与肩部入画的近景构图"
+        },
+        {
+          "l": "胸部以上",
+          "z": "采用胸部以上近景构图",
+          "e": "chest up framing",
+          "b": "采用胸部以上近景构图"
+        },
+        {
+          "l": "腰部以上",
+          "z": "采用腰部以上半身构图",
+          "e": "waist up framing",
+          "b": "采用腰部以上半身构图"
+        },
+        {
+          "l": "坐姿半身",
+          "z": "采用坐姿半身构图",
+          "e": "seated half framing",
+          "b": "采用坐姿半身构图"
+        },
+        {
+          "l": "三分之二身",
+          "z": "采用膝部以上的三分之二身构图",
+          "e": "three-quarter framing",
+          "b": "采用膝部以上的三分之二身构图"
+        },
+        {
+          "l": "全身构图",
+          "z": "采用从头部到脚部完整入画的全身构图",
+          "e": "full body framing",
+          "b": "采用从头部到脚部完整入画的全身构图"
+        },
+        {
+          "l": "带环境全身",
+          "z": "采用保留较多周围环境的全身构图",
+          "e": "wide full body framing",
+          "b": "采用保留较多周围环境的全身构图"
+        },
+        {
+          "l": "环境人像",
+          "z": "采用人物与所在空间共同入画的环境人像构图",
+          "e": "environmental portrait framing",
+          "b": "采用人物与所在空间共同入画的环境人像构图"
+        },
+        {
+          "l": "局部特写",
+          "z": "采用手部、服装或配饰占据主体的局部特写构图",
+          "e": "detail closeup framing",
+          "b": "采用手部、服装或配饰占据主体的局部特写构图"
+        },
+        {
+          "l": "动态全身",
+          "z": "采用完整保留肢体动作的动态全身构图",
+          "e": "dynamic full body framing",
+          "b": "采用完整保留肢体动作的动态全身构图"
+        }
+      ]
+    },
+    "画面布局": {
+      "module": "镜头",
+      "lv": 2,
+      "options": [
+        {
+          "l": "居中构图",
+          "z": "人物位于画面中央",
+          "e": "with a centered composition",
+          "b": "人物位于画面中央"
+        },
+        {
+          "l": "中央偏右",
+          "z": "人物位于画面中央偏右",
+          "e": "with a center-right composition",
+          "b": "人物位于画面中央偏右"
+        },
+        {
+          "l": "中央偏左",
+          "z": "人物位于画面中央偏左",
+          "e": "with a center-left composition",
+          "b": "人物位于画面中央偏左"
+        },
+        {
+          "l": "左侧三分线",
+          "z": "人物位于画面左侧三分线附近",
+          "e": "with a left third composition",
+          "b": "人物位于画面左侧三分线附近"
+        },
+        {
+          "l": "右侧三分线",
+          "z": "人物位于画面右侧三分线附近",
+          "e": "with a right third composition",
+          "b": "人物位于画面右侧三分线附近"
+        },
+        {
+          "l": "下方居中",
+          "z": "人物位于画面下方中央并在上方保留空间",
+          "e": "with a lower center composition",
+          "b": "人物位于画面下方中央并在上方保留空间"
+        },
+        {
+          "l": "对称构图",
+          "z": "人物沿画面中轴排列，周围结构近似对称",
+          "e": "with a symmetrical composition",
+          "b": "人物沿画面中轴排列"
+        },
+        {
+          "l": "门框框景",
+          "z": "人物被门框从两侧围合形成纵向框景",
+          "e": "with a doorway frame composition",
+          "b": "人物被门框从两侧围合形成纵向框景"
+        },
+        {
+          "l": "前景框景",
+          "z": "人物被靠近镜头的虚化物体部分遮挡并形成框景",
+          "e": "with a foreground frame composition",
+          "b": "人物被靠近镜头的虚化物体部分遮挡并形成框景"
+        },
+        {
+          "l": "对角线构图",
+          "z": "人物沿画面对角线展开姿态",
+          "e": "with a diagonal composition",
+          "b": "人物沿画面对角线展开姿态"
+        },
+        {
+          "l": "留白构图",
+          "z": "人物位于画面一侧，另一侧保留大面积简洁空间",
+          "e": "with a negative space composition",
+          "b": "人物位于画面一侧"
+        },
+        {
+          "l": "视线方向留白",
+          "z": "人物位于画面一侧，并在视线指向的一侧保留充足空间",
+          "e": "with a gaze space composition",
+          "b": "人物位于画面一侧"
+        },
+        {
+          "l": "贴近裁切",
+          "z": "人物贴近画面边缘，肩部或肢体被自然裁切",
+          "e": "with a edge cropped composition",
+          "b": "人物贴近画面边缘"
+        },
+        {
+          "l": "三角构图",
+          "z": "人物与环境中元素构成稳定的三角构图",
+          "e": "with a triangle composition",
+          "b": "人物与环境中元素构成稳定的三角构图"
+        },
+        {
+          "l": "引导线构图",
+          "z": "人物位于向画面深处延伸的引导线上",
+          "e": "with a leading lines composition",
+          "b": "人物位于向画面深处延伸的引导线上"
+        },
+        {
+          "l": "框中框构图",
+          "z": "人物被环境元素框住形成框中框构图",
+          "e": "with a frame within frame composition",
+          "b": "人物被环境元素框住形成框中框构图"
+        },
+        {
+          "l": "黄金分割",
+          "z": "人物落在画面的黄金分割点上",
+          "e": "with a golden ratio composition",
+          "b": "人物落在画面的黄金分割点上"
+        }
+      ]
+    },
+    "等效焦段": {
+      "module": "镜头",
+      "lv": 1,
+      "options": [
+        {
+          "l": "28mm",
+          "z": "使用28mm全画幅等效镜头",
+          "e": "shot at 28mm full-frame-equivalent",
+          "b": "使用28mm全画幅等效镜头"
+        },
+        {
+          "l": "35mm",
+          "z": "使用35mm全画幅等效镜头",
+          "e": "shot at 35mm full-frame-equivalent",
+          "b": "使用35mm全画幅等效镜头"
+        },
+        {
+          "l": "40mm",
+          "z": "使用40mm全画幅等效镜头",
+          "e": "shot at 40mm full-frame-equivalent",
+          "b": "使用40mm全画幅等效镜头"
+        },
+        {
+          "l": "50mm",
+          "z": "使用50mm全画幅等效镜头",
+          "e": "shot at 50mm full-frame-equivalent",
+          "b": "使用50mm全画幅等效镜头"
+        },
+        {
+          "l": "65mm",
+          "z": "使用65mm全画幅等效镜头",
+          "e": "shot at 65mm full-frame-equivalent",
+          "b": "使用65mm全画幅等效镜头"
+        },
+        {
+          "l": "70mm",
+          "z": "使用70mm全画幅等效镜头",
+          "e": "shot at 70mm full-frame-equivalent",
+          "b": "使用70mm全画幅等效镜头"
+        },
+        {
+          "l": "85mm",
+          "z": "使用85mm全画幅等效镜头",
+          "e": "shot at 85mm full-frame-equivalent",
+          "b": "使用85mm全画幅等效镜头"
+        },
+        {
+          "l": "105mm",
+          "z": "使用105mm全画幅等效镜头",
+          "e": "shot at 105mm full-frame-equivalent",
+          "b": "使用105mm全画幅等效镜头"
+        },
+        {
+          "l": "135mm",
+          "z": "使用135mm全画幅等效镜头",
+          "e": "shot at 135mm full-frame-equivalent",
+          "b": "使用135mm全画幅等效镜头"
+        },
+        {
+          "l": "手机主摄",
+          "z": "使用接近24mm等效焦段的手机主摄镜头",
+          "e": "shot at phone main full-frame-equivalent",
+          "b": "使用接近24mm等效焦段的手机主摄镜头"
+        }
+      ]
+    },
+    "拍摄距离": {
+      "module": "镜头",
+      "lv": 2,
+      "options": [
+        {
+          "l": "0.5米",
+          "z": "摄影机与人物距离约为0.5米",
+          "e": "camera distance 0.5 m",
+          "b": "摄影机与人物距离约为0.5米"
+        },
+        {
+          "l": "0.8米",
+          "z": "摄影机与人物距离约为0.8米",
+          "e": "camera distance 0.8 m",
+          "b": "摄影机与人物距离约为0.8米"
+        },
+        {
+          "l": "1米",
+          "z": "摄影机与人物距离约为1米",
+          "e": "camera distance 1 m",
+          "b": "摄影机与人物距离约为1米"
+        },
+        {
+          "l": "1.5米",
+          "z": "摄影机与人物距离约为1.5米",
+          "e": "camera distance 1.5 m",
+          "b": "摄影机与人物距离约为1.5米"
+        },
+        {
+          "l": "2米",
+          "z": "摄影机与人物距离约为2米",
+          "e": "camera distance 2 m",
+          "b": "摄影机与人物距离约为2米"
+        },
+        {
+          "l": "2.5米",
+          "z": "摄影机与人物距离约为2.5米",
+          "e": "camera distance 2.5 m",
+          "b": "摄影机与人物距离约为2.5米"
+        },
+        {
+          "l": "3.5米",
+          "z": "摄影机与人物距离约为3.5米",
+          "e": "camera distance 3.5 m",
+          "b": "摄影机与人物距离约为3.5米"
+        },
+        {
+          "l": "5米",
+          "z": "摄影机与人物距离约为5米",
+          "e": "camera distance 5 m",
+          "b": "摄影机与人物距离约为5米"
+        },
+        {
+          "l": "7米",
+          "z": "摄影机与人物距离约为7米",
+          "e": "camera distance 7 m",
+          "b": "摄影机与人物距离约为7米"
+        }
+      ]
+    },
+    "机位": {
+      "module": "镜头",
+      "lv": 1,
+      "options": [
+        {
+          "l": "平视",
+          "z": "摄影机位于人物眼睛高度，保持平视",
+          "e": "at eye level",
+          "b": "摄影机位于人物眼睛高度"
+        },
+        {
+          "l": "略高机位",
+          "z": "摄影机位于人物眼睛上方并轻微俯拍",
+          "e": "from a slightly elevated angle",
+          "b": "摄影机位于人物眼睛上方并轻微俯拍"
+        },
+        {
+          "l": "高位俯拍",
+          "z": "摄影机位于人物头部上方，形成明确俯拍角度",
+          "e": "from a high angle",
+          "b": "摄影机位于人物头部上方"
+        },
+        {
+          "l": "略低机位",
+          "z": "摄影机位于人物眼睛下方并轻微仰拍",
+          "e": "from a slightly low angle",
+          "b": "摄影机位于人物眼睛下方并轻微仰拍"
+        },
+        {
+          "l": "低位仰拍",
+          "z": "摄影机位于人物腰部以下高度，形成明确仰拍角度",
+          "e": "from a low angle",
+          "b": "摄影机位于人物腰部以下高度"
+        },
+        {
+          "l": "胸口高度",
+          "z": "摄影机位于人物胸口高度并保持镜头水平",
+          "e": "from chest height",
+          "b": "摄影机位于人物胸口高度并保持镜头水平"
+        },
+        {
+          "l": "腰部高度",
+          "z": "摄影机位于人物腰部高度并保持镜头水平",
+          "e": "from waist height",
+          "b": "摄影机位于人物腰部高度并保持镜头水平"
+        },
+        {
+          "l": "正上方俯拍",
+          "z": "摄影机位于人物正上方并垂直向下拍摄",
+          "e": "from directly overhead",
+          "b": "摄影机位于人物正上方并垂直向下拍摄"
+        },
+        {
+          "l": "贴近地面",
+          "z": "摄影机位于接近地面的位置并向上拍摄",
+          "e": "from ground level",
+          "b": "摄影机位于接近地面的位置并向上拍摄"
+        },
+        {
+          "l": "侧前方机位",
+          "z": "摄影机位于人物侧前方约四十五度的位置",
+          "e": "from a three-quarter viewpoint",
+          "b": "摄影机位于人物侧前方约四十五度的位置"
+        },
+        {
+          "l": "侧面机位",
+          "z": "摄影机位于人物正侧方的位置",
+          "e": "from a profile viewpoint",
+          "b": "摄影机位于人物正侧方的位置"
+        },
+        {
+          "l": "荷兰角",
+          "z": "摄影机位于带轻微倾斜的荷兰角位置",
+          "e": "with a Dutch angle",
+          "b": "摄影机位于带轻微倾斜的荷兰角位置"
+        }
+      ]
+    },
+    "景深": {
+      "module": "镜头",
+      "lv": 2,
+      "options": [
+        {
+          "l": "极浅景深",
+          "z": "采用极浅景深，只有面部关键区域清晰",
+          "e": "with very shallow depth of field",
+          "b": "采用极浅景深"
+        },
+        {
+          "l": "浅景深",
+          "z": "采用浅景深，人物清晰而背景明显虚化",
+          "e": "with shallow depth of field",
+          "b": "采用浅景深"
+        },
+        {
+          "l": "中浅景深",
+          "z": "采用中浅景深，人物清晰并保留少量环境信息",
+          "e": "with moderate shallow depth of field",
+          "b": "采用中浅景深"
+        },
+        {
+          "l": "中等景深",
+          "z": "采用中等景深，人物完整清晰且背景轻度虚化",
+          "e": "with medium depth of field",
+          "b": "采用中等景深"
+        },
+        {
+          "l": "较深景深",
+          "z": "采用较深景深，人物与主要环境结构均保持清楚",
+          "e": "with deep depth of field",
+          "b": "采用较深景深"
+        },
+        {
+          "l": "前景虚化",
+          "z": "采用浅景深并让靠近镜头的前景明显失焦",
+          "e": "with foreground blur depth of field",
+          "b": "采用浅景深并让靠近镜头的前景明显失焦"
+        },
+        {
+          "l": "背景压缩",
+          "z": "采用浅景深与长焦压缩感，使背景贴近人物",
+          "e": "with background compressed depth of field",
+          "b": "采用浅景深与长焦压缩感"
+        },
+        {
+          "l": "层次景深",
+          "z": "采用中等景深，前景、人物和背景形成清晰空间层次",
+          "e": "with layered depth depth of field",
+          "b": "采用中等景深"
+        }
+      ]
+    },
+    "对焦位置": {
+      "module": "镜头",
+      "lv": 3,
+      "options": [
+        {
+          "l": "双眼与面部",
+          "z": "焦点锁定双眼与面部",
+          "e": "focused precisely on both eyes",
+          "b": "焦点锁定双眼与面部"
+        },
+        {
+          "l": "近侧眼睛",
+          "z": "焦点锁定离镜头更近的一只眼睛",
+          "e": "focused precisely on the nearer eye",
+          "b": "焦点锁定离镜头更近的一只眼睛"
+        },
+        {
+          "l": "完整面部",
+          "z": "焦点覆盖完整面部",
+          "e": "focused on the face",
+          "b": "焦点覆盖完整面部"
+        },
+        {
+          "l": "面部与上半身",
+          "z": "焦点覆盖面部与上半身轮廓",
+          "e": "focused on the upper body",
+          "b": "焦点覆盖面部与上半身轮廓"
+        },
+        {
+          "l": "完整人物",
+          "z": "焦点覆盖人物完整身体",
+          "e": "focused on the full figure",
+          "b": "焦点覆盖人物完整身体"
+        },
+        {
+          "l": "手部与道具",
+          "z": "焦点锁定手部与手中道具",
+          "e": "focused on the hands and prop",
+          "b": "焦点锁定手部与手中道具"
+        },
+        {
+          "l": "服装细节",
+          "z": "焦点锁定服装剪裁与面料细节",
+          "e": "focused on garment details",
+          "b": "焦点锁定服装剪裁与面料细节"
+        },
+        {
+          "l": "运动人物",
+          "z": "焦点跟随运动中的人物主体",
+          "e": "tracking focus on the moving subject",
+          "b": "焦点跟随运动中的人物主体"
+        },
+        {
+          "l": "人物与环境",
+          "z": "焦点覆盖人物面部与相邻环境结构",
+          "e": "focused on the face while retaining environmental context",
+          "b": "焦点覆盖人物面部与相邻环境结构"
+        }
+      ]
+    },
+    "影像风格": {
+      "module": "收尾",
+      "lv": 1,
+      "options": [
+        {
+          "l": "全画幅相机",
+          "z": "呈现全画幅数码相机的人像摄影质感",
+          "e": "captured in a full-frame camera style",
+          "b": "呈现全画幅数码相机的人像摄影质感"
+        },
+        {
+          "l": "便携数码相机",
+          "z": "呈现便携数码相机直接拍摄的自然质感",
+          "e": "captured in a portable digital style",
+          "b": "呈现便携数码相机直接拍摄的自然质感"
+        },
+        {
+          "l": "手机摄影",
+          "z": "呈现手机主摄直出的生活摄影质感",
+          "e": "captured in a phone camera style",
+          "b": "呈现手机主摄直出的生活摄影质感"
+        },
+        {
+          "l": "CCD数码相机",
+          "z": "呈现早期CCD数码相机的轻微偏色与直接锐度",
+          "e": "captured in a ccd camera style",
+          "b": "呈现早期CCD数码相机的轻微偏色与直接锐度"
+        },
+        {
+          "l": "中画幅相机",
+          "z": "呈现中画幅数码相机的细腻层次与平缓过渡",
+          "e": "captured in a medium-format style",
+          "b": "呈现中画幅数码相机的细腻层次与平缓过渡"
+        },
+        {
+          "l": "彩色负片",
+          "z": "呈现彩色负片扫描后的柔和色彩与宽容度",
+          "e": "captured in a color negative film style",
+          "b": "呈现彩色负片扫描后的柔和色彩与宽容度"
+        },
+        {
+          "l": "反转片",
+          "z": "呈现彩色反转片般饱满而清楚的颜色层次",
+          "e": "captured in a slide film style",
+          "b": "呈现彩色反转片般饱满而清楚的颜色层次"
+        },
+        {
+          "l": "黑白胶片",
+          "z": "呈现黑白胶片扫描后的银盐灰阶质感",
+          "e": "captured in a black white film style",
+          "b": "呈现黑白胶片扫描后的银盐灰阶质感"
+        },
+        {
+          "l": "时尚画报",
+          "z": "呈现时尚画报摄影的精确布光与清晰结构",
+          "e": "captured in a editorial camera style",
+          "b": "呈现时尚画报摄影的精确布光与清晰结构"
+        },
+        {
+          "l": "直闪抓拍",
+          "z": "呈现近距离直闪抓拍的现场感",
+          "e": "captured in a direct flash snapshot style",
+          "b": "呈现近距离直闪抓拍的现场感"
+        },
+        {
+          "l": "即时成像相纸",
+          "z": "呈现即时成像相纸的白色边框、柔和细节与自然显影色彩",
+          "e": "captured in a instant film print style",
+          "b": "呈现即时成像相纸的白色边框、柔和细节与自然显影色彩"
+        },
+        {
+          "l": "一次性胶片相机",
+          "z": "呈现一次性胶片相机固定焦点、直接闪光与随拍颗粒感",
+          "e": "captured in a disposable film camera style",
+          "b": "呈现一次性胶片相机固定焦点、直接闪光与随拍颗粒感"
+        },
+        {
+          "l": "商业商品摄影",
+          "z": "呈现商业商品摄影的准确颜色与清楚细节",
+          "e": "captured in a commercial product style",
+          "b": "呈现商业商品摄影的准确颜色与清楚细节"
+        },
+        {
+          "l": "电影剧照",
+          "z": "呈现电影剧照般受控的明暗与空间色彩",
+          "e": "captured in a cinematic still style",
+          "b": "呈现电影剧照般受控的明暗与空间色彩"
+        },
+        {
+          "l": "数码单反",
+          "z": "呈现数码单反相机拍摄的清晰成像",
+          "e": "captured in a dslr style",
+          "b": "呈现数码单反相机拍摄的清晰成像"
+        },
+        {
+          "l": "微单相机",
+          "z": "呈现微单相机拍摄的细腻成像",
+          "e": "captured in a mirrorless style",
+          "b": "呈现微单相机拍摄的细腻成像"
+        }
+      ]
+    },
+    "细节质地": {
+      "module": "收尾",
+      "lv": 2,
+      "options": [
+        {
+          "l": "自然细节",
+          "z": "画面质感自然，皮肤、发丝和面料细节清楚",
+          "e": "with natural detail",
+          "b": "画面质感自然"
+        },
+        {
+          "l": "轻微柔焦",
+          "z": "画面质感略微柔化，但双眼与关键纹理仍清楚",
+          "e": "with slightly softened detail",
+          "b": "画面质感略微柔化"
+        },
+        {
+          "l": "干净清晰",
+          "z": "画面质感干净清晰，轮廓边缘稳定",
+          "e": "with clean, crisp detail",
+          "b": "画面质感干净清晰"
+        },
+        {
+          "l": "细腻商业精修",
+          "z": "画面质感细腻，商业精修保留真实皮肤纹理",
+          "e": "with delicate professional retouching",
+          "b": "画面质感细腻"
+        },
+        {
+          "l": "胶片柔度",
+          "z": "画面质感带胶片扫描般的轻微柔度",
+          "e": "with gentle film softness",
+          "b": "画面质感带胶片扫描般的轻微柔度"
+        },
+        {
+          "l": "CCD直接感",
+          "z": "画面质感带早期数码相机的直接锐度与轻微色彩偏移",
+          "e": "with direct early-digital detail",
+          "b": "画面质感带早期数码相机的直接锐度与轻微色彩偏移"
+        },
+        {
+          "l": "哑光质感",
+          "z": "画面质感偏哑光，色彩表面克制",
+          "e": "with a restrained matte finish",
+          "b": "画面质感偏哑光"
+        },
+        {
+          "l": "光泽时尚",
+          "z": "画面质感明亮光洁，服装与配饰反光清楚",
+          "e": "with glossy fashion-editorial detail",
+          "b": "画面质感明亮光洁"
+        },
+        {
+          "l": "空气薄雾",
+          "z": "画面质感带少量空气散射，远处边缘轻柔",
+          "e": "with gently atmospheric haze",
+          "b": "画面质感带少量空气散射"
+        },
+        {
+          "l": "纪实真实",
+          "z": "画面质感接近日常现场，保留自然细节与轻微不完美",
+          "e": "with realistic documentary detail",
+          "b": "画面质感接近日常现场"
+        },
+        {
+          "l": "梦幻柔焦",
+          "z": "画面质感梦幻朦胧的柔焦质感",
+          "e": "with dreamy soft detail",
+          "b": "画面质感梦幻朦胧的柔焦质感"
+        },
+        {
+          "l": "磨砂颗粒",
+          "z": "画面质感细腻的磨砂颗粒质感",
+          "e": "with matte, grain-rich detail",
+          "b": "画面质感细腻的磨砂颗粒质感"
+        }
+      ]
+    },
+    "高光处理": {
+      "module": "收尾",
+      "lv": 3,
+      "options": [
+        {
+          "l": "受控保留",
+          "z": "高光受到控制，亮部仍保留颜色与纹理",
+          "e": "with controlled highlights",
+          "b": "高光受到控制"
+        },
+        {
+          "l": "柔和过渡",
+          "z": "高光向白色柔和过渡，边缘平缓",
+          "e": "with soft roll-off highlights",
+          "b": "高光向白色柔和过渡"
+        },
+        {
+          "l": "轻微溢光",
+          "z": "高光在明亮边缘产生轻微溢光",
+          "e": "with slight bloom highlights",
+          "b": "高光在明亮边缘产生轻微溢光"
+        },
+        {
+          "l": "明显光晕",
+          "z": "高光在逆光区域形成可见柔和光晕",
+          "e": "with strong bloom highlights",
+          "b": "高光在逆光区域形成可见柔和光晕"
+        },
+        {
+          "l": "明亮洁净",
+          "z": "高光明亮洁净，白色区域接近纯白",
+          "e": "with bright clean highlights",
+          "b": "高光明亮洁净"
+        },
+        {
+          "l": "镜面高光",
+          "z": "高光在金属、漆皮或玻璃表面形成清楚亮点",
+          "e": "with specular crisp highlights",
+          "b": "高光在金属、漆皮或玻璃表面形成清楚亮点"
+        },
+        {
+          "l": "暖色辉光",
+          "z": "高光带柔和暖色辉光",
+          "e": "with warm glow highlights",
+          "b": "高光带柔和暖色辉光"
+        },
+        {
+          "l": "克制高光",
+          "z": "高光被轻微压低，整体亮度分布平稳",
+          "e": "with subdued highlights",
+          "b": "高光被轻微压低"
+        }
+      ]
+    },
+    "颗粒质感": {
+      "module": "收尾",
+      "lv": 3,
+      "options": [
+        {
+          "l": "细微颗粒",
+          "z": "画面带均匀细微的胶片颗粒",
+          "e": "with fine grain",
+          "b": "画面带均匀细微的胶片颗粒"
+        },
+        {
+          "l": "可见颗粒",
+          "z": "画面带在中间调与暗部可见的胶片颗粒",
+          "e": "with visible grain",
+          "b": "画面带在中间调与暗部可见的胶片颗粒"
+        },
+        {
+          "l": "粗颗粒",
+          "z": "画面带尺寸较大的粗粝胶片颗粒",
+          "e": "with coarse grain",
+          "b": "画面带尺寸较大的粗粝胶片颗粒"
+        },
+        {
+          "l": "轻微数码噪点",
+          "z": "画面带暗部轻微的数码噪点",
+          "e": "with subtle digital noise",
+          "b": "画面带暗部轻微的数码噪点"
+        },
+        {
+          "l": "CCD彩色噪点",
+          "z": "画面带早期数码相机特有的细小彩色噪点",
+          "e": "with ccd noise",
+          "b": "画面带早期数码相机特有的细小彩色噪点"
+        },
+        {
+          "l": "洁净画面",
+          "z": "画面带干净平滑的成像表面",
+          "e": "with clean surface",
+          "b": "画面带干净平滑的成像表面"
+        },
+        {
+          "l": "银盐颗粒",
+          "z": "画面带黑白影像中分布自然的银盐颗粒",
+          "e": "with silver grain",
+          "b": "画面带黑白影像中分布自然的银盐颗粒"
+        }
+      ]
+    },
+    "族裔大类": {
+      "module": "主题",
+      "lv": 2,
+      "options": [
+        {
+          "l": "东亚",
+          "z": "东亚成年男性",
+          "e": "East Asian",
+          "b": "东亚成年男性"
+        },
+        {
+          "l": "东南亚",
+          "z": "东南亚成年男性",
+          "e": "Southeast Asian",
+          "b": "东南亚成年男性"
+        },
+        {
+          "l": "南亚",
+          "z": "南亚成年男性",
+          "e": "South Asian",
+          "b": "南亚成年男性"
+        },
+        {
+          "l": "中亚",
+          "z": "中亚成年男性",
+          "e": "Central Asian",
+          "b": "中亚成年男性"
+        },
+        {
+          "l": "西亚／中东",
+          "z": "西亚／中东成年男性",
+          "e": "West Asian or Middle Eastern",
+          "b": "西亚／中东成年男性"
+        },
+        {
+          "l": "欧洲裔",
+          "z": "欧洲裔成年男性",
+          "e": "european descent",
+          "b": "欧洲裔成年男性"
+        },
+        {
+          "l": "非洲裔",
+          "z": "非洲裔成年男性",
+          "e": "african descent",
+          "b": "非洲裔成年男性"
+        },
+        {
+          "l": "拉丁美洲裔",
+          "z": "拉丁美洲裔成年男性",
+          "e": "latin american descent",
+          "b": "拉丁美洲裔成年男性"
+        },
+        {
+          "l": "多族裔混合外观",
+          "z": "多族裔混合外观成年男性",
+          "e": "multiethnic",
+          "b": "多族裔混合外观成年男性"
+        }
+      ]
+    },
+    "地域族裔分支": {
+      "module": "主题",
+      "lv": 2,
+      "options": [
+        {
+          "l": "大类通用外观",
+          "z": "大类通用外观成年男性",
+          "e": "",
+          "b": "大类通用外观成年男性"
+        },
+        {
+          "l": "东北亚地域外观",
+          "z": "东北亚地域外观成年男性",
+          "e": "northeast asian",
+          "b": "东北亚地域外观成年男性"
+        },
+        {
+          "l": "东亚南部地域外观",
+          "z": "东亚南部地域外观成年男性",
+          "e": "southern east asian",
+          "b": "东亚南部地域外观成年男性"
+        },
+        {
+          "l": "大陆东南亚地域外观",
+          "z": "大陆东南亚地域外观成年男性",
+          "e": "mainland southeast asian",
+          "b": "大陆东南亚地域外观成年男性"
+        },
+        {
+          "l": "海岛东南亚地域外观",
+          "z": "海岛东南亚地域外观成年男性",
+          "e": "maritime southeast asian",
+          "b": "海岛东南亚地域外观成年男性"
+        },
+        {
+          "l": "北部南亚地域外观",
+          "z": "北部南亚地域外观成年男性",
+          "e": "northern south asian",
+          "b": "北部南亚地域外观成年男性"
+        },
+        {
+          "l": "南部南亚地域外观",
+          "z": "南部南亚地域外观成年男性",
+          "e": "southern south asian",
+          "b": "南部南亚地域外观成年男性"
+        },
+        {
+          "l": "草原中亚地域外观",
+          "z": "草原中亚地域外观成年男性",
+          "e": "steppe central asian",
+          "b": "草原中亚地域外观成年男性"
+        },
+        {
+          "l": "西部中亚地域外观",
+          "z": "西部中亚地域外观成年男性",
+          "e": "western central asian",
+          "b": "西部中亚地域外观成年男性"
+        },
+        {
+          "l": "阿拉伯裔",
+          "z": "阿拉伯裔成年男性",
+          "e": "arab descent",
+          "b": "阿拉伯裔成年男性"
+        },
+        {
+          "l": "波斯裔",
+          "z": "波斯裔成年男性",
+          "e": "persian descent",
+          "b": "波斯裔成年男性"
+        },
+        {
+          "l": "黎凡特地域外观",
+          "z": "黎凡特地域外观成年男性",
+          "e": "levantine",
+          "b": "黎凡特地域外观成年男性"
+        },
+        {
+          "l": "安纳托利亚地域外观",
+          "z": "安纳托利亚地域外观成年男性",
+          "e": "anatolian",
+          "b": "安纳托利亚地域外观成年男性"
+        },
+        {
+          "l": "斯拉夫裔",
+          "z": "斯拉夫裔成年男性",
+          "e": "slavic descent",
+          "b": "斯拉夫裔成年男性"
+        },
+        {
+          "l": "北欧裔",
+          "z": "北欧裔成年男性",
+          "e": "nordic descent",
+          "b": "北欧裔成年男性"
+        },
+        {
+          "l": "西欧裔",
+          "z": "西欧裔成年男性",
+          "e": "western european",
+          "b": "西欧裔成年男性"
+        },
+        {
+          "l": "地中海欧洲裔",
+          "z": "地中海欧洲裔成年男性",
+          "e": "mediterranean european",
+          "b": "地中海欧洲裔成年男性"
+        },
+        {
+          "l": "北非地域外观",
+          "z": "北非地域外观成年男性",
+          "e": "north african",
+          "b": "北非地域外观成年男性"
+        },
+        {
+          "l": "西非地域外观",
+          "z": "西非地域外观成年男性",
+          "e": "west african",
+          "b": "西非地域外观成年男性"
+        },
+        {
+          "l": "东非地域外观",
+          "z": "东非地域外观成年男性",
+          "e": "east african",
+          "b": "东非地域外观成年男性"
+        },
+        {
+          "l": "中非地域外观",
+          "z": "中非地域外观成年男性",
+          "e": "central african",
+          "b": "中非地域外观成年男性"
+        },
+        {
+          "l": "南部非洲地域外观",
+          "z": "南部非洲地域外观成年男性",
+          "e": "southern african",
+          "b": "南部非洲地域外观成年男性"
+        },
+        {
+          "l": "安第斯地域外观",
+          "z": "安第斯地域外观成年男性",
+          "e": "andean latin american",
+          "b": "安第斯地域外观成年男性"
+        },
+        {
+          "l": "加勒比地域外观",
+          "z": "加勒比地域外观成年男性",
+          "e": "caribbean latin american",
+          "b": "加勒比地域外观成年男性"
+        },
+        {
+          "l": "南锥体地域外观",
+          "z": "南锥体地域外观成年男性",
+          "e": "southern cone latin american",
+          "b": "南锥体地域外观成年男性"
+        },
+        {
+          "l": "东亚与欧洲混合族裔",
+          "z": "东亚与欧洲混合族裔成年男性",
+          "e": "east asian european mixed",
+          "b": "东亚与欧洲混合族裔成年男性"
+        },
+        {
+          "l": "非洲与欧洲混合族裔",
+          "z": "非洲与欧洲混合族裔成年男性",
+          "e": "african european mixed",
+          "b": "非洲与欧洲混合族裔成年男性"
+        },
+        {
+          "l": "南亚与欧洲混合族裔",
+          "z": "南亚与欧洲混合族裔成年男性",
+          "e": "south asian european mixed",
+          "b": "南亚与欧洲混合族裔成年男性"
+        },
+        {
+          "l": "拉丁美洲与欧洲混合族裔",
+          "z": "拉丁美洲与欧洲混合族裔成年男性",
+          "e": "latin european mixed",
+          "b": "拉丁美洲与欧洲混合族裔成年男性"
+        }
+      ]
+    },
+    "基础姿态": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "自然站立",
+          "z": "人物自然站立，躯干保持舒展",
+          "e": "standing naturally",
+          "b": "人物自然站立"
+        },
+        {
+          "l": "侧身站立",
+          "z": "人物以三分之二侧身方向站立",
+          "e": "standing in a three-quarter pose",
+          "b": "人物以三分之二侧身方向站立"
+        },
+        {
+          "l": "门框间站立",
+          "z": "人物站在半开的门框之间",
+          "e": "standing in a doorway",
+          "b": "人物站在半开的门框之间"
+        },
+        {
+          "l": "墙边轻靠",
+          "z": "人物肩背轻靠简洁墙面站立",
+          "e": "leaning lightly against a wall",
+          "b": "人物肩背轻靠简洁墙面站立"
+        },
+        {
+          "l": "行走中停步",
+          "z": "人物在向前行走时短暂停步",
+          "e": "pausing mid-step",
+          "b": "人物在向前行走时短暂停步"
+        },
+        {
+          "l": "椅子前缘坐姿",
+          "z": "人物坐在椅子前缘，背部自然挺直",
+          "e": "sitting near the edge of a chair",
+          "b": "人物坐在椅子前缘"
+        },
+        {
+          "l": "沙发前倾坐姿",
+          "z": "人物坐在沙发边缘并轻微向镜头前倾",
+          "e": "sitting forward on a sofa",
+          "b": "人物坐在沙发边缘并轻微向镜头前倾"
+        },
+        {
+          "l": "沙发放松坐姿",
+          "z": "人物坐在沙发上，身体轻微后靠",
+          "e": "sitting comfortably on a sofa",
+          "b": "人物坐在沙发上"
+        },
+        {
+          "l": "卡座放松坐姿",
+          "z": "人物坐在卡座上，身体轻微后靠",
+          "e": "sitting comfortably in a booth",
+          "b": "人物坐在卡座上"
+        },
+        {
+          "l": "高脚椅坐姿",
+          "z": "人物坐在高脚椅前缘，躯干稳定舒展",
+          "e": "sitting on a stool",
+          "b": "人物坐在高脚椅前缘"
+        },
+        {
+          "l": "运动式低位蹲姿",
+          "z": "人物以稳定的运动式低位姿态蹲下，背部自然前倾",
+          "e": "holding a low athletic crouch",
+          "b": "人物以稳定的运动式低位姿态蹲下"
+        },
+        {
+          "l": "蹲姿",
+          "z": "人物呈低位蹲姿",
+          "e": "squatting naturally",
+          "b": "人物呈低位蹲姿"
+        },
+        {
+          "l": "跪坐",
+          "z": "人物以跪坐姿势",
+          "e": "sitting back on the heels",
+          "b": "人物以跪坐姿势"
+        },
+        {
+          "l": "盘腿而坐",
+          "z": "人物盘腿而坐",
+          "e": "sitting cross-legged",
+          "b": "人物盘腿而坐"
+        },
+        {
+          "l": "叉腰站立",
+          "z": "人物叉腰站立",
+          "e": "standing with one hand on the hip",
+          "b": "人物叉腰站立"
+        },
+        {
+          "l": "持剑站立",
+          "z": "人物持剑自然站立",
+          "e": "standing with a sword",
+          "b": "人物持剑自然站立"
+        },
+        {
+          "l": "马背坐姿",
+          "z": "人物骑在马背上的坐姿",
+          "e": "sitting upright on horseback",
+          "b": "人物骑在马背上的坐姿"
+        },
+        {
+          "l": "骑行姿态",
+          "z": "人物骑行时身体前倾的姿态",
+          "e": "riding a bicycle",
+          "b": "人物骑行时身体前倾的姿态"
+        },
+        {
+          "l": "泳池边坐姿",
+          "z": "人物坐在泳池边缘，上身自然直立",
+          "e": "sitting upright on the pool edge",
+          "b": "人物坐在泳池边缘"
+        },
+        {
+          "l": "单车侧坐",
+          "z": "侧身坐在复古自行车车座上",
+          "e": "sitting sideways on a vintage bicycle saddle",
+          "b": "侧身坐在复古自行车车座上"
+        },
+        {
+          "l": "复古扶手椅坐姿",
+          "z": "坐在复古雕花扶手椅上",
+          "e": "seated in an ornate vintage armchair",
+          "b": "坐在复古雕花扶手椅上"
+        },
+        {
+          "l": "沙滩侧卧",
+          "z": "侧卧在明亮沙滩上并微微撑起上半身",
+          "e": "reclining sideways on a bright beach with the upper body slightly raised",
+          "b": "侧卧在明亮沙滩上并微微撑起上半身"
+        },
+        {
+          "l": "地面侧坐",
+          "z": "侧坐在地面上",
+          "e": "seated sideways on the floor",
+          "b": "侧坐在地面上"
+        },
+        {
+          "l": "低位鸽子式",
+          "z": "在瑜伽垫上完成低位鸽子式变体",
+          "e": "a low pigeon-pose variation on a yoga mat",
+          "b": "在瑜伽垫上完成低位鸽子式变体"
+        },
+        {
+          "l": "窗边座椅坐姿",
+          "z": "侧身坐在窗边座椅上",
+          "e": "seated sideways on a chair by the window",
+          "b": "侧身坐在窗边座椅上"
+        }
+      ]
+    },
+    "身体方向": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "正面朝向镜头",
+          "z": "身体正面朝向镜头",
+          "e": "facing the camera",
+          "b": "身体正面朝向镜头"
+        },
+        {
+          "l": "左侧三分之二身",
+          "z": "身体轻微转向画面左侧，保留三分之二正面",
+          "e": "turned slightly to the left",
+          "b": "身体轻微转向画面左侧"
+        },
+        {
+          "l": "右侧三分之二身",
+          "z": "身体轻微转向画面右侧，保留三分之二正面",
+          "e": "turned slightly to the right",
+          "b": "身体轻微转向画面右侧"
+        },
+        {
+          "l": "左侧侧身",
+          "z": "身体侧向画面左侧",
+          "e": "shown in left profile",
+          "b": "身体侧向画面左侧"
+        },
+        {
+          "l": "右侧侧身",
+          "z": "身体侧向画面右侧",
+          "e": "shown in right profile",
+          "b": "身体侧向画面右侧"
+        },
+        {
+          "l": "背身向左回转",
+          "z": "身体背向镜头并向左侧轻微回转",
+          "e": "turned away and looking back over the left shoulder",
+          "b": "身体背向镜头并向左侧轻微回转"
+        },
+        {
+          "l": "背身向右回转",
+          "z": "身体背向镜头并向右侧轻微回转",
+          "e": "turned away and looking back over the right shoulder",
+          "b": "身体背向镜头并向右侧轻微回转"
+        },
+        {
+          "l": "斜向镜头前方",
+          "z": "身体沿画面对角线朝镜头方向展开",
+          "e": "angled diagonally toward the camera",
+          "b": "身体沿画面对角线朝镜头方向展开"
+        },
+        {
+          "l": "四分之三背身",
+          "z": "四分之三背身朝向右后方",
+          "e": "shown from a three-quarter back view",
+          "b": "四分之三背身朝向右后方"
+        }
+      ]
+    },
+    "身体重心": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "双脚均衡承重",
+          "z": "身体重心均衡落在双脚之间",
+          "e": "with weight balanced across both feet",
+          "b": "身体重心均衡落在双脚之间"
+        },
+        {
+          "l": "左腿承重",
+          "z": "身体重心主要落在左腿",
+          "e": "with weight resting on the left leg",
+          "b": "身体重心主要落在左腿"
+        },
+        {
+          "l": "右腿承重",
+          "z": "身体重心主要落在右腿",
+          "e": "with weight resting on the right leg",
+          "b": "身体重心主要落在右腿"
+        },
+        {
+          "l": "重心轻微前移",
+          "z": "身体重心轻微前移",
+          "e": "with the body weight shifted slightly forward",
+          "b": "身体重心轻微前移"
+        },
+        {
+          "l": "重心轻微后移",
+          "z": "身体重心轻微后移",
+          "e": "with the body weight shifted slightly back",
+          "b": "身体重心轻微后移"
+        },
+        {
+          "l": "重心落向左侧坐骨",
+          "z": "坐姿重心自然落向左侧坐骨",
+          "e": "with weight resting on the left hip",
+          "b": "坐姿重心自然落向左侧坐骨"
+        },
+        {
+          "l": "重心落向右侧坐骨",
+          "z": "坐姿重心自然落向右侧坐骨",
+          "e": "with weight resting on the right hip",
+          "b": "坐姿重心自然落向右侧坐骨"
+        },
+        {
+          "l": "坐姿重心居中",
+          "z": "坐姿重心稳定居中",
+          "e": "with the seated weight centered",
+          "b": "坐姿重心稳定居中"
+        }
+      ]
+    },
+    "肩颈状态": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "双肩放松平稳",
+          "z": "双肩自然放松并保持平稳",
+          "e": "with relaxed, level shoulders",
+          "b": "双肩自然放松并保持平稳"
+        },
+        {
+          "l": "肩膀轻微内收",
+          "z": "双肩轻微内收，肩颈线条柔和",
+          "e": "with the shoulders drawn gently inward",
+          "b": "双肩轻微内收"
+        },
+        {
+          "l": "一侧肩膀前移",
+          "z": "靠近镜头的一侧肩膀轻微前移",
+          "e": "with one shoulder angled toward the camera",
+          "b": "靠近镜头的一侧肩膀轻微前移"
+        },
+        {
+          "l": "一侧肩膀降低",
+          "z": "一侧肩膀自然降低，形成轻微高低变化",
+          "e": "with one shoulder lowered naturally",
+          "b": "一侧肩膀自然降低"
+        },
+        {
+          "l": "肩背舒展",
+          "z": "肩背自然舒展，颈部保持挺直",
+          "e": "with an open chest and elongated neck",
+          "b": "肩背自然舒展"
+        },
+        {
+          "l": "前倾时肩颈放松",
+          "z": "上身前倾时双肩保持放松，颈部自然延伸",
+          "e": "with the shoulders leaning forward naturally",
+          "b": "上身前倾时双肩保持放松"
+        },
+        {
+          "l": "轻微耸肩",
+          "z": "轻微耸肩",
+          "e": "with a subtle shoulder lift",
+          "b": "轻微耸肩"
+        },
+        {
+          "l": "双肩向后打开",
+          "z": "双肩向后打开",
+          "e": "with the shoulders drawn back",
+          "b": "双肩向后打开"
+        }
+      ]
+    },
+    "腿部动作": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "双脚自然平行",
+          "z": "双脚自然平行站立，腿部线条稳定",
+          "e": "with both feet parallel",
+          "b": "双脚自然平行站立"
+        },
+        {
+          "l": "一脚轻微向前",
+          "z": "靠近镜头的一只脚轻微向前迈出",
+          "e": "with one foot placed slightly forward",
+          "b": "靠近镜头的一只脚轻微向前迈出"
+        },
+        {
+          "l": "脚踝交叉",
+          "z": "双腿自然靠近，脚踝轻微交叉",
+          "e": "with the ankles crossed",
+          "b": "双腿自然靠近"
+        },
+        {
+          "l": "一腿轻微屈膝",
+          "z": "承重腿保持稳定，另一条腿轻微屈膝",
+          "e": "with one knee bent",
+          "b": "承重腿保持稳定"
+        },
+        {
+          "l": "屈膝抬腿交叉",
+          "z": "一条腿稳定支撑身体，另一条腿屈膝抬起并贴近支撑腿",
+          "e": "with one leg raised and crossed over the other",
+          "b": "一条腿稳定支撑身体"
+        },
+        {
+          "l": "自然迈步",
+          "z": "双腿形成自然行走步幅，前脚即将落地",
+          "e": "with one leg moving through a natural walking step",
+          "b": "双腿形成自然行走步幅"
+        },
+        {
+          "l": "坐姿双膝并拢",
+          "z": "坐姿双膝自然并拢，小腿稳定垂落",
+          "e": "with the knees together",
+          "b": "坐姿双膝自然并拢"
+        },
+        {
+          "l": "坐姿双腿偏向一侧",
+          "z": "坐姿双膝靠近并偏向画面一侧",
+          "e": "with both knees angled to one side",
+          "b": "坐姿双膝靠近并偏向画面一侧"
+        },
+        {
+          "l": "坐姿一腿稍向前",
+          "z": "坐姿一条腿轻微向前延伸，另一条腿保持稳定",
+          "e": "with one leg extended",
+          "b": "坐姿一条腿轻微向前延伸"
+        },
+        {
+          "l": "膝部交叠坐姿",
+          "z": "坐姿双腿在膝部自然交叠，脚尖方向一致",
+          "e": "with the legs crossed at the knee",
+          "b": "坐姿双腿在膝部自然交叠"
+        },
+        {
+          "l": "一脚踩高脚椅横杆",
+          "z": "一只脚稳定踩在高脚椅横杆上，另一条腿自然垂落",
+          "e": "with one foot resting on the stool support",
+          "b": "一只脚稳定踩在高脚椅横杆上"
+        },
+        {
+          "l": "运动式屈膝支撑",
+          "z": "双膝屈曲形成稳定低位支撑，双脚完整着地",
+          "e": "with both knees bent in an athletic crouch",
+          "b": "双膝屈曲形成稳定低位支撑"
+        },
+        {
+          "l": "盘腿而坐",
+          "z": "双腿盘起而坐",
+          "e": "with the legs folded cross-legged",
+          "b": "双腿盘起而坐"
+        },
+        {
+          "l": "单腿后勾",
+          "z": "一条腿向后勾起",
+          "e": "with one leg raised",
+          "b": "一条腿向后勾起"
+        },
+        {
+          "l": "屈膝抱腿",
+          "z": "屈膝将腿抱在身前",
+          "e": "with one knee raised",
+          "b": "屈膝将腿抱在身前"
+        },
+        {
+          "l": "踩马镫",
+          "z": "双脚踩在马镫上",
+          "e": "with both feet placed in the stirrups",
+          "b": "双脚踩在马镫上"
+        },
+        {
+          "l": "踩踏脚蹬",
+          "z": "双腿交替踩踏脚蹬",
+          "e": "with the legs positioned naturally on the pedals",
+          "b": "双腿交替踩踏脚蹬"
+        },
+        {
+          "l": "双脚分开微屈膝",
+          "z": "双脚与肩同宽站稳，双膝轻微弯曲",
+          "e": "feet shoulder-width apart with knees slightly bent",
+          "b": "双脚与肩同宽站稳"
+        },
+        {
+          "l": "双脚垂入池水",
+          "z": "双腿从池边自然垂下，双脚浸入池水",
+          "e": "legs hanging from the pool edge with both feet in the water",
+          "b": "双腿从池边自然垂下"
+        },
+        {
+          "l": "一脚侧伸点地",
+          "z": "左腿直立承重，右腿向侧方伸出，脚尖轻点地面",
+          "e": "weight on the straight left leg, right leg extended sideways with toes touching the floor",
+          "b": "左腿直立承重"
+        },
+        {
+          "l": "扶手椅曲腿伸展",
+          "z": "一条腿屈膝抬起，另一条腿向画面下方舒展",
+          "e": "one knee raised while the other leg extends downward",
+          "b": "一条腿屈膝抬起"
+        },
+        {
+          "l": "侧卧屈伸腿",
+          "z": "一条腿自然舒展，另一条腿屈曲形成清晰层次",
+          "e": "one leg extended and the other bent to create clear layering",
+          "b": "一条腿自然舒展"
+        },
+        {
+          "l": "地面屈膝伸腿",
+          "z": "一条腿屈膝抬起，另一条腿沿地面向前伸展",
+          "e": "one knee raised and the other leg extended along the floor",
+          "b": "一条腿屈膝抬起"
+        },
+        {
+          "l": "鸽子式腿部伸展",
+          "z": "前侧腿屈膝折叠，另一条腿沿地面向后伸直，脚背自然贴地",
+          "e": "front leg folded, rear leg extended straight back with the instep on the floor",
+          "b": "前侧腿屈膝折叠"
+        }
+      ]
+    },
+    "头部方向": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "头部正对镜头",
+          "z": "头部自然正对镜头",
+          "e": "head facing forward",
+          "b": "头部自然正对镜头"
+        },
+        {
+          "l": "头部转向左侧",
+          "z": "头部轻微转向画面左侧",
+          "e": "head turned to the left",
+          "b": "头部轻微转向画面左侧"
+        },
+        {
+          "l": "头部转向右侧",
+          "z": "头部轻微转向画面右侧",
+          "e": "head turned to the right",
+          "b": "头部轻微转向画面右侧"
+        },
+        {
+          "l": "向左回眸",
+          "z": "头部从肩上方转回画面左侧",
+          "e": "head turned back over the left shoulder",
+          "b": "头部从肩上方转回画面左侧"
+        },
+        {
+          "l": "向右回眸",
+          "z": "头部从肩上方转回画面右侧",
+          "e": "head turned back over the right shoulder",
+          "b": "头部从肩上方转回画面右侧"
+        },
+        {
+          "l": "向左轻微侧倾",
+          "z": "头部向画面左侧轻微倾斜",
+          "e": "head tilted slightly to the left",
+          "b": "头部向画面左侧轻微倾斜"
+        },
+        {
+          "l": "向右轻微侧倾",
+          "z": "头部向画面右侧轻微倾斜",
+          "e": "head tilted slightly to the right",
+          "b": "头部向画面右侧轻微倾斜"
+        },
+        {
+          "l": "头部轻微低下",
+          "z": "头部轻微低下，下颌线条保持清楚",
+          "e": "chin lowered slightly",
+          "b": "头部轻微低下"
+        },
+        {
+          "l": "头部上扬",
+          "z": "头部向上扬起",
+          "e": "chin lifted slightly",
+          "b": "头部向上扬起"
+        }
+      ]
+    },
+    "视线": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "直视镜头",
+          "z": "视线稳定直视镜头",
+          "e": "looking directly into the camera",
+          "b": "视线稳定直视镜头"
+        },
+        {
+          "l": "柔和看向镜头",
+          "z": "视线自然落向镜头，眼神柔和",
+          "e": "looking softly toward the camera",
+          "b": "视线自然落向镜头"
+        },
+        {
+          "l": "看向画面左侧近处",
+          "z": "视线落向画面左侧近处",
+          "e": "looking toward a nearby point on the left",
+          "b": "视线落向画面左侧近处"
+        },
+        {
+          "l": "看向画面右侧近处",
+          "z": "视线落向画面右侧近处",
+          "e": "looking toward a nearby point on the right",
+          "b": "视线落向画面右侧近处"
+        },
+        {
+          "l": "看向左侧远处",
+          "z": "视线越过镜头落向画面左侧远处",
+          "e": "looking into the distance on the left",
+          "b": "视线越过镜头落向画面左侧远处"
+        },
+        {
+          "l": "看向右侧远处",
+          "z": "视线越过镜头落向画面右侧远处",
+          "e": "looking into the distance on the right",
+          "b": "视线越过镜头落向画面右侧远处"
+        },
+        {
+          "l": "看向手中物品",
+          "z": "视线自然落在手中物品上",
+          "e": "looking down at the object in hand",
+          "b": "视线自然落在手中物品上"
+        },
+        {
+          "l": "看向窗外",
+          "z": "视线穿过窗户落向室外",
+          "e": "looking out of the window",
+          "b": "视线穿过窗户落向室外"
+        },
+        {
+          "l": "视线略高于镜头",
+          "z": "视线落在镜头上方不远处",
+          "e": "looking slightly above the camera",
+          "b": "视线落在镜头上方不远处"
+        },
+        {
+          "l": "侧目看向镜头",
+          "z": "眼睛从侧向位置转回看向镜头",
+          "e": "glancing sideways toward the camera",
+          "b": "眼睛从侧向位置转回看向镜头"
+        },
+        {
+          "l": "闭眼",
+          "z": "闭着眼",
+          "e": "eyes gently closed",
+          "b": "闭着眼"
+        },
+        {
+          "l": "仰望上方",
+          "z": "仰望向天空",
+          "e": "looking upward",
+          "b": "仰望向天空"
+        },
+        {
+          "l": "低头看地",
+          "z": "低垂目光看向地面",
+          "e": "looking downward",
+          "b": "低垂目光看向地面"
+        }
+      ]
+    },
+    "表情": {
+      "module": "姿态",
+      "lv": 2,
+      "options": [
+        {
+          "l": "自然放松微笑",
+          "z": "面部肌肉自然放松，唇角轻微上扬",
+          "e": "with a relaxed smile",
+          "b": "面部肌肉自然放松"
+        },
+        {
+          "l": "明朗笑容",
+          "z": "眼神明亮，露出自然开朗的笑容",
+          "e": "with a bright smile",
+          "b": "眼神明亮"
+        },
+        {
+          "l": "平静自然",
+          "z": "表情平静自然，眉眼保持放松",
+          "e": "with a calm expression",
+          "b": "表情平静自然"
+        },
+        {
+          "l": "冷静自信",
+          "z": "表情冷静自信，眉眼稳定清晰",
+          "e": "with a calm, confident expression",
+          "b": "表情冷静自信"
+        },
+        {
+          "l": "克制沉静",
+          "z": "表情克制沉静，唇部自然闭合",
+          "e": "with a restrained expression",
+          "b": "表情克制沉静"
+        },
+        {
+          "l": "专注",
+          "z": "神情专注，眉眼轻微收拢",
+          "e": "with a focused expression",
+          "b": "神情专注"
+        },
+        {
+          "l": "若有所思",
+          "z": "神情安静，视线与轻微收拢的眉眼形成思考状态",
+          "e": "with a thoughtful expression",
+          "b": "神情安静"
+        },
+        {
+          "l": "清冷疏离",
+          "z": "表情清冷克制，眉眼和唇部保持稳定",
+          "e": "with a cool, composed expression",
+          "b": "表情清冷克制"
+        },
+        {
+          "l": "柔和严肃",
+          "z": "表情认真而柔和，眉眼保持平稳",
+          "e": "with a softly serious expression",
+          "b": "表情认真而柔和"
+        },
+        {
+          "l": "微微惊讶",
+          "z": "微微惊讶",
+          "e": "with a surprised expression",
+          "b": "微微惊讶"
+        },
+        {
+          "l": "慵懒放松",
+          "z": "慵懒放松",
+          "e": "with a languid expression",
+          "b": "慵懒放松"
+        },
+        {
+          "l": "开怀大笑",
+          "z": "开怀大笑",
+          "e": "laughing brightly",
+          "b": "开怀大笑"
+        }
+      ]
+    }
+  }
+}

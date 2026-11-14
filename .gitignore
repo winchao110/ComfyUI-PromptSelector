@@ -1,0 +1,13 @@
+# Python 缓存与临时产物
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+_body_*.json
+_res_*.json
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+[project]
+name = "ComfyUI-PromptSelector"
+version = "1.8.4"
+description = "提示词节点合集（太阳能搜到）：Krea2 / Z-image / 权威摄影 / 男性摄影 / 19+ 自选（霓虹面板外观）"
+dependencies = []
+
+[tool.comfy]
+web = "web"

@@ -1,0 +1,65 @@
+{
+ "version": 1,
+ "fields": {
+  "画面情绪": {
+   "module": "收尾",
+   "lv": 2,
+   "options": [
+    {"l": "孤独", "z": "画面情绪偏孤独，人与人之间保持空位", "e": "a lonely understated mood", "b": "孤独"},
+    {"l": "温暖", "z": "画面情绪温暖，光影柔和贴近", "e": "a warm intimate mood", "b": "温暖"},
+    {"l": "紧张", "z": "画面情绪紧张，动作停在临界点", "e": "a tense suspended mood", "b": "紧张"},
+    {"l": "疏离", "z": "画面情绪疏离，人与环境互不侵入", "e": "a detached distant mood", "b": "疏离"},
+    {"l": "松弛", "z": "画面情绪松弛，身体没有防御姿态", "e": "a relaxed unguarded mood", "b": "松弛"},
+    {"l": "压迫", "z": "画面情绪带压迫感，空间向人物收拢", "e": "an oppressive compressed mood", "b": "压迫"},
+    {"l": "怀旧", "z": "画面情绪怀旧，时间感向前推移", "e": "a nostalgic backward-looking mood", "b": "怀旧"},
+    {"l": "希望", "z": "画面情绪指向希望，视线落向光处", "e": "a hopeful mood toward the light", "b": "希望"},
+    {"l": "失落", "z": "画面情绪失落，重心与视线同时下沉", "e": "a deflated downward mood", "b": "失落"},
+    {"l": "克制", "z": "画面情绪克制，情绪压在表情之下", "e": "a restrained held-back mood", "b": "克制"},
+    {"l": "野性", "z": "画面情绪带野性，肌肉与呼吸处于蓄势", "e": "a wild coiled mood", "b": "野性"},
+    {"l": "静谧", "z": "画面情绪静谧，环境声音仿佛被抽走", "e": "a quiet still mood", "b": "静谧"},
+    {"l": "疲惫", "z": "画面情绪疲惫，眼周与肩线同时松下来", "e": "a weary worn-out mood", "b": "疲惫"},
+    {"l": "释然", "z": "画面情绪释然，胸口打开呼吸放长", "e": "a relieved letting-go mood", "b": "释然"},
+    {"l": "期待", "z": "画面情绪带期待，身体朝向前方", "e": "an expectant forward-leaning mood", "b": "期待"},
+    {"l": "警觉", "z": "画面情绪警觉，下颌微收眼神锐利", "e": "an alert guarded mood", "b": "警觉"},
+    {"l": "冷峻", "z": "画面情绪冷峻，面部肌肉几乎不动", "e": "a cold stern mood", "b": "冷峻"},
+    {"l": "幽默", "z": "画面情绪带幽默，嘴角有未完全展开的笑", "e": "a dry humorous mood", "b": "幽默"},
+    {"l": "沉静", "z": "画面情绪沉静，呼吸节奏稳定", "e": "a calm steady mood", "b": "沉静"},
+    {"l": "暗涌", "z": "画面情绪平静之下有暗涌", "e": "a calm surface with undercurrent", "b": "暗涌"},
+    {"l": "豁达", "z": "画面情绪豁达，姿态舒展不设防", "e": "an open easygoing mood", "b": "豁达"},
+    {"l": "倔强", "z": "画面情绪倔强，下巴轻微抬起", "e": "a stubborn chin-up mood", "b": "倔强"},
+    {"l": "温柔", "z": "画面情绪温柔，眼神与手部动作都放轻", "e": "a gentle softened mood", "b": "温柔"},
+    {"l": "倦怠", "z": "画面情绪倦怠，动作幅度收小", "e": "a listless low-energy mood", "b": "倦怠"}
+   ]
+  },
+  "后期调色": {
+   "module": "收尾",
+   "lv": 3,
+   "options": [
+    {"l": "青橙色调", "z": "后期为青橙色调，暗部偏青高光偏橙", "e": "teal and orange color grade", "b": "青橙色调"},
+    {"l": "冷暖对比", "z": "后期做冷暖对比，肤色偏暖环境偏冷", "e": "warm skin against cool surroundings", "b": "冷暖对比"},
+    {"l": "低饱和冷调", "z": "后期为低饱和冷调，颜色接近灰", "e": "desaturated cool grade", "b": "低饱和冷调"},
+    {"l": "胶片暖调", "z": "后期为胶片暖调，高光轻微泛黄", "e": "warm film-like grade with yellowed highlights", "b": "胶片暖调"},
+    {"l": "高对比黑白", "z": "后期为高对比黑白", "e": "high-contrast black and white", "b": "高对比黑白"},
+    {"l": "去色冷调", "z": "后期接近去色，只保留少量冷色", "e": "near-monochrome with faint cool tones", "b": "去色冷调"},
+    {"l": "复古褪色", "z": "后期为复古褪色，黑位抬起", "e": "faded retro grade with lifted blacks", "b": "复古褪色"},
+    {"l": "高饱和浓彩", "z": "后期饱和度高，颜色浓重", "e": "rich saturated color grade", "b": "高饱和浓彩"},
+    {"l": "柔焦雾感", "z": "后期带柔焦雾感，高光溢出", "e": "soft hazy bloom with glowing highlights", "b": "柔焦雾感"},
+    {"l": "暗调沉郁", "z": "后期为暗调，整体明度压低", "e": "dark moody low-key grade", "b": "暗调沉郁"},
+    {"l": "日系低对比", "z": "后期为日系低对比，白位偏亮", "e": "airy Japanese low-contrast grade", "b": "日系低对比"},
+    {"l": "港风浓郁", "z": "后期为港风浓郁色彩，绿红对比明显", "e": "saturated Hong Kong cinema grade", "b": "港风浓郁"},
+    {"l": "西部黄沙", "z": "后期为西部黄沙调，整体偏土黄", "e": "dusty western yellow grade", "b": "西部黄沙"},
+    {"l": "冷蓝夜色", "z": "后期为冷蓝夜色，阴影全偏蓝", "e": "cold blue night grade", "b": "冷蓝夜色"},
+    {"l": "奶油柔光", "z": "后期为奶油柔光，暗部提亮", "e": "creamy lifted-shadow grade", "b": "奶油柔光"},
+    {"l": "实拍直出", "z": "后期接近实拍直出，只做基础校正", "e": "near-camera-original minimal grade", "b": "实拍直出"},
+    {"l": "单色棕调", "z": "后期为单色棕调，类似棕褐照片", "e": "sepia monochrome grade", "b": "单色棕调"},
+    {"l": "绿调电影感", "z": "后期带绿调电影感，中间调偏绿", "e": "cinematic green-shifted grade", "b": "绿调电影感"},
+    {"l": "紫调夜色", "z": "后期为紫调夜色，霓虹偏品红", "e": "purple-tinted night grade", "b": "紫调夜色"},
+    {"l": "高光溢出", "z": "后期高光明显溢出，边缘发白", "e": "blown-out blooming highlights", "b": "高光溢出"},
+    {"l": "暗部压死", "z": "后期暗部压得很深，细节接近消失", "e": "crushed deep shadows", "b": "暗部压死"},
+    {"l": "交叉冲印", "z": "后期为交叉冲印，阴影偏青高光偏黄绿", "e": "cross-processed cyan-yellow grade", "b": "交叉冲印"},
+    {"l": "红外感色", "z": "后期带红外感色，植被偏白粉", "e": "infrared-style shifted foliage grade", "b": "红外感色"},
+    {"l": "极简去色", "z": "后期几乎完全去色，只留肤色", "e": "almost fully desaturated with preserved skin tone", "b": "极简去色"}
+   ]
+  }
+ }
+}

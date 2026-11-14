@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "fields": {
+    "版型细节": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "合身剪裁",
+          "z": "版型为合身剪裁，贴合身体但不紧绷",
+          "e": "a well-fitted tailored cut",
+          "b": "合身剪裁"
+        },
+        {
+          "l": "宽松版型",
+          "z": "版型宽松，衣料与身体留有空隙",
+          "e": "a relaxed loose cut",
+          "b": "宽松版型"
+        },
+        {
+          "l": "oversize",
+          "z": "版型为 oversize，肩线与袖长超出常规",
+          "e": "an oversized silhouette",
+          "b": "oversize"
+        },
+        {
+          "l": "修身收腰",
+          "z": "版型修身，腰部略微内收",
+          "e": "a slim tapered waist",
+          "b": "修身收腰"
+        },
+        {
+          "l": "落肩袖",
+          "z": "肩线落在肩点之外，形成落肩",
+          "e": "drop-shoulder seams",
+          "b": "落肩袖"
+        },
+        {
+          "l": "正肩线",
+          "z": "肩线正好落在肩点，结构清晰",
+          "e": "set-in shoulder seams at the shoulder point",
+          "b": "正肩线"
+        },
+        {
+          "l": "直筒版型",
+          "z": "版型为直筒，上下宽度接近",
+          "e": "a straight untapered cut",
+          "b": "直筒版型"
+        },
+        {
+          "l": "锥形版型",
+          "z": "版型为锥形，向下收窄",
+          "e": "a tapered shape narrowing downward",
+          "b": "锥形版型"
+        },
+        {
+          "l": "短款",
+          "z": "衣长为短款，下缘停在腰线",
+          "e": "a cropped length ending at the waist",
+          "b": "短款"
+        },
+        {
+          "l": "长款",
+          "z": "衣长为长款，下缘过臀",
+          "e": "a longer length past the hip",
+          "b": "长款"
+        },
+        {
+          "l": "高腰",
+          "z": "腰线为高腰，裤头位置提高",
+          "e": "a high-rise waistline",
+          "b": "高腰"
+        },
+        {
+          "l": "低腰",
+          "z": "腰线为低腰，裤头位置下沉",
+          "e": "a low-rise waistline",
+          "b": "低腰"
+        },
+        {
+          "l": "抽绳腰头",
+          "z": "腰头为抽绳结构，绳结自然垂落",
+          "e": "a drawstring waist with hanging cords",
+          "b": "抽绳腰头"
+        },
+        {
+          "l": "侧开衩",
+          "z": "下摆两侧开衩，行走时分开",
+          "e": "side vents at the hem",
+          "b": "侧开衩"
+        },
+        {
+          "l": "双排扣",
+          "z": "门襟为双排扣，扣位对称",
+          "e": "a double-breasted front",
+          "b": "双排扣"
+        },
+        {
+          "l": "单排扣",
+          "z": "门襟为单排扣",
+          "e": "a single-breasted front",
+          "b": "单排扣"
+        },
+        {
+          "l": "翻领",
+          "z": "领型为翻领，驳头平展",
+          "e": "a notched lapel collar",
+          "b": "翻领"
+        },
+        {
+          "l": "立领",
+          "z": "领型为立领，包住颈部下缘",
+          "e": "a stand collar",
+          "b": "立领"
+        },
+        {
+          "l": "无领",
+          "z": "领口无领结构，边缘收净",
+          "e": "a collarless neckline",
+          "b": "无领"
+        },
+        {
+          "l": "翻边裤脚",
+          "z": "裤脚向上翻折，形成厚度",
+          "e": "rolled-up cuffed hems",
+          "b": "翻边裤脚"
+        }
+      ]
+    },
+    "袜装": {
+      "module": "服装",
+      "lv": 3,
+      "options": [
+        {
+          "l": "不露袜",
+          "z": "裤脚遮住袜口，看不见袜子",
+          "e": "socks hidden under the trousers",
+          "b": "不露袜"
+        },
+        {
+          "l": "白色短袜",
+          "z": "袜子为白色短袜",
+          "e": "white ankle socks",
+          "b": "白色短袜"
+        },
+        {
+          "l": "黑色短袜",
+          "z": "袜子为黑色短袜",
+          "e": "black ankle socks",
+          "b": "黑色短袜"
+        },
+        {
+          "l": "运动袜",
+          "z": "袜子为白色运动袜，袜筒偏厚",
+          "e": "thick white athletic socks",
+          "b": "运动袜"
+        },
+        {
+          "l": "中筒袜",
+          "z": "袜子为中筒袜，袜口到小腿中部",
+          "e": "crew socks reaching mid-calf",
+          "b": "中筒袜"
+        },
+        {
+          "l": "深灰商务袜",
+          "z": "袜子为深灰商务袜，颜色与裤装接近",
+          "e": "dark gray dress socks",
+          "b": "深灰商务袜"
+        },
+        {
+          "l": "图案袜",
+          "z": "袜子带图案，边缘露出",
+          "e": "patterned socks peeking out",
+          "b": "图案袜"
+        },
+        {
+          "l": "裸脚",
+          "z": "不穿袜子，脚踝直接露出",
+          "e": "no socks with bare ankles",
+          "b": "裸脚"
+        },
+        {
+          "l": "船袜",
+          "z": "脚穿隐形船袜，袜口低于鞋沿",
+          "e": "invisible no-show socks",
+          "b": "船袜"
+        },
+        {
+          "l": "加厚登山袜",
+          "z": "脚穿加厚登山袜，袜筒压在小腿",
+          "e": "thick hiking socks",
+          "b": "加厚登山袜"
+        }
+      ]
+    },
+    "鞋履": {
+      "module": "服装",
+      "lv": 1,
+      "options": [
+        {
+          "l": "白色板鞋",
+          "z": "脚穿白色板鞋，鞋面干净",
+          "e": "clean white sneakers",
+          "b": "白色板鞋"
+        },
+        {
+          "l": "黑色板鞋",
+          "z": "脚穿黑色板鞋",
+          "e": "black low-top sneakers",
+          "b": "黑色板鞋"
+        },
+        {
+          "l": "皮质乐福鞋",
+          "z": "脚穿皮质乐福鞋，鞋面无带",
+          "e": "leather loafers",
+          "b": "皮质乐福鞋"
+        },
+        {
+          "l": "牛津鞋",
+          "z": "脚穿牛津鞋，鞋头系带",
+          "e": "lace-up oxford shoes",
+          "b": "牛津鞋"
+        },
+        {
+          "l": "德比鞋",
+          "z": "脚穿德比鞋，鞋襟敞开",
+          "e": "derby shoes with open lacing",
+          "b": "德比鞋"
+        },
+        {
+          "l": "切尔西靴",
+          "z": "脚穿切尔西靴，侧边为松紧布",
+          "e": "chelsea boots with elastic side panels",
+          "b": "切尔西靴"
+        },
+        {
+          "l": "工装靴",
+          "z": "脚穿工装靴，鞋头圆厚",
+          "e": "round-toe work boots",
+          "b": "工装靴"
+        },
+        {
+          "l": "马丁靴",
+          "z": "脚穿马丁靴，鞋带系至脚踝",
+          "e": "laced combat boots",
+          "b": "马丁靴"
+        },
+        {
+          "l": "高帮帆布鞋",
+          "z": "脚穿高帮帆布鞋，鞋帮包住脚踝",
+          "e": "high-top canvas shoes",
+          "b": "高帮帆布鞋"
+        },
+        {
+          "l": "低帮帆布鞋",
+          "z": "脚穿低帮帆布鞋",
+          "e": "low-top canvas shoes",
+          "b": "低帮帆布鞋"
+        },
+        {
+          "l": "运动跑鞋",
+          "z": "脚穿运动跑鞋，鞋底厚实",
+          "e": "cushioned running shoes",
+          "b": "运动跑鞋"
+        },
+        {
+          "l": "老爹鞋",
+          "z": "脚穿老爹鞋，鞋身层次多",
+          "e": "chunky retro dad sneakers",
+          "b": "老爹鞋"
+        },
+        {
+          "l": "户外登山鞋",
+          "z": "脚穿户外登山鞋，鞋面为防水织物",
+          "e": "waterproof hiking boots",
+          "b": "户外登山鞋"
+        },
+        {
+          "l": "沙漠靴",
+          "z": "脚穿沙漠靴，鞋面为翻毛皮",
+          "e": "suede desert boots",
+          "b": "沙漠靴"
+        },
+        {
+          "l": "尖头皮鞋",
+          "z": "脚穿尖头皮鞋，鞋头收窄",
+          "e": "pointed-toe leather shoes",
+          "b": "尖头皮鞋"
+        },
+        {
+          "l": "拖鞋",
+          "z": "脚穿拖鞋，脚趾露出",
+          "e": "open-toe slides",
+          "b": "拖鞋"
+        },
+        {
+          "l": "凉鞋",
+          "z": "脚穿凉鞋，绑带清晰",
+          "e": "strap sandals",
+          "b": "凉鞋"
+        },
+        {
+          "l": "雨靴",
+          "z": "脚穿雨靴，靴筒到小腿",
+          "e": "mid-calf rain boots",
+          "b": "雨靴"
+        },
+        {
+          "l": "钉鞋",
+          "z": "脚穿带钉鞋，鞋底齿纹明显",
+          "e": "spiked cleats with visible studs",
+          "b": "钉鞋"
+        },
+        {
+          "l": "赤脚",
+          "z": "赤脚，脚掌直接接触地面",
+          "e": "barefoot",
+          "b": "赤脚"
+        }
+      ]
+    },
+    "服装配件": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "不佩戴",
+          "z": "不额外佩戴服饰配件",
+          "e": "no extra accessories",
+          "b": "不佩戴"
+        },
+        {
+          "l": "皮质皮带",
+          "z": "腰间系皮质皮带，扣件为金属",
+          "e": "a leather belt with a metal buckle",
+          "b": "皮质皮带"
+        },
+        {
+          "l": "编织腰带",
+          "z": "腰间系编织腰带",
+          "e": "a woven belt",
+          "b": "编织腰带"
+        },
+        {
+          "l": "羊绒围巾",
+          "z": "颈部绕一条羊绒围巾",
+          "e": "a cashmere scarf around the neck",
+          "b": "羊绒围巾"
+        },
+        {
+          "l": "针织围巾",
+          "z": "颈部绕针织围巾，末端垂落",
+          "e": "a knit scarf hanging at the chest",
+          "b": "针织围巾"
+        },
+        {
+          "l": "领带",
+          "z": "系一条窄版领带，结位端正",
+          "e": "a slim necktie with a neat knot",
+          "b": "领带"
+        },
+        {
+          "l": "领结",
+          "z": "佩戴领结，结形饱满",
+          "e": "a bow tie",
+          "b": "领结"
+        },
+        {
+          "l": "口袋巾",
+          "z": "西装口袋露出折叠口袋巾",
+          "e": "a folded pocket square",
+          "b": "口袋巾"
+        },
+        {
+          "l": "袖扣",
+          "z": "衬衫袖口佩戴金属袖扣",
+          "e": "metal cufflinks",
+          "b": "袖扣"
+        },
+        {
+          "l": "胸针",
+          "z": "翻领处别一枚小胸针",
+          "e": "a small lapel pin",
+          "b": "胸针"
+        },
+        {
+          "l": "细项链",
+          "z": "颈部佩戴细金属项链",
+          "e": "a thin metal chain necklace",
+          "b": "细项链"
+        },
+        {
+          "l": "粗链",
+          "z": "颈部佩戴较粗的金属链",
+          "e": "a thick chain necklace",
+          "b": "粗链"
+        },
+        {
+          "l": "银戒指",
+          "z": "手指佩戴素银戒指",
+          "e": "a plain silver ring",
+          "b": "银戒指"
+        },
+        {
+          "l": "皮手环",
+          "z": "手腕佩戴皮质手环",
+          "e": "a leather wrist band",
+          "b": "皮手环"
+        },
+        {
+          "l": "编织手绳",
+          "z": "手腕系一条编织手绳",
+          "e": "a braided cord bracelet",
+          "b": "编织手绳"
+        },
+        {
+          "l": "耳钉",
+          "z": "耳垂佩戴小号金属耳钉",
+          "e": "small metal stud earrings",
+          "b": "耳钉"
+        },
+        {
+          "l": "围裙",
+          "z": "腰前系工作围裙，带使用痕迹",
+          "e": "a worn work apron",
+          "b": "围裙"
+        },
+        {
+          "l": "斜挎包",
+          "z": "肩背斜挎包，包身贴向身体一侧",
+          "e": "a crossbody bag against the hip",
+          "b": "斜挎包"
+        },
+        {
+          "l": "公文包",
+          "z": "手提公文包，边缘硬挺",
+          "e": "a structured briefcase",
+          "b": "公文包"
+        },
+        {
+          "l": "双肩包",
+          "z": "肩背双肩包，肩带压在胸口",
+          "e": "a backpack with straps across the chest",
+          "b": "双肩包"
+        },
+        {
+          "l": "相机背带",
+          "z": "相机背带斜跨在胸前",
+          "e": "a camera strap across the chest",
+          "b": "相机背带"
+        },
+        {
+          "l": "头戴耳机",
+          "z": "头戴式耳机挂在颈间",
+          "e": "over-ear headphones resting around the neck",
+          "b": "头戴耳机"
+        },
+        {
+          "l": "皮革手套",
+          "z": "手戴皮革手套，指节自然弯折",
+          "e": "leather gloves with bent knuckles",
+          "b": "皮革手套"
+        },
+        {
+          "l": "针织手套",
+          "z": "手戴针织手套，指尖露出",
+          "e": "knit fingerless gloves",
+          "b": "针织手套"
+        },
+        {
+          "l": "金属钥匙扣",
+          "z": "腰间挂金属钥匙扣，钥匙碰撞下垂",
+          "e": "a metal keyring hanging at the hip",
+          "b": "金属钥匙扣"
+        },
+        {
+          "l": "打火机",
+          "z": "手中捏一枚金属打火机",
+          "e": "a metal lighter in hand",
+          "b": "打火机"
+        },
+        {
+          "l": "烟盒",
+          "z": "外套口袋露出扁烟盒",
+          "e": "a flat cigarette case in the coat pocket",
+          "b": "烟盒"
+        },
+        {
+          "l": "护腕",
+          "z": "手腕佩戴运动护腕",
+          "e": "athletic wrist wraps",
+          "b": "护腕"
+        },
+        {
+          "l": "运动水壶",
+          "z": "手中握运动水壶",
+          "e": "holding a sports water bottle",
+          "b": "运动水壶"
+        },
+        {
+          "l": "腰包",
+          "z": "腰间佩戴腰包，包体贴住前腹",
+          "e": "a waist pack at the front",
+          "b": "腰包"
+        },
+        {
+          "l": "胸包",
+          "z": "胸前佩戴胸包，肩带斜压",
+          "e": "a chest rig bag with a diagonal strap",
+          "b": "胸包"
+        },
+        {
+          "l": "长柄伞",
+          "z": "手中握长柄伞，伞尖点地",
+          "e": "holding a long umbrella with the tip on the ground",
+          "b": "长柄伞"
+        },
+        {
+          "l": "笔记本",
+          "z": "手中夹一本笔记本",
+          "e": "a notebook held in one hand",
+          "b": "笔记本"
+        },
+        {
+          "l": "笔",
+          "z": "手指夹一支笔",
+          "e": "a pen between the fingers",
+          "b": "笔"
+        },
+        {
+          "l": "工作证件",
+          "z": "胸前挂工作证件，挂绳明显",
+          "e": "a work badge on a lanyard",
+          "b": "工作证件"
+        },
+        {
+          "l": "方巾",
+          "z": "颈间系一条小方巾",
+          "e": "a small neckerchief",
+          "b": "方巾"
+        },
+        {
+          "l": "臂环",
+          "z": "上臂佩戴金属臂环",
+          "e": "a metal arm band on the upper arm",
+          "b": "臂环"
+        },
+        {
+          "l": "腰带链",
+          "z": "腰间垂下一条细金属链",
+          "e": "a thin chain hanging from the belt",
+          "b": "腰带链"
+        },
+        {
+          "l": "健身手胶",
+          "z": "手指缠着训练手胶",
+          "e": "fingers wrapped in athletic tape",
+          "b": "健身手胶"
+        }
+      ]
+    },
+    "腕表配饰": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "不佩戴",
+          "z": "手腕不佩戴任何腕表或手链",
+          "e": "no watch or bracelet",
+          "b": "不佩戴"
+        },
+        {
+          "l": "机械钢表",
+          "z": "佩戴机械钢表，表盘为深色",
+          "e": "a stainless steel mechanical watch with a dark dial",
+          "b": "机械钢表"
+        },
+        {
+          "l": "黑盘皮带表",
+          "z": "佩戴黑盘皮带表，表带为深棕皮",
+          "e": "a leather-strap watch with a black dial",
+          "b": "黑盘皮带表"
+        },
+        {
+          "l": "潜水表",
+          "z": "佩戴潜水表，外圈刻度明显",
+          "e": "a dive watch with a marked bezel",
+          "b": "潜水表"
+        },
+        {
+          "l": "方盘复古表",
+          "z": "佩戴方盘复古表，表壳小巧",
+          "e": "a small square vintage watch",
+          "b": "方盘复古表"
+        },
+        {
+          "l": "极简石英表",
+          "z": "佩戴极简石英表，无刻度装饰",
+          "e": "a minimal quartz watch",
+          "b": "极简石英表"
+        },
+        {
+          "l": "运动电子表",
+          "z": "佩戴运动电子表，数字显示",
+          "e": "a digital sports watch",
+          "b": "运动电子表"
+        },
+        {
+          "l": "智能手表",
+          "z": "佩戴智能手表，表带为硅胶",
+          "e": "a smartwatch with a silicone band",
+          "b": "智能手表"
+        },
+        {
+          "l": "金色腕表",
+          "z": "佩戴金色腕表，表面反光",
+          "e": "a gold-toned watch with a reflective finish",
+          "b": "金色腕表"
+        },
+        {
+          "l": "军风表",
+          "z": "佩戴军风表，帆布表带",
+          "e": "a military-style field watch on a canvas strap",
+          "b": "军风表"
+        },
+        {
+          "l": "金属手链",
+          "z": "手腕佩戴金属手链",
+          "e": "a metal link bracelet",
+          "b": "金属手链"
+        },
+        {
+          "l": "表链叠戴",
+          "z": "腕表与细手链一起叠戴",
+          "e": "a watch layered with a thin bracelet",
+          "b": "表链叠戴"
+        }
+      ]
+    }
+  }
+}

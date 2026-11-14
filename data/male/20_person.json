@@ -1,0 +1,281 @@
+{
+ "version": 1,
+ "fields": {
+  "脸型": {
+   "module": "人物",
+   "lv": 1,
+   "options": [
+    {"l": "长方脸", "z": "脸型为长方脸，脸部纵向比例偏长，下颌接近方形", "e": "long rectangular face shape", "b": "长方脸"},
+    {"l": "国字脸", "z": "脸型为国字脸，额头、颧骨与下颌宽度接近", "e": "broad square face shape", "b": "国字脸"},
+    {"l": "鹅蛋脸", "z": "脸型为鹅蛋脸，脸部比例均衡收窄", "e": "oval face shape", "b": "鹅蛋脸"},
+    {"l": "圆脸", "z": "脸型为圆脸，面颊饱满，下颌转折圆滑", "e": "round face shape", "b": "圆脸"},
+    {"l": "菱形脸", "z": "脸型为菱形脸，颧骨区域最宽，额头与下颌较窄", "e": "diamond face shape", "b": "菱形脸"},
+    {"l": "心形脸", "z": "脸型为心形脸，额头偏宽，下颌收窄", "e": "heart-shaped face", "b": "心形脸"},
+    {"l": "方脸", "z": "脸型为方脸，下颌角清楚，轮廓硬朗", "e": "angular square face", "b": "方脸"},
+    {"l": "瘦长脸", "z": "脸型为瘦长脸，面颊偏窄，颧骨到下颌线条平直", "e": "narrow long face", "b": "瘦长脸"},
+    {"l": "宽额头脸", "z": "脸型为宽额头脸，上半部骨量突出", "e": "wide-forehead face shape", "b": "宽额头脸"},
+    {"l": "五角脸", "z": "脸型为五角脸，下颌角明显外扩", "e": "pentagonal face with wide jaw", "b": "五角脸"}
+   ]
+  },
+  "轮廓细节": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "下颌线清晰", "z": "下颌线清晰，从耳下到下巴转折利落", "e": "defined jawline", "b": "下颌线清晰"},
+    {"l": "下颌方正", "z": "下颌方正，正面宽度感明显", "e": "square jaw", "b": "下颌方正"},
+    {"l": "颧骨明显", "z": "颧骨明显，面中部骨点突出", "e": "prominent cheekbones", "b": "颧骨明显"},
+    {"l": "面颊消瘦", "z": "面颊消瘦，颧下形成轻微凹陷", "e": "lean hollow cheeks", "b": "面颊消瘦"},
+    {"l": "颧骨平缓", "z": "颧骨平缓，面部过渡柔和", "e": "soft flat cheekbones", "b": "颧骨平缓"},
+    {"l": "下巴宽厚", "z": "下巴宽厚，正面支撑感强", "e": "broad heavy chin", "b": "下巴宽厚"},
+    {"l": "下巴尖短", "z": "下巴偏尖且短，下颌收得干净", "e": "short pointed chin", "b": "下巴尖短"},
+    {"l": "颧弓外扩", "z": "颧弓轻微外扩，脸宽集中在面中", "e": "outward flared cheekbones", "b": "颧弓外扩"},
+    {"l": "骨量足", "z": "面部骨量足，五官轮廓立体", "e": "strong bone structure", "b": "骨量足"},
+    {"l": "面颊有肉感", "z": "面颊保留肉感，轮廓不显削瘦", "e": "fuller cheeks with soft volume", "b": "面颊有肉感"}
+   ]
+  },
+  "眉形": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "平直浓眉", "z": "眉形为平直浓眉，眉峰不明显", "e": "straight thick brows", "b": "平直浓眉"},
+    {"l": "剑眉", "z": "眉形为剑眉，眉尾上扬有力", "e": "sword-shaped upswept brows", "b": "剑眉"},
+    {"l": "自然粗眉", "z": "眉形为自然粗眉，眉头浓密", "e": "natural bushy brows", "b": "自然粗眉"},
+    {"l": "修整眉形", "z": "眉形经过修整，边缘干净", "e": "neatly groomed brows", "b": "修整眉形"},
+    {"l": "微挑眉", "z": "眉形轻微上挑，眉峰清楚", "e": "slightly arched brows", "b": "微挑眉"},
+    {"l": "低平眉", "z": "眉形低平，眉骨压迫感明显", "e": "low flat brows", "b": "低平眉"},
+    {"l": "稀疏眉", "z": "眉毛偏稀疏，眉头到眉尾密度渐弱", "e": "sparse thin brows", "b": "稀疏眉"},
+    {"l": "眉峰明显", "z": "眉峰明显，转折角度清楚", "e": "sharp brow peaks", "b": "眉峰明显"},
+    {"l": "斜飞眉", "z": "眉形斜飞，眉尾指向太阳穴", "e": "diagonal swept brows", "b": "斜飞眉"},
+    {"l": "连心眉", "z": "眉头距离偏近，眉间毛流轻微相连", "e": "brows meeting near the bridge", "b": "连心眉"},
+    {"l": "浅淡眉", "z": "眉色浅淡，眉形不明显", "e": "faint light brows", "b": "浅淡眉"},
+    {"l": "灰白眉", "z": "眉毛带灰白，眉梢稀疏", "e": "graying brows", "b": "灰白眉"}
+   ]
+  },
+  "眼型": {
+   "module": "人物",
+   "lv": 1,
+   "options": [
+    {"l": "细长眼", "z": "眼型为细长眼，眼裂横向偏长", "e": "narrow elongated eyes", "b": "细长眼"},
+    {"l": "单眼皮", "z": "眼型为单眼皮，上睑平整", "e": "monolid eyes", "b": "单眼皮"},
+    {"l": "内双眼", "z": "眼型为内双，睁眼时褶皱不显", "e": "hidden double-lid eyes", "b": "内双眼"},
+    {"l": "深眼窝", "z": "眼窝较深，眉骨在眼部形成阴影", "e": "deep-set eyes", "b": "深眼窝"},
+    {"l": "上挑眼", "z": "眼型上挑，外眼角高于内眼角", "e": "upturned eyes", "b": "上挑眼"},
+    {"l": "下垂眼", "z": "眼型轻微下垂，外眼角走低", "e": "downturned eyes", "b": "下垂眼"},
+    {"l": "圆眼", "z": "眼型偏圆，黑眼珠露出多", "e": "round open eyes", "b": "圆眼"},
+    {"l": "窄长凤眼", "z": "眼型窄长，内眼角锐利下勾", "e": "narrow phoenix eyes", "b": "窄长凤眼"},
+    {"l": "三角眼", "z": "眼型呈三角，上睑走势平直", "e": "triangular eyes", "b": "三角眼"}
+   ]
+  },
+  "瞳色": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "深棕瞳", "z": "瞳色为深棕色", "e": "dark brown irises", "b": "深棕瞳"},
+    {"l": "黑色瞳", "z": "瞳色接近纯黑", "e": "near-black irises", "b": "黑色瞳"},
+    {"l": "浅棕瞳", "z": "瞳色为浅棕色，光下透亮", "e": "light brown irises", "b": "浅棕瞳"},
+    {"l": "灰色瞳", "z": "瞳色为灰色，边缘偏冷", "e": "gray irises", "b": "灰色瞳"},
+    {"l": "琥珀瞳", "z": "瞳色为琥珀色，带暖红光点", "e": "amber irises", "b": "琥珀瞳"},
+    {"l": "橄榄绿瞳", "z": "瞳色为橄榄绿，色相偏暗", "e": "olive green irises", "b": "橄榄绿瞳"},
+    {"l": "蓝灰瞳", "z": "瞳色为蓝灰色，光线穿透感明显", "e": "blue-gray irises", "b": "蓝灰瞳"},
+    {"l": "异色瞳", "z": "双眼瞳色不同，一侧偏深一侧偏浅", "e": "heterochromatic irises", "b": "异色瞳"}
+   ]
+  },
+  "眼睑特征": {
+   "module": "人物",
+   "lv": 3,
+   "options": [
+    {"l": "自然单睑", "z": "上睑为自然单睑，皮肤平整", "e": "natural monolids", "b": "自然单睑"},
+    {"l": "窄内双", "z": "上睑为窄内双，褶皱贴近睫毛根部", "e": "narrow hidden crease", "b": "窄内双"},
+    {"l": "明显双眼皮", "z": "上睑为明显双眼皮，褶皱宽度均匀", "e": "clear double eyelids", "b": "明显双眼皮"},
+    {"l": "眼睑略肿", "z": "上睑略肿，眼部显厚", "e": "slightly puffy eyelids", "b": "眼睑略肿"},
+    {"l": "眼窝深陷", "z": "眼窝深陷，眉骨与眼球落差明显", "e": "sunken eye sockets", "b": "眼窝深陷"},
+    {"l": "上睑下垂", "z": "上睑轻微下垂，遮住部分黑眼珠", "e": "slightly drooping upper lids", "b": "上睑下垂"}
+   ]
+  },
+  "鼻型": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "直挺鼻", "z": "鼻型为直挺鼻，鼻梁线条平直", "e": "straight narrow nose", "b": "直挺鼻"},
+    {"l": "高鼻梁", "z": "鼻梁高挺，鼻根起点清楚", "e": "high nose bridge", "b": "高鼻梁"},
+    {"l": "鹰钩鼻", "z": "鼻型为鹰钩鼻，鼻尖微向下勾", "e": "hooked nose", "b": "鹰钩鼻"},
+    {"l": "宽鼻翼", "z": "鼻翼偏宽，鼻孔横向展开", "e": "wide flared nostrils", "b": "宽鼻翼"},
+    {"l": "圆鼻头", "z": "鼻头圆润，鼻尖体积感明显", "e": "rounded bulbous nose tip", "b": "圆鼻头"},
+    {"l": "驼峰鼻", "z": "鼻梁中段轻微凸起，形成驼峰", "e": "nose with a dorsal hump", "b": "驼峰鼻"},
+    {"l": "窄鼻", "z": "鼻型偏窄，鼻翼收得干净", "e": "narrow slim nose", "b": "窄鼻"},
+    {"l": "鼻梁微塌", "z": "鼻梁微塌，鼻根到鼻尖过渡平缓", "e": "low flatter nose bridge", "b": "鼻梁微塌"},
+    {"l": "方正鼻", "z": "鼻型方正，鼻头与鼻翼宽度接近", "e": "square broad nose", "b": "方正鼻"},
+    {"l": "鼻尖微翘", "z": "鼻尖微微上翘，正面鼻孔可见", "e": "slightly upturned nose tip", "b": "鼻尖微翘"}
+   ]
+  },
+  "唇形": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "薄唇", "z": "唇形偏薄，上下唇厚度接近", "e": "thin lips", "b": "薄唇"},
+    {"l": "适中唇形", "z": "唇形厚度适中，唇峰清楚", "e": "medium full lips", "b": "适中唇形"},
+    {"l": "厚唇", "z": "唇形偏厚，下唇体积明显", "e": "full thick lips", "b": "厚唇"},
+    {"l": "上唇偏薄", "z": "上唇偏薄，下唇略厚", "e": "thin upper lip", "b": "上唇偏薄"},
+    {"l": "唇角平直", "z": "唇角平直，闭合线水平", "e": "level straight lip line", "b": "唇角平直"},
+    {"l": "唇角微垂", "z": "唇角轻微下垂，神情偏冷", "e": "slightly downturned lip corners", "b": "唇角微垂"},
+    {"l": "唇线清晰", "z": "唇线清晰，边缘转折明确", "e": "sharply defined lip line", "b": "唇线清晰"},
+    {"l": "下唇饱满", "z": "下唇饱满，中间略微外翻", "e": "plump lower lip", "b": "下唇饱满"},
+    {"l": "唇形方正", "z": "唇形方正，唇峰不明显", "e": "square-shaped lips", "b": "唇形方正"}
+   ]
+  },
+  "胡须": {
+   "module": "人物",
+   "lv": 1,
+   "options": [
+    {"l": "清爽无胡", "z": "下颌与唇周保持干净无胡", "e": "clean-shaven", "b": "清爽无胡"},
+    {"l": "青皮胡茬", "z": "下颌带一层青皮胡茬，剃后留有底色", "e": "five o'clock shadow stubble", "b": "青皮胡茬"},
+    {"l": "短胡茬", "z": "全脸覆盖短胡茬，长度均匀", "e": "uniform short stubble", "b": "短胡茬"},
+    {"l": "唇上胡", "z": "唇上留一条窄胡，边缘修整", "e": "trimmed mustache", "b": "唇上胡"},
+    {"l": "八字胡", "z": "唇上胡向两侧分开，呈八字形", "e": "handlebar mustache", "b": "八字胡"},
+    {"l": "下巴短须", "z": "下巴留一小块短须，边缘清楚", "e": "short goatee", "b": "下巴短须"},
+    {"l": "山羊胡", "z": "下巴胡须向下延伸成尖", "e": "pointed goatee", "b": "山羊胡"},
+    {"l": "络腮胡", "z": "胡须沿下颌连到面颊，覆盖下巴与腮侧", "e": "full beard along the jaw", "b": "络腮胡"},
+    {"l": "全脸浓须", "z": "全脸浓密胡须，遮住下颌轮廓", "e": "dense full beard", "b": "全脸浓须"},
+    {"l": "修整短须", "z": "短须经过修整，轮廓线清晰", "e": "neatly shaped short beard", "b": "修整短须"},
+    {"l": "胡角上扬", "z": "唇角胡须向两侧上扬，末端收尖", "e": "upturned mustache tips", "b": "胡角上扬"},
+    {"l": "连鬓胡", "z": "鬓角向下连接胡须，形成连续边界", "e": "beard joined to sideburns", "b": "连鬓胡"},
+    {"l": "灰白胡", "z": "胡须夹带灰白，色调不均匀", "e": "salt-and-pepper beard", "b": "灰白胡"},
+    {"l": "野性长须", "z": "胡须偏长且未修整，带野性", "e": "long untrimmed wild beard", "b": "野性长须"},
+    {"l": "胡茬渐变", "z": "胡茬由下颌向面颊渐变稀疏", "e": "faded stubble along the cheeks", "b": "胡茬渐变"},
+    {"l": "白须长者", "z": "胡须整体花白，长度及颈", "e": "long white beard", "b": "白须长者"},
+    {"l": "剃痕留青", "z": "刚剃过的下颌留一层青色剃痕", "e": "freshly shaved with visible shadow", "b": "剃痕留青"},
+    {"l": "细窄胡线", "z": "沿下颌留一条细窄胡线", "e": "thin chinstrap beard line", "b": "细窄胡线"}
+   ]
+  },
+  "肤色": {
+   "module": "人物",
+   "lv": 1,
+   "options": [
+    {"l": "冷白肤色", "z": "肤色为冷调自然白皙", "e": "cool fair skin tone", "b": "冷白肤色"},
+    {"l": "自然白肤色", "z": "肤色为自然白，无明显血色", "e": "natural fair skin tone", "b": "自然白肤色"},
+    {"l": "自然浅肤色", "z": "肤色为明度适中的自然浅色", "e": "light natural skin tone", "b": "自然浅肤色"},
+    {"l": "小麦肤色", "z": "肤色为健康的小麦色", "e": "warm wheat skin tone", "b": "小麦肤色"},
+    {"l": "橄榄肤色", "z": "肤色为偏绿的橄榄色调", "e": "olive skin tone", "b": "橄榄肤色"},
+    {"l": "深棕肤色", "z": "肤色为均匀的深棕色", "e": "deep brown skin tone", "b": "深棕肤色"},
+    {"l": "古铜肤色", "z": "肤色为日晒后的古铜色", "e": "sun-bronzed skin tone", "b": "古铜肤色"},
+    {"l": "晒后红棕", "z": "肤色带晒后红棕，鼻梁与颧骨更深", "e": "sun-flushed reddish tan skin", "b": "晒后红棕"}
+   ]
+  },
+  "肤质": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "自然哑光", "z": "肤质为自然哑光，油光克制", "e": "natural matte skin texture", "b": "自然哑光"},
+    {"l": "毛孔清晰", "z": "毛孔可见，鼻翼与面颊质地清楚", "e": "visible skin pores", "b": "毛孔清晰"},
+    {"l": "偏油光泽", "z": "T 区带轻微油光，皮肤有反光", "e": "slightly oily sheen on the T-zone", "b": "偏油光泽"},
+    {"l": "粗糙颗粒", "z": "肤质粗糙，面颊有颗粒感", "e": "rough grainy skin texture", "b": "粗糙颗粒"},
+    {"l": "风霜质感", "z": "皮肤带风霜感，眼周与颧骨纹理明显", "e": "weathered skin with fine lines", "b": "风霜质感"},
+    {"l": "户外晒痕", "z": "皮肤有户外晒痕，领口内外色差清楚", "e": "outdoor tan lines at the collar", "b": "户外晒痕"},
+    {"l": "细纹可见", "z": "眼角与额头细纹可见", "e": "visible fine lines around eyes", "b": "细纹可见"},
+    {"l": "干净细腻", "z": "皮肤干净细腻，质地均匀", "e": "clean smooth even skin", "b": "干净细腻"}
+   ]
+  },
+  "体毛": {
+   "module": "人物",
+   "lv": 3,
+   "options": [
+    {"l": "无明显体毛", "z": "小臂与颈部无明显体毛", "e": "little visible body hair", "b": "无明显体毛"},
+    {"l": "手臂细软", "z": "小臂体毛细软，颜色偏浅", "e": "fine soft arm hair", "b": "手臂细软"},
+    {"l": "小臂明显", "z": "小臂体毛明显，方向一致", "e": "visible forearm hair", "b": "小臂明显"},
+    {"l": "胸口毛发", "z": "领口敞开时可见胸口毛发", "e": "chest hair visible at the open collar", "b": "胸口毛发"},
+    {"l": "络腮自然", "z": "胡须与鬓角自然衔接，密度中等", "e": "naturally connected beard and sideburns", "b": "络腮自然"},
+    {"l": "浓密旺盛", "z": "体毛浓密，手臂与胸口覆盖度高", "e": "dense body hair", "b": "浓密旺盛"}
+   ]
+  },
+  "刺青": {
+   "module": "人物",
+   "lv": 3,
+   "options": [
+    {"l": "无刺青", "z": "皮肤上没有刺青", "e": "no tattoos", "b": "无刺青"},
+    {"l": "小臂图腾", "z": "小臂内侧有一块黑灰图腾刺青", "e": "black-gray tribal tattoo on the forearm", "b": "小臂图腾"},
+    {"l": "整臂花臂", "z": "整条手臂覆盖花臂刺青，图案连续", "e": "full sleeve tattoo on one arm", "b": "整臂花臂"},
+    {"l": "胸口文字", "z": "锁骨下方有一行小字刺青", "e": "small script tattoo below the collarbone", "b": "胸口文字"},
+    {"l": "颈后纹样", "z": "颈后有一枚小型几何纹样刺青", "e": "small geometric tattoo at the nape", "b": "颈后纹样"},
+    {"l": "手背图案", "z": "手背有一枚简洁线条刺青", "e": "simple line tattoo on the back of the hand", "b": "手背图案"},
+    {"l": "黑灰手臂", "z": "手臂刺青以黑灰写实风格为主", "e": "black-and-gray realistic arm tattoo", "b": "黑灰手臂"},
+    {"l": "肋骨侧线", "z": "肋骨侧面有一条细长竖线刺青", "e": "thin vertical rib tattoo", "b": "肋骨侧线"},
+    {"l": "脊柱竖纹", "z": "脊柱位置有一列竖向纹样", "e": "vertical spine tattoo", "b": "脊柱竖纹"},
+    {"l": "老派水手", "z": "小臂为老派水手风格刺青，线条粗实", "e": "old-school sailor tattoo on the forearm", "b": "老派水手"},
+    {"l": "日式背纹", "z": "背部覆盖日式传统纹样，面积较大", "e": "large Japanese-style back tattoo", "b": "日式背纹"},
+    {"l": "几何线条", "z": "肩部有几条极简几何线条刺青", "e": "minimal geometric line tattoo on the shoulder", "b": "几何线条"}
+   ]
+  },
+  "基础身形": {
+   "module": "人物",
+   "lv": 1,
+   "options": [
+    {"l": "清瘦", "z": "身形清瘦，肩背单薄", "e": "lean slender build", "b": "清瘦"},
+    {"l": "精瘦有线条", "z": "身形精瘦，肌肉线条清楚但不厚", "e": "wiry defined build", "b": "精瘦有线条"},
+    {"l": "自然匀称", "z": "身形自然匀称，比例协调", "e": "naturally balanced build", "b": "自然匀称"},
+    {"l": "肩宽胸厚", "z": "肩宽胸厚，上半身量感明显", "e": "broad-shouldered thick-chested build", "b": "肩宽胸厚"},
+    {"l": "壮硕厚实", "z": "身形壮硕厚实，体量感强", "e": "massive heavy build", "b": "壮硕厚实"},
+    {"l": "中年微发福", "z": "身形中年微发福，腰腹有厚度", "e": "middle-aged build with a softer waist", "b": "中年微发福"}
+   ]
+  },
+  "身量观感": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "修长身量", "z": "身量修长，四肢比例舒展", "e": "tall elongated frame", "b": "修长身量"},
+    {"l": "中等身量", "z": "身量为中等，比例稳定", "e": "average height and proportions", "b": "中等身量"},
+    {"l": "高壮身量", "z": "身量高壮，站姿占据画面纵向空间", "e": "tall heavily built frame", "b": "高壮身量"},
+    {"l": "窄肩身量", "z": "身量偏窄，肩线不宽", "e": "narrow-shouldered frame", "b": "窄肩身量"},
+    {"l": "紧凑身量", "z": "身量紧凑，骨架短而结实", "e": "compact sturdy frame", "b": "紧凑身量"},
+    {"l": "宽骨架", "z": "骨架宽，肩胯横向幅度大", "e": "wide skeletal frame", "b": "宽骨架"}
+   ]
+  },
+  "肌肉线条": {
+   "module": "人物",
+   "lv": 1,
+   "options": [
+    {"l": "线条平缓", "z": "肌肉线条平缓，未见明显分块", "e": "soft smooth muscle definition", "b": "线条平缓"},
+    {"l": "手臂清晰", "z": "手臂肌肉线条清晰，肱二头肌轮廓可见", "e": "defined arm muscles", "b": "手臂清晰"},
+    {"l": "肩部饱满", "z": "三角肌饱满，肩头形成圆弧", "e": "full rounded deltoids", "b": "肩部饱满"},
+    {"l": "背阔明显", "z": "背阔肌明显，背部呈倒三角", "e": "visible lat spread in a V shape", "b": "背阔明显"},
+    {"l": "胸肌厚实", "z": "胸肌厚实，衣料被撑起", "e": "thick defined pectorals", "b": "胸肌厚实"},
+    {"l": "腹肌隐约", "z": "腹肌隐约可见，被薄层脂肪覆盖", "e": "faintly visible abs", "b": "腹肌隐约"},
+    {"l": "六块腹肌", "z": "腹部线条清晰，呈六块分块", "e": "clear six-pack abs", "b": "六块腹肌"},
+    {"l": "小臂血管", "z": "小臂血管明显，用力时隆起", "e": "visible forearm veins", "b": "小臂血管"},
+    {"l": "力量型体态", "z": "体态偏力量型，肌肉厚而不干", "e": "powerlifter-style thick muscle", "b": "力量型体态"},
+    {"l": "运动员体型", "z": "运动员体型，线条干净利落", "e": "athletic lean muscular build", "b": "运动员体型"},
+    {"l": "干练结实", "z": "身形干练结实，肌肉紧实不夸张", "e": "compact firm muscular build", "b": "干练结实"},
+    {"l": "瘦长无力感", "z": "肌肉量偏少，四肢细长", "e": "slender low-muscle build", "b": "瘦长无力感"},
+    {"l": "颈部粗壮", "z": "颈部粗壮，斜方肌明显", "e": "thick neck with strong traps", "b": "颈部粗壮"},
+    {"l": "腰腹收紧", "z": "腰腹收紧，肋下到髋部线条内收", "e": "tight waist with visible taper", "b": "腰腹收紧"}
+   ]
+  },
+  "肩背体态": {
+   "module": "人物",
+   "lv": 2,
+   "options": [
+    {"l": "肩线平直", "z": "肩线平直，左右高度接近", "e": "level horizontal shoulder line", "b": "肩线平直"},
+    {"l": "肩宽背直", "z": "肩宽背直，背面呈稳定矩形", "e": "broad shoulders with a straight back", "b": "肩宽背直"},
+    {"l": "挺拔肩背", "z": "肩背挺拔，胸廓打开", "e": "upright open chest posture", "b": "挺拔肩背"},
+    {"l": "含胸微驼", "z": "含胸微驼，肩头向前扣", "e": "rounded shoulders with mild slouch", "b": "含胸微驼"},
+    {"l": "肩胛明显", "z": "肩胛骨轮廓透过衣料可见", "e": "visible shoulder blades", "b": "肩胛明显"},
+    {"l": "窄肩清瘦", "z": "肩部偏窄，锁骨线条清楚", "e": "narrow shoulders with visible collarbones", "b": "窄肩清瘦"},
+    {"l": "厚背宽肩", "z": "背部厚实，肩宽超过髋宽", "e": "thick back with shoulders wider than hips", "b": "厚背宽肩"},
+    {"l": "伏案圆肩", "z": "长期伏案形成的圆肩，颈部前伸", "e": "desk-work rounded shoulders with forward neck", "b": "伏案圆肩"}
+   ]
+  },
+  "手部特征": {
+   "module": "人物",
+   "lv": 3,
+   "options": [
+    {"l": "指节分明", "z": "手指修长，指节分明", "e": "long fingers with defined knuckles", "b": "指节分明"},
+    {"l": "手掌宽厚", "z": "手掌宽厚，掌指比例偏大", "e": "broad thick palms", "b": "手掌宽厚"},
+    {"l": "细长手指", "z": "手指细长，关节不大", "e": "slender fingers", "b": "细长手指"},
+    {"l": "手背青筋", "z": "手背血管明显，青筋起伏", "e": "prominent veins on the back of the hand", "b": "手背青筋"},
+    {"l": "指节粗糙", "z": "指节皮肤粗糙，有劳动痕迹", "e": "rough knuckles from manual work", "b": "指节粗糙"},
+    {"l": "指甲修整", "z": "指甲修剪整齐，边缘干净", "e": "neatly trimmed nails", "b": "指甲修整"},
+    {"l": "手背晒痕", "z": "手背有晒痕，与手腕色差明显", "e": "sun-tanned back of the hand", "b": "手背晒痕"},
+    {"l": "掌心薄茧", "z": "掌心与指根有薄茧", "e": "light calluses on the palm", "b": "掌心薄茧"}
+   ]
+  }
+ }
+}

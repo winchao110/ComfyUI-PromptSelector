@@ -1,0 +1,1415 @@
+{
+  "version": 1,
+  "fields": {
+    "穿搭结构": {
+      "module": "服装",
+      "lv": 1,
+      "options": [
+        {
+          "l": "单件上装",
+          "z": "整体采用单件上装结构",
+          "e": "a single top as the main garment",
+          "b": "单件上装"
+        },
+        {
+          "l": "外套叠穿",
+          "z": "整体采用外套叠穿结构",
+          "e": "layered outerwear styling",
+          "b": "外套叠穿"
+        },
+        {
+          "l": "西装套装",
+          "z": "整体采用西装套装结构",
+          "e": "a full suit silhouette",
+          "b": "西装套装"
+        },
+        {
+          "l": "内搭加外套",
+          "z": "整体为内搭加外套的两件式结构",
+          "e": "a two-piece inner and outer structure",
+          "b": "内搭加外套"
+        },
+        {
+          "l": "运动套装",
+          "z": "整体采用运动套装结构",
+          "e": "a matching athletic set",
+          "b": "运动套装"
+        }
+      ]
+    },
+    "外套类型": {
+      "module": "服装",
+      "lv": 1,
+      "options": [
+        {
+          "l": "休闲西装",
+          "z": "外穿一件休闲西装外套",
+          "e": "a casual blazer",
+          "b": "休闲西装"
+        },
+        {
+          "l": "双排扣西装",
+          "z": "外穿双排扣西装外套",
+          "e": "a double-breasted suit jacket",
+          "b": "双排扣西装"
+        },
+        {
+          "l": "无结构西装",
+          "z": "外穿无结构西装，肩线柔软",
+          "e": "an unstructured soft-shoulder jacket",
+          "b": "无结构西装"
+        },
+        {
+          "l": "定制燕尾服",
+          "z": "身穿定制燕尾服",
+          "e": "a tailored tuxedo jacket",
+          "b": "定制燕尾服"
+        },
+        {
+          "l": "皮夹克",
+          "z": "外穿皮质夹克",
+          "e": "a leather jacket",
+          "b": "皮夹克"
+        },
+        {
+          "l": "机车皮衣",
+          "z": "外穿机车皮衣，拉链与金属扣明显",
+          "e": "a biker leather jacket with metal hardware",
+          "b": "机车皮衣"
+        },
+        {
+          "l": "飞行夹克",
+          "z": "外穿飞行夹克，袖口收口",
+          "e": "a bomber jacket with ribbed cuffs",
+          "b": "飞行夹克"
+        },
+        {
+          "l": "牛仔夹克",
+          "z": "外穿牛仔夹克，水洗做旧",
+          "e": "a faded washed denim jacket",
+          "b": "牛仔夹克"
+        },
+        {
+          "l": "工装夹克",
+          "z": "外穿工装夹克，多口袋结构",
+          "e": "a multi-pocket work jacket",
+          "b": "工装夹克"
+        },
+        {
+          "l": "教练夹克",
+          "z": "外穿教练夹克，领口收口",
+          "e": "a coach jacket with a collared neck",
+          "b": "教练夹克"
+        },
+        {
+          "l": "棒球夹克",
+          "z": "外穿棒球夹克，袖口拼色",
+          "e": "a varsity baseball jacket with contrast sleeves",
+          "b": "棒球夹克"
+        },
+        {
+          "l": "羽绒服",
+          "z": "外穿短款羽绒服",
+          "e": "a short down puffer jacket",
+          "b": "羽绒服"
+        },
+        {
+          "l": "派克大衣",
+          "z": "外穿派克大衣，帽圈带毛边",
+          "e": "a fur-trimmed hooded parka",
+          "b": "派克大衣"
+        },
+        {
+          "l": "长风衣",
+          "z": "外穿长风衣，衣长过膝",
+          "e": "a long trench coat past the knee",
+          "b": "长风衣"
+        },
+        {
+          "l": "短风衣",
+          "z": "外穿短风衣，衣长到胯",
+          "e": "a short hip-length trench",
+          "b": "短风衣"
+        },
+        {
+          "l": "呢子大衣",
+          "z": "外穿呢子大衣，肩线结构清楚",
+          "e": "a structured wool coat",
+          "b": "呢子大衣"
+        },
+        {
+          "l": "双面呢大衣",
+          "z": "外穿双面呢大衣，边缘无衬",
+          "e": "an unlined double-faced wool coat",
+          "b": "双面呢大衣"
+        },
+        {
+          "l": "羊毛大衣",
+          "z": "外穿厚羊毛大衣",
+          "e": "a heavy wool overcoat",
+          "b": "羊毛大衣"
+        },
+        {
+          "l": "冲锋衣",
+          "z": "外穿硬壳冲锋衣，防水压胶明显",
+          "e": "a waterproof shell jacket",
+          "b": "冲锋衣"
+        },
+        {
+          "l": "软壳外套",
+          "z": "外穿软壳外套，表面绒感",
+          "e": "a softshell fleece-lined jacket",
+          "b": "软壳外套"
+        },
+        {
+          "l": "针织开衫",
+          "z": "外穿针织开衫，扣件半开",
+          "e": "a knit cardigan worn open",
+          "b": "针织开衫"
+        },
+        {
+          "l": "连帽卫衣",
+          "z": "外穿连帽卫衣，帽绳垂落",
+          "e": "a hooded sweatshirt with dangling drawstrings",
+          "b": "连帽卫衣"
+        },
+        {
+          "l": "衬衫外穿",
+          "z": "衬衫作为外层直接外穿",
+          "e": "a shirt worn as the outer layer",
+          "b": "衬衫外穿"
+        },
+        {
+          "l": "马甲",
+          "z": "外穿马甲，袖口留出内搭",
+          "e": "a vest over the inner layer",
+          "b": "马甲"
+        },
+        {
+          "l": "工装背心",
+          "z": "外穿工装多袋背心",
+          "e": "a utility multi-pocket vest",
+          "b": "工装背心"
+        },
+        {
+          "l": "防护背心",
+          "z": "外穿防护背心，织带与扣具明显",
+          "e": "a tactical harness vest with webbing",
+          "b": "防护背心"
+        },
+        {
+          "l": "棉服",
+          "z": "外穿短款棉服，车缝线分格",
+          "e": "a quilted short padded jacket",
+          "b": "棉服"
+        },
+        {
+          "l": "无外套",
+          "z": "不额外穿外套",
+          "e": "no outer layer",
+          "b": "无外套"
+        }
+      ]
+    },
+    "外套颜色": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "深炭灰",
+          "z": "颜色为深炭灰",
+          "e": "in deep charcoal gray",
+          "b": "深炭灰"
+        },
+        {
+          "l": "纯黑",
+          "z": "颜色为纯黑",
+          "e": "in solid black",
+          "b": "纯黑"
+        },
+        {
+          "l": "藏青",
+          "z": "颜色为藏青",
+          "e": "in navy blue",
+          "b": "藏青"
+        },
+        {
+          "l": "深蓝",
+          "z": "颜色为深蓝",
+          "e": "in deep blue",
+          "b": "深蓝"
+        },
+        {
+          "l": "浅灰",
+          "z": "颜色为浅灰",
+          "e": "in light gray",
+          "b": "浅灰"
+        },
+        {
+          "l": "燕麦白",
+          "z": "颜色为燕麦白",
+          "e": "in oatmeal white",
+          "b": "燕麦白"
+        },
+        {
+          "l": "米杏",
+          "z": "颜色为米杏",
+          "e": "in cream beige",
+          "b": "米杏"
+        },
+        {
+          "l": "驼色",
+          "z": "颜色为驼色",
+          "e": "in camel",
+          "b": "驼色"
+        },
+        {
+          "l": "深棕",
+          "z": "颜色为深棕",
+          "e": "in dark brown",
+          "b": "深棕"
+        },
+        {
+          "l": "橄榄绿",
+          "z": "颜色为橄榄绿",
+          "e": "in olive green",
+          "b": "橄榄绿"
+        },
+        {
+          "l": "军绿",
+          "z": "颜色为军绿",
+          "e": "in army green",
+          "b": "军绿"
+        },
+        {
+          "l": "墨绿",
+          "z": "颜色为墨绿",
+          "e": "in dark forest green",
+          "b": "墨绿"
+        },
+        {
+          "l": "酒红",
+          "z": "颜色为酒红",
+          "e": "in burgundy",
+          "b": "酒红"
+        },
+        {
+          "l": "砖红",
+          "z": "颜色为砖红",
+          "e": "in brick red",
+          "b": "砖红"
+        },
+        {
+          "l": "浅牛仔蓝",
+          "z": "颜色为浅牛仔蓝",
+          "e": "in light denim blue",
+          "b": "浅牛仔蓝"
+        },
+        {
+          "l": "深靛蓝",
+          "z": "颜色为深靛蓝",
+          "e": "in deep indigo",
+          "b": "深靛蓝"
+        },
+        {
+          "l": "沙色",
+          "z": "颜色为沙色",
+          "e": "in sand",
+          "b": "沙色"
+        },
+        {
+          "l": "灰蓝",
+          "z": "颜色为灰蓝",
+          "e": "in gray blue",
+          "b": "灰蓝"
+        },
+        {
+          "l": "奶茶色",
+          "z": "颜色为奶茶色",
+          "e": "in milky tan",
+          "b": "奶茶色"
+        },
+        {
+          "l": "深紫",
+          "z": "颜色为深紫",
+          "e": "in deep purple",
+          "b": "深紫"
+        },
+        {
+          "l": "银灰金属",
+          "z": "颜色为银灰金属色",
+          "e": "in metallic silver gray",
+          "b": "银灰金属"
+        },
+        {
+          "l": "亮橙",
+          "z": "颜色为亮橙",
+          "e": "in bright orange",
+          "b": "亮橙"
+        }
+      ]
+    },
+    "外套材质": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "羊毛混纺",
+          "z": "材质为羊毛混纺，表面有细微绒感",
+          "e": "in wool blend with a soft nap",
+          "b": "羊毛混纺"
+        },
+        {
+          "l": "精纺羊毛",
+          "z": "材质为精纺羊毛，纹理平整",
+          "e": "in smooth worsted wool",
+          "b": "精纺羊毛"
+        },
+        {
+          "l": "粗花呢",
+          "z": "材质为粗花呢，织纹颗粒明显",
+          "e": "in textured tweed",
+          "b": "粗花呢"
+        },
+        {
+          "l": "头层牛皮",
+          "z": "材质为头层牛皮，皮面有自然纹路",
+          "e": "in full-grain leather with natural grain",
+          "b": "头层牛皮"
+        },
+        {
+          "l": "羊羔绒皮",
+          "z": "材质为羊羔绒拼接皮，绒面与皮面对比",
+          "e": "in leather with shearling trim",
+          "b": "羊羔绒皮"
+        },
+        {
+          "l": "水洗牛仔",
+          "z": "材质为水洗牛仔布",
+          "e": "in washed denim",
+          "b": "水洗牛仔"
+        },
+        {
+          "l": "硬挺帆布",
+          "z": "材质为硬挺帆布",
+          "e": "in stiff canvas",
+          "b": "硬挺帆布"
+        },
+        {
+          "l": "尼龙面料",
+          "z": "材质为尼龙面料，表面轻微反光",
+          "e": "in nylon with a light sheen",
+          "b": "尼龙面料"
+        },
+        {
+          "l": "防水涂层",
+          "z": "材质为防水涂层织物",
+          "e": "in water-repellent coated fabric",
+          "b": "防水涂层"
+        },
+        {
+          "l": "摇粒绒",
+          "z": "材质为摇粒绒，表面起绒",
+          "e": "in polar fleece",
+          "b": "摇粒绒"
+        },
+        {
+          "l": "针织羊毛",
+          "z": "材质为针织羊毛，织纹清晰",
+          "e": "in knitted wool",
+          "b": "针织羊毛"
+        },
+        {
+          "l": "亚麻混纺",
+          "z": "材质为亚麻混纺，表面有自然褶皱",
+          "e": "in linen blend with natural creases",
+          "b": "亚麻混纺"
+        },
+        {
+          "l": "灯芯绒",
+          "z": "材质为灯芯绒，条绒纹路明显",
+          "e": "in corduroy with visible ridges",
+          "b": "灯芯绒"
+        },
+        {
+          "l": "磨砂皮",
+          "z": "材质为磨砂皮，表面哑光",
+          "e": "in matte suede",
+          "b": "磨砂皮"
+        },
+        {
+          "l": "涂层帆布",
+          "z": "材质为涂层帆布，边缘压胶",
+          "e": "in coated canvas with taped seams",
+          "b": "涂层帆布"
+        },
+        {
+          "l": "太空棉",
+          "z": "材质为太空棉，车缝分格鼓起",
+          "e": "in quilted technical padding",
+          "b": "太空棉"
+        },
+        {
+          "l": "抓绒内里",
+          "z": "材质外层织物，内里抓绒",
+          "e": "in woven shell with fleece lining",
+          "b": "抓绒内里"
+        },
+        {
+          "l": "功能性软壳",
+          "z": "材质为功能性软壳，弹性明显",
+          "e": "in stretch softshell",
+          "b": "功能性软壳"
+        },
+        {
+          "l": "丝绸混纺",
+          "z": "材质为丝绸混纺，光泽柔和",
+          "e": "in silk blend with soft sheen",
+          "b": "丝绸混纺"
+        },
+        {
+          "l": "做旧处理",
+          "z": "材质做过旧处理，边缘有磨损",
+          "e": "in distressed worn finish",
+          "b": "做旧处理"
+        }
+      ]
+    },
+    "外套图案": {
+      "module": "服装",
+      "lv": 3,
+      "options": [
+        {
+          "l": "纯色无图案",
+          "z": "表面为纯色，没有图案",
+          "e": "solid with no pattern",
+          "b": "纯色无图案"
+        },
+        {
+          "l": "细条纹",
+          "z": "表面带细条纹",
+          "e": "with fine pinstripes",
+          "b": "细条纹"
+        },
+        {
+          "l": "宽条纹",
+          "z": "表面带宽条纹",
+          "e": "with bold wide stripes",
+          "b": "宽条纹"
+        },
+        {
+          "l": "大格纹",
+          "z": "表面为大格纹",
+          "e": "with a large check pattern",
+          "b": "大格纹"
+        },
+        {
+          "l": "细格纹",
+          "z": "表面为细格纹",
+          "e": "with a fine check pattern",
+          "b": "细格纹"
+        },
+        {
+          "l": "千鸟格",
+          "z": "表面为千鸟格",
+          "e": "with a houndstooth pattern",
+          "b": "千鸟格"
+        },
+        {
+          "l": "迷彩",
+          "z": "表面为迷彩图案",
+          "e": "with a camouflage pattern",
+          "b": "迷彩"
+        },
+        {
+          "l": "字母印花",
+          "z": "表面有字母印花",
+          "e": "with printed lettering",
+          "b": "字母印花"
+        },
+        {
+          "l": "几何图形",
+          "z": "表面有几何图形印花",
+          "e": "with a geometric print",
+          "b": "几何图形"
+        },
+        {
+          "l": "动物纹",
+          "z": "表面带动物纹样",
+          "e": "with an animal print",
+          "b": "动物纹"
+        },
+        {
+          "l": "花卉印花",
+          "z": "表面有花卉印花",
+          "e": "with a floral print",
+          "b": "花卉印花"
+        },
+        {
+          "l": "做旧褪色",
+          "z": "表面呈做旧褪色效果",
+          "e": "with faded distressed coloring",
+          "b": "做旧褪色"
+        },
+        {
+          "l": "拼色",
+          "z": "表面为拼色设计",
+          "e": "with color-blocked panels",
+          "b": "拼色"
+        },
+        {
+          "l": "织带装饰",
+          "z": "表面有织带装饰",
+          "e": "with webbing trim",
+          "b": "织带装饰"
+        },
+        {
+          "l": "徽章贴布",
+          "z": "表面有徽章贴布",
+          "e": "with a patch emblem",
+          "b": "徽章贴布"
+        },
+        {
+          "l": "文字刺绣",
+          "z": "表面有小型文字刺绣",
+          "e": "with small embroidered text",
+          "b": "文字刺绣"
+        },
+        {
+          "l": "满印图案",
+          "z": "整体满印图案，密度较高",
+          "e": "with an all-over dense print",
+          "b": "满印图案"
+        }
+      ]
+    },
+    "内搭类型": {
+      "module": "服装",
+      "lv": 1,
+      "options": [
+        {
+          "l": "白衬衫",
+          "z": "内搭白色衬衫，领口挺括",
+          "e": "a crisp white shirt",
+          "b": "白衬衫"
+        },
+        {
+          "l": "浅蓝衬衫",
+          "z": "内搭浅蓝衬衫",
+          "e": "a light blue shirt",
+          "b": "浅蓝衬衫"
+        },
+        {
+          "l": "牛仔衬衫",
+          "z": "内搭牛仔衬衫",
+          "e": "a denim shirt",
+          "b": "牛仔衬衫"
+        },
+        {
+          "l": "格纹衬衫",
+          "z": "内搭格纹衬衫",
+          "e": "a plaid shirt",
+          "b": "格纹衬衫"
+        },
+        {
+          "l": "条纹衬衫",
+          "z": "内搭条纹衬衫",
+          "e": "a striped shirt",
+          "b": "条纹衬衫"
+        },
+        {
+          "l": "黑T",
+          "z": "内搭黑色圆领 T 恤",
+          "e": "a black crew-neck tee",
+          "b": "黑T"
+        },
+        {
+          "l": "白T",
+          "z": "内搭白色圆领 T 恤",
+          "e": "a white crew-neck tee",
+          "b": "白T"
+        },
+        {
+          "l": "灰T",
+          "z": "内搭灰色 T 恤",
+          "e": "a gray tee",
+          "b": "灰T"
+        },
+        {
+          "l": "印花T",
+          "z": "内搭带印花的 T 恤",
+          "e": "a graphic print tee",
+          "b": "印花T"
+        },
+        {
+          "l": "长袖T",
+          "z": "内搭长袖 T 恤",
+          "e": "a long-sleeve tee",
+          "b": "长袖T"
+        },
+        {
+          "l": "高领毛衣",
+          "z": "内搭高领毛衣，领口包住颈部",
+          "e": "a high-neck knit sweater",
+          "b": "高领毛衣"
+        },
+        {
+          "l": "圆领毛衣",
+          "z": "内搭圆领毛衣",
+          "e": "a crew-neck knit sweater",
+          "b": "圆领毛衣"
+        },
+        {
+          "l": "V领针织",
+          "z": "内搭 V 领针织衫",
+          "e": "a v-neck knit top",
+          "b": "V领针织"
+        },
+        {
+          "l": "半高领打底",
+          "z": "内搭半高领打底衫",
+          "e": "a mock-neck base layer",
+          "b": "半高领打底"
+        },
+        {
+          "l": "polo衫",
+          "z": "内搭 polo 衫，领口扣至第二颗",
+          "e": "a polo shirt buttoned to the second hole",
+          "b": "polo衫"
+        },
+        {
+          "l": "连帽卫衣内搭",
+          "z": "内搭连帽卫衣，帽体堆在颈后",
+          "e": "a hoodie with the hood bunched at the neck",
+          "b": "连帽卫衣内搭"
+        },
+        {
+          "l": "无袖背心",
+          "z": "内搭无袖背心，露出肩臂",
+          "e": "a sleeveless tank top",
+          "b": "无袖背心"
+        },
+        {
+          "l": "运动紧身衣",
+          "z": "内搭运动紧身衣，贴出肌肉轮廓",
+          "e": "a tight athletic compression shirt",
+          "b": "运动紧身衣"
+        },
+        {
+          "l": "压缩打底衫",
+          "z": "内搭压缩打底衫，接缝线明显",
+          "e": "a compression base layer with visible seams",
+          "b": "压缩打底衫"
+        },
+        {
+          "l": "衬衫加毛背心",
+          "z": "衬衫外叠一件毛线背心",
+          "e": "a shirt under a knit vest",
+          "b": "衬衫加毛背心"
+        },
+        {
+          "l": "中式立领",
+          "z": "内搭中式立领上衣",
+          "e": "a mandarin-collar top",
+          "b": "中式立领"
+        },
+        {
+          "l": "半开襟衬衫",
+          "z": "内搭半开襟衬衫，领口敞开",
+          "e": "a half-buttoned open-collar shirt",
+          "b": "半开襟衬衫"
+        },
+        {
+          "l": "丝质衬衫",
+          "z": "内搭丝质衬衫，表面有垂坠光泽",
+          "e": "a silk shirt with fluid sheen",
+          "b": "丝质衬衫"
+        },
+        {
+          "l": "亚麻衬衫",
+          "z": "内搭亚麻衬衫，表面带自然褶皱",
+          "e": "a linen shirt with natural creases",
+          "b": "亚麻衬衫"
+        },
+        {
+          "l": "宽松T",
+          "z": "内搭宽松 T 恤，肩线落肩",
+          "e": "an oversized drop-shoulder tee",
+          "b": "宽松T"
+        },
+        {
+          "l": "素色背心",
+          "z": "内搭素色背心，边缘干净",
+          "e": "a plain tank top",
+          "b": "素色背心"
+        },
+        {
+          "l": "球衣",
+          "z": "内搭运动球衣，号码印在胸前",
+          "e": "a sports jersey with a printed number",
+          "b": "球衣"
+        },
+        {
+          "l": "背带打底",
+          "z": "内搭螺纹背心打底，肩带较宽",
+          "e": "a ribbed wide-strap undershirt",
+          "b": "内搭螺纹背心打底"
+        },
+        {
+          "l": "浴袍",
+          "z": "身穿酒店浴袍，腰带松散",
+          "e": "a hotel bathrobe with a loose belt",
+          "b": "浴袍"
+        },
+        {
+          "l": "无内搭",
+          "z": "外层直接贴身穿，没有内搭",
+          "e": "no inner layer",
+          "b": "无内搭"
+        }
+      ]
+    },
+    "内搭颜色": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "深炭灰",
+          "z": "颜色为深炭灰",
+          "e": "in deep charcoal gray",
+          "b": "深炭灰"
+        },
+        {
+          "l": "纯黑",
+          "z": "颜色为纯黑",
+          "e": "in solid black",
+          "b": "纯黑"
+        },
+        {
+          "l": "藏青",
+          "z": "颜色为藏青",
+          "e": "in navy blue",
+          "b": "藏青"
+        },
+        {
+          "l": "深蓝",
+          "z": "颜色为深蓝",
+          "e": "in deep blue",
+          "b": "深蓝"
+        },
+        {
+          "l": "浅灰",
+          "z": "颜色为浅灰",
+          "e": "in light gray",
+          "b": "浅灰"
+        },
+        {
+          "l": "燕麦白",
+          "z": "颜色为燕麦白",
+          "e": "in oatmeal white",
+          "b": "燕麦白"
+        },
+        {
+          "l": "米杏",
+          "z": "颜色为米杏",
+          "e": "in cream beige",
+          "b": "米杏"
+        },
+        {
+          "l": "驼色",
+          "z": "颜色为驼色",
+          "e": "in camel",
+          "b": "驼色"
+        },
+        {
+          "l": "深棕",
+          "z": "颜色为深棕",
+          "e": "in dark brown",
+          "b": "深棕"
+        },
+        {
+          "l": "橄榄绿",
+          "z": "颜色为橄榄绿",
+          "e": "in olive green",
+          "b": "橄榄绿"
+        },
+        {
+          "l": "军绿",
+          "z": "颜色为军绿",
+          "e": "in army green",
+          "b": "军绿"
+        },
+        {
+          "l": "墨绿",
+          "z": "颜色为墨绿",
+          "e": "in dark forest green",
+          "b": "墨绿"
+        },
+        {
+          "l": "酒红",
+          "z": "颜色为酒红",
+          "e": "in burgundy",
+          "b": "酒红"
+        },
+        {
+          "l": "砖红",
+          "z": "颜色为砖红",
+          "e": "in brick red",
+          "b": "砖红"
+        },
+        {
+          "l": "浅牛仔蓝",
+          "z": "颜色为浅牛仔蓝",
+          "e": "in light denim blue",
+          "b": "浅牛仔蓝"
+        },
+        {
+          "l": "深靛蓝",
+          "z": "颜色为深靛蓝",
+          "e": "in deep indigo",
+          "b": "深靛蓝"
+        },
+        {
+          "l": "沙色",
+          "z": "颜色为沙色",
+          "e": "in sand",
+          "b": "沙色"
+        },
+        {
+          "l": "灰蓝",
+          "z": "颜色为灰蓝",
+          "e": "in gray blue",
+          "b": "灰蓝"
+        },
+        {
+          "l": "奶茶色",
+          "z": "颜色为奶茶色",
+          "e": "in milky tan",
+          "b": "奶茶色"
+        },
+        {
+          "l": "深紫",
+          "z": "颜色为深紫",
+          "e": "in deep purple",
+          "b": "深紫"
+        },
+        {
+          "l": "银灰金属",
+          "z": "颜色为银灰金属色",
+          "e": "in metallic silver gray",
+          "b": "银灰金属"
+        },
+        {
+          "l": "亮橙",
+          "z": "颜色为亮橙",
+          "e": "in bright orange",
+          "b": "亮橙"
+        }
+      ]
+    },
+    "内搭材质": {
+      "module": "服装",
+      "lv": 3,
+      "options": [
+        {
+          "l": "纯棉",
+          "z": "材质为纯棉，表面平整",
+          "e": "in plain cotton",
+          "b": "纯棉"
+        },
+        {
+          "l": "棉麻混纺",
+          "z": "材质为棉麻混纺",
+          "e": "in cotton-linen blend",
+          "b": "棉麻混纺"
+        },
+        {
+          "l": "丝光棉",
+          "z": "材质为丝光棉，表面细腻有光泽",
+          "e": "in mercerized cotton with subtle sheen",
+          "b": "丝光棉"
+        },
+        {
+          "l": "牛津纺",
+          "z": "材质为牛津纺，织纹颗粒清楚",
+          "e": "in oxford cloth",
+          "b": "牛津纺"
+        },
+        {
+          "l": "府绸",
+          "z": "材质为府绸，表面光滑",
+          "e": "in smooth poplin",
+          "b": "府绸"
+        },
+        {
+          "l": "法兰绒",
+          "z": "材质为法兰绒，表面起绒",
+          "e": "in soft flannel",
+          "b": "法兰绒"
+        },
+        {
+          "l": "针织棉",
+          "z": "材质为针织棉，弹性明显",
+          "e": "in stretch jersey cotton",
+          "b": "针织棉"
+        },
+        {
+          "l": "羊绒",
+          "z": "材质为羊绒，手感柔软",
+          "e": "in soft cashmere",
+          "b": "羊绒"
+        },
+        {
+          "l": "美利奴羊毛",
+          "z": "材质为美利奴羊毛，织纹细密",
+          "e": "in fine merino wool",
+          "b": "美利奴羊毛"
+        },
+        {
+          "l": "粗针织",
+          "z": "材质为粗针织，针脚体积大",
+          "e": "in chunky knit",
+          "b": "粗针织"
+        },
+        {
+          "l": "真丝",
+          "z": "材质为真丝，垂坠感明显",
+          "e": "in real silk with fluid drape",
+          "b": "真丝"
+        },
+        {
+          "l": "莫代尔",
+          "z": "材质为莫代尔，贴身柔软",
+          "e": "in soft modal fabric",
+          "b": "莫代尔"
+        },
+        {
+          "l": "速干面料",
+          "z": "材质为速干面料，表面细密",
+          "e": "in quick-dry technical fabric",
+          "b": "速干面料"
+        },
+        {
+          "l": "抓绒",
+          "z": "材质为抓绒，表面蓬松",
+          "e": "in fleece",
+          "b": "抓绒"
+        },
+        {
+          "l": "水洗做旧棉",
+          "z": "材质为水洗做旧棉，颜色不匀",
+          "e": "in washed faded cotton",
+          "b": "水洗做旧棉"
+        },
+        {
+          "l": "破洞处理",
+          "z": "材质为做旧棉，带破洞磨损",
+          "e": "in distressed cotton with worn holes",
+          "b": "破洞处理"
+        },
+        {
+          "l": "亚麻",
+          "z": "材质为亚麻，褶皱自然",
+          "e": "in linen with natural creases",
+          "b": "亚麻"
+        },
+        {
+          "l": "混纺弹力",
+          "z": "材质为混纺弹力面料，贴身有弹性",
+          "e": "in stretch blended fabric",
+          "b": "混纺弹力"
+        }
+      ]
+    },
+    "裤装类型": {
+      "module": "服装",
+      "lv": 1,
+      "options": [
+        {
+          "l": "直筒牛仔裤",
+          "z": "下身穿直筒牛仔裤",
+          "e": "straight-leg jeans",
+          "b": "直筒牛仔裤"
+        },
+        {
+          "l": "修身牛仔裤",
+          "z": "下身穿修身牛仔裤",
+          "e": "slim-fit jeans",
+          "b": "修身牛仔裤"
+        },
+        {
+          "l": "阔腿牛仔裤",
+          "z": "下身穿阔腿牛仔裤",
+          "e": "wide-leg jeans",
+          "b": "阔腿牛仔裤"
+        },
+        {
+          "l": "工装裤",
+          "z": "下身穿工装裤，侧袋明显",
+          "e": "cargo pants with side pockets",
+          "b": "工装裤"
+        },
+        {
+          "l": "束脚工装裤",
+          "z": "下身穿束脚工装裤，裤脚收口",
+          "e": "tapered cuffed cargo pants",
+          "b": "束脚工装裤"
+        },
+        {
+          "l": "西装裤",
+          "z": "下身穿西装裤，裤线笔直",
+          "e": "tailored dress trousers with a sharp crease",
+          "b": "西装裤"
+        },
+        {
+          "l": "羊毛西裤",
+          "z": "下身穿羊毛西裤，垂坠感强",
+          "e": "wool dress trousers with clean drape",
+          "b": "羊毛西裤"
+        },
+        {
+          "l": "休闲长裤",
+          "z": "下身穿休闲长裤",
+          "e": "casual chinos",
+          "b": "休闲长裤"
+        },
+        {
+          "l": "九分裤",
+          "z": "下身穿九分裤，露出脚踝",
+          "e": "cropped ankle-length trousers",
+          "b": "九分裤"
+        },
+        {
+          "l": "卡其裤",
+          "z": "下身穿卡其裤",
+          "e": "khaki trousers",
+          "b": "卡其裤"
+        },
+        {
+          "l": "灯芯绒裤",
+          "z": "下身穿灯芯绒裤，条绒明显",
+          "e": "corduroy trousers",
+          "b": "灯芯绒裤"
+        },
+        {
+          "l": "运动裤",
+          "z": "下身穿运动裤，侧边有拼条",
+          "e": "track pants with side stripes",
+          "b": "运动裤"
+        },
+        {
+          "l": "慢跑裤",
+          "z": "下身穿慢跑裤，裤脚为罗纹收口",
+          "e": "jogger pants with ribbed cuffs",
+          "b": "慢跑裤"
+        },
+        {
+          "l": "卫裤",
+          "z": "下身穿厚卫裤",
+          "e": "heavy fleece sweatpants",
+          "b": "卫裤"
+        },
+        {
+          "l": "皮裤",
+          "z": "下身穿皮裤，表面反光",
+          "e": "leather trousers with a sheen",
+          "b": "皮裤"
+        },
+        {
+          "l": "骑行短裤",
+          "z": "下身穿骑行短裤，贴合腿部",
+          "e": "tight cycling shorts",
+          "b": "骑行短裤"
+        },
+        {
+          "l": "运动短裤",
+          "z": "下身穿运动短裤",
+          "e": "athletic shorts",
+          "b": "运动短裤"
+        },
+        {
+          "l": "沙滩短裤",
+          "z": "下身穿沙滩短裤，图案轻松",
+          "e": "relaxed beach shorts",
+          "b": "沙滩短裤"
+        },
+        {
+          "l": "战术裤",
+          "z": "下身穿战术裤，多袋与织带明显",
+          "e": "tactical pants with webbing and pockets",
+          "b": "战术裤"
+        },
+        {
+          "l": "背带裤",
+          "z": "下身穿背带裤，肩带跨过胸前",
+          "e": "overalls with straps across the chest",
+          "b": "背带裤"
+        },
+        {
+          "l": "亚麻长裤",
+          "z": "下身穿亚麻长裤，褶皱自然",
+          "e": "linen trousers with natural creases",
+          "b": "亚麻长裤"
+        },
+        {
+          "l": "阔腿长裤",
+          "z": "下身穿阔腿长裤，裤管笔直下坠",
+          "e": "wide straight-leg trousers",
+          "b": "阔腿长裤"
+        }
+      ]
+    },
+    "裤装颜色": {
+      "module": "服装",
+      "lv": 2,
+      "options": [
+        {
+          "l": "深炭灰",
+          "z": "颜色为深炭灰",
+          "e": "in deep charcoal gray",
+          "b": "深炭灰"
+        },
+        {
+          "l": "纯黑",
+          "z": "颜色为纯黑",
+          "e": "in solid black",
+          "b": "纯黑"
+        },
+        {
+          "l": "藏青",
+          "z": "颜色为藏青",
+          "e": "in navy blue",
+          "b": "藏青"
+        },
+        {
+          "l": "深蓝",
+          "z": "颜色为深蓝",
+          "e": "in deep blue",
+          "b": "深蓝"
+        },
+        {
+          "l": "浅灰",
+          "z": "颜色为浅灰",
+          "e": "in light gray",
+          "b": "浅灰"
+        },
+        {
+          "l": "燕麦白",
+          "z": "颜色为燕麦白",
+          "e": "in oatmeal white",
+          "b": "燕麦白"
+        },
+        {
+          "l": "米杏",
+          "z": "颜色为米杏",
+          "e": "in cream beige",
+          "b": "米杏"
+        },
+        {
+          "l": "驼色",
+          "z": "颜色为驼色",
+          "e": "in camel",
+          "b": "驼色"
+        },
+        {
+          "l": "深棕",
+          "z": "颜色为深棕",
+          "e": "in dark brown",
+          "b": "深棕"
+        },
+        {
+          "l": "橄榄绿",
+          "z": "颜色为橄榄绿",
+          "e": "in olive green",
+          "b": "橄榄绿"
+        },
+        {
+          "l": "军绿",
+          "z": "颜色为军绿",
+          "e": "in army green",
+          "b": "军绿"
+        },
+        {
+          "l": "墨绿",
+          "z": "颜色为墨绿",
+          "e": "in dark forest green",
+          "b": "墨绿"
+        },
+        {
+          "l": "酒红",
+          "z": "颜色为酒红",
+          "e": "in burgundy",
+          "b": "酒红"
+        },
+        {
+          "l": "砖红",
+          "z": "颜色为砖红",
+          "e": "in brick red",
+          "b": "砖红"
+        },
+        {
+          "l": "浅牛仔蓝",
+          "z": "颜色为浅牛仔蓝",
+          "e": "in light denim blue",
+          "b": "浅牛仔蓝"
+        },
+        {
+          "l": "深靛蓝",
+          "z": "颜色为深靛蓝",
+          "e": "in deep indigo",
+          "b": "深靛蓝"
+        },
+        {
+          "l": "沙色",
+          "z": "颜色为沙色",
+          "e": "in sand",
+          "b": "沙色"
+        },
+        {
+          "l": "灰蓝",
+          "z": "颜色为灰蓝",
+          "e": "in gray blue",
+          "b": "灰蓝"
+        },
+        {
+          "l": "奶茶色",
+          "z": "颜色为奶茶色",
+          "e": "in milky tan",
+          "b": "奶茶色"
+        },
+        {
+          "l": "深紫",
+          "z": "颜色为深紫",
+          "e": "in deep purple",
+          "b": "深紫"
+        },
+        {
+          "l": "银灰金属",
+          "z": "颜色为银灰金属色",
+          "e": "in metallic silver gray",
+          "b": "银灰金属"
+        },
+        {
+          "l": "亮橙",
+          "z": "颜色为亮橙",
+          "e": "in bright orange",
+          "b": "亮橙"
+        }
+      ]
+    },
+    "裤装材质": {
+      "module": "服装",
+      "lv": 3,
+      "options": [
+        {
+          "l": "硬挺牛仔",
+          "z": "材质为硬挺牛仔布，裤型挺括",
+          "e": "in stiff rigid denim",
+          "b": "硬挺牛仔"
+        },
+        {
+          "l": "弹力牛仔",
+          "z": "材质为弹力牛仔布",
+          "e": "in stretch denim",
+          "b": "弹力牛仔"
+        },
+        {
+          "l": "水洗牛仔",
+          "z": "材质为水洗牛仔，颜色有层次",
+          "e": "in washed denim with tonal variation",
+          "b": "水洗牛仔"
+        },
+        {
+          "l": "斜纹棉",
+          "z": "材质为斜纹棉布",
+          "e": "in cotton twill",
+          "b": "斜纹棉"
+        },
+        {
+          "l": "精纺羊毛",
+          "z": "材质为精纺羊毛，表面平整",
+          "e": "in worsted wool",
+          "b": "精纺羊毛"
+        },
+        {
+          "l": "混纺西裤料",
+          "z": "材质为混纺西裤面料，垂坠感强",
+          "e": "in blended suit fabric with drape",
+          "b": "混纺西裤料"
+        },
+        {
+          "l": "尼龙混纺",
+          "z": "材质为尼龙混纺，表面轻微反光",
+          "e": "in nylon blend with light sheen",
+          "b": "尼龙混纺"
+        },
+        {
+          "l": "灯芯绒",
+          "z": "材质为灯芯绒，条绒纹路明显",
+          "e": "in corduroy",
+          "b": "灯芯绒"
+        },
+        {
+          "l": "亚麻",
+          "z": "材质为亚麻，褶皱自然",
+          "e": "in linen with natural creases",
+          "b": "亚麻"
+        },
+        {
+          "l": "针织运动料",
+          "z": "材质为针织运动面料，弹性明显",
+          "e": "in stretch knit athletic fabric",
+          "b": "针织运动料"
+        },
+        {
+          "l": "抓绒内里",
+          "z": "材质外层织物，内里抓绒保暖",
+          "e": "in woven shell with fleece lining",
+          "b": "抓绒内里"
+        },
+        {
+          "l": "涂层皮革",
+          "z": "材质为涂层皮革，表面有反光",
+          "e": "in coated leather with sheen",
+          "b": "涂层皮革"
+        },
+        {
+          "l": "防撕裂尼龙",
+          "z": "材质为防撕裂尼龙，格纹结构可见",
+          "e": "in ripstop nylon",
+          "b": "防撕裂尼龙"
+        },
+        {
+          "l": "做旧水洗",
+          "z": "材质做过旧水洗，边缘磨损",
+          "e": "in distressed washed finish",
+          "b": "做旧水洗"
+        },
+        {
+          "l": "弹力混纺",
+          "z": "材质为弹力混纺，活动余量大",
+          "e": "in stretch blend fabric",
+          "b": "弹力混纺"
+        },
+        {
+          "l": "厚重棉布",
+          "z": "材质为厚重棉布，结构硬挺",
+          "e": "in heavy cotton canvas",
+          "b": "厚重棉布"
+        },
+        {
+          "l": "速干面料",
+          "z": "材质为速干面料，轻薄透气",
+          "e": "in lightweight quick-dry fabric",
+          "b": "速干面料"
+        },
+        {
+          "l": "绒面革",
+          "z": "材质为绒面革，表面哑光",
+          "e": "in matte suede",
+          "b": "绒面革"
+        }
+      ]
+    }
+  }
+}
