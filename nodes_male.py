@@ -1716,7 +1716,7 @@ def resolution_from_options(aspect, options):
 class SunsetMalePromptBuilder:
 
     CATEGORY = "TaiYang"
-    SEARCH_ALIASES = ["taiyang", "tai yang", "太阳", "男性摄影", "男性角色", "男性", "男装", "male", "cosplay"]
+    SEARCH_ALIASES = ["taiyang", "tai yang", "太阳", "男性人像", "男性摄影", "男性角色", "男性", "男装", "male", "cosplay"]
 
     FUNCTION = "build_prompt"
     RETURN_TYPES = ("STRING", "INT", "INT", "STRING")
@@ -1879,7 +1879,7 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SunsetMalePromptBuilder": "⚡提示词男性角色",
+    "SunsetMalePromptBuilder": "⚡提示词男性人像",
 }
 
 # ---------------------------------------------------------------- 我的预设（存盘）

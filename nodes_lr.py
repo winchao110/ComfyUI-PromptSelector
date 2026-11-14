@@ -6772,7 +6772,7 @@ def build_prompt_text(
 class SunsetLRPromptBuilder:
 
     CATEGORY = "TaiYang"
-    SEARCH_ALIASES = ["taiyang", "tai yang", "太阳", "权威摄影", "写真", "摄影提示词", "女性摄影", "cosplay"]
+    SEARCH_ALIASES = ["taiyang", "tai yang", "太阳", "女性人像", "权威摄影", "写真", "摄影提示词", "女性摄影", "cosplay"]
 
     FUNCTION = "build_prompt"
     RETURN_TYPES = ("STRING", "INT", "INT", "STRING")
@@ -6952,7 +6952,7 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SunsetLRPromptBuilder": "⚡提示词权威摄影",
+    "SunsetLRPromptBuilder": "⚡提示词女性人像",
 }
 
 LR_PRESETS_FILE = LIBRARY_ROOT / "user_presets.json"
