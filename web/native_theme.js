@@ -250,8 +250,8 @@ if (!flat3d) {
   document.head.appendChild(st);
 }
 
-console.log("[SunsetNativeTheme] " + (neon ? "霓虹皮肤（已关闭原生风格）" : "ComfyUI 普通节点样式"));
-console.log("[SunsetBlack3D] " + (flat3d ? "已关闭" : "提示词框纯黑底 / 按钮立体"));
+console.debug("[SunsetNativeTheme] " + (neon ? "霓虹皮肤（已关闭原生风格）" : "ComfyUI 普通节点样式"));
+console.debug("[SunsetBlack3D] " + (flat3d ? "已关闭" : "提示词框纯黑底 / 按钮立体"));
 
 /* ------------------------------------------------------------------
  * 字号归一：三套皮肤里原本混着 8.5 / 9 / 9.5 / 10 / 10.5 / 11 /
@@ -290,6 +290,6 @@ if (fsEnabled) {
     (fsCustom ? `:root { --sun-font-size: ${fsPx}px !important; }\n` : "") + CSS_FONT;
   document.head.appendChild(sf);
 }
-console.log("[SunsetFont] " + (!fsEnabled
+console.debug("[SunsetFont] " + (!fsEnabled
   ? "已关闭（保留皮肤原字号）"
   : (fsCustom ? `全部文字统一为 ${fsPx}px` : "全部文字统一为 ComfyUI 默认字号（12px）")));

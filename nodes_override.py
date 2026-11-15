@@ -15,6 +15,7 @@
 """
 
 import hashlib
+import logging
 
 INLINE_FIELD = "即时提示词"
 RUN_FIELD = "运行重抽"
@@ -225,5 +226,5 @@ def install(classes):
             cls.__sun_inline_patched__ = True
             PATCHED.append(cls.__name__)
         except Exception as exc:      # 单个失败不影响其它节点
-            print("[Sunset] 即时提示词补丁失败 %s: %s" % (cls.__name__, exc))
+            logging.debug("[Sunset] 即时提示词补丁失败 %s: %s" % (cls.__name__, exc))
     return PATCHED

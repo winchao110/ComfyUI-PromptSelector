@@ -1632,7 +1632,7 @@ app.registerExtension({
     }, ms));
 
     booted = true;
-    console.log("[Krea2Skin] 皮肤已挂载到节点:", node.title || cls, "| 面板高:", panelH);
+    console.debug("[Krea2Skin] 皮肤已挂载到节点:", node.title || cls, "| 面板高:", panelH);
   },
 });
 
@@ -1832,4 +1832,4 @@ function measurePanel(root) {
   return contentHeight(body);
 }
 
-console.log(`[Krea2Skin] 皮肤脚本已加载 v${SKIN_VERSION} (ComfyUI-PromptSelector · TaiYang · 霓虹外观)`);
+console.debug(`[Krea2Skin] 皮肤脚本已加载 v${SKIN_VERSION} (ComfyUI-PromptSelector · TaiYang · 霓虹外观)`);

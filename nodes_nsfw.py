@@ -1,4 +1,5 @@
 import random
+import logging
 
 class SunsetNSPromptSelector:
     CATEGORY = "TaiYang"
@@ -705,7 +706,7 @@ class SunsetNSPromptSelector:
 
         for 镜头值 in s.镜头类型选项:
             if 镜头值 in s.光线类型选项 and 镜头值 != "——":
-                print(f"警告: 发现镜头类型值 '{镜头值}' 在光线类型选项中，这可能导致参数混乱")
+                logging.debug(f"警告: 发现镜头类型值 '{镜头值}' 在光线类型选项中，这可能导致参数混乱")
 
         return {
             "required": {
@@ -800,7 +801,7 @@ class SunsetNSPromptSelector:
 
         def validate_param(param_value, valid_options, param_name):
             if param_value not in valid_options:
-                print(f"警告: {param_name} 参数值 '{param_value}' 不在有效选项中，重置为默认值")
+                logging.debug(f"警告: {param_name} 参数值 '{param_value}' 不在有效选项中，重置为默认值")
                 return "——"
             return param_value
 
@@ -813,7 +814,7 @@ class SunsetNSPromptSelector:
                 if item in valid_options:
                     validated_list.append(item)
                 else:
-                    print(f"警告: {param_name} 参数值 '{item}' 不在有效选项中，已跳过")
+                    logging.debug(f"警告: {param_name} 参数值 '{item}' 不在有效选项中，已跳过")
 
             if not validated_list or (len(validated_list) == 1 and validated_list[0] == "——"):
                 return ["——"]

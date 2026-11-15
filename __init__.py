@@ -1,3 +1,5 @@
+import logging
+
 from .nodes_krea2 import Krea2PromptPicker, startup_check
 from .nodes_zimage import (
     ZImagePromptGeneratorNode,
@@ -10,7 +12,7 @@ from .nodes_male import SunsetMalePromptBuilder
 from . import nodes_override
 from .nodes_hub import PromptPuller  # 只为挂上 /hub/render 路由（右侧即时框要用），节点本身不注册
 
-__version__ = "1.8.5"
+__version__ = "1.8.6"
 
 # 给 7 个节点补一个隐藏输入「即时提示词」：右侧框里的字入队时直接当当条输出
 nodes_override.install([
@@ -47,12 +49,27 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "SunsetMalePromptBuilder": "⚡提示词男性人像",
 }
 
+# ComfyUI 核心读完 pyproject.toml 的 [tool.comfy].web 之后会打印
+#   [INFO] Automatically register web folder web for ComfyUI-PromptSelector
+# 前端目录本来也由下面的 WEB_DIRECTORY 注册（key 完全一致），这条纯属噪音。
+# 只精确屏蔽这一条文本：不改 ComfyUI 主程序、不影响其它任何日志。
+class _QuietWebFolderLog(logging.Filter):
+    def filter(self, record):
+        msg = record.getMessage()
+        return not (msg.startswith("Automatically register web folder")
+                    and "ComfyUI-PromptSelector" in msg)
+
+
+_ROOT_LOG = logging.getLogger()
+if not any(isinstance(f, _QuietWebFolderLog) for f in _ROOT_LOG.filters):
+    _ROOT_LOG.addFilter(_QuietWebFolderLog())
+
 WEB_DIRECTORY = "./web"
 
 try:
     startup_check()
 except Exception as _e:
-    print("[Sunset] 词库自检跳过了：%s" % _e)
+    logging.debug("[Sunset] 词库自检跳过了：%s", _e)
 
 __all__ = [
     "NODE_CLASS_MAPPINGS",

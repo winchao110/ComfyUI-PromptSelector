@@ -11,6 +11,7 @@
 """
 
 import json
+import logging
 import random
 import re
 from pathlib import Path
@@ -107,14 +108,14 @@ def _load_libraries():
         try:
             data = json.loads(path.read_text(encoding="utf-8-sig"))
         except Exception as exc:  # 单个文件坏了不影响其它
-            print("[SunsetMale] 词库读取失败 %s：%s" % (path.name, exc))
+            logging.debug("[SunsetMale] 词库读取失败 %s：%s" % (path.name, exc))
             continue
         if path.name.startswith("90_"):
             presets.update(data.get("presets") or {})
             continue
         for name, spec in (data.get("fields") or {}).items():
             if name in fields:
-                print("[SunsetMale] 字段重复，后者被忽略：%s（%s）" % (name, path.name))
+                logging.debug("[SunsetMale] 字段重复，后者被忽略：%s（%s）" % (name, path.name))
                 continue
             fields[name] = spec
     return fields, presets
@@ -127,7 +128,7 @@ FIELD_OPTIONS = {}
 for _name in FIELD_ORDER:
     _spec = _LIB.get(_name)
     if not _spec:
-        print("[SunsetMale] 词库缺字段：%s" % _name)
+        logging.debug("[SunsetMale] 词库缺字段：%s" % _name)
         continue
     _opts = _spec.get("options") or []
     FIELD_OPTIONS[_name] = [o["l"] for o in _opts]
@@ -144,7 +145,7 @@ def _load_index():
     try:
         data = json.loads(path.read_text(encoding="utf-8-sig"))
     except Exception as exc:
-        print("[SunsetMale] 索引读取失败 %s：%s" % (path.name, exc))
+        logging.debug("[SunsetMale] 索引读取失败 %s：%s" % (path.name, exc))
         return {}, {}, {}
     return (data.get("branchOf") or {}, data.get("sceneOf") or {},
             data.get("packageOf") or {})
@@ -1893,7 +1894,7 @@ def _read_presets():
         text = MALE_PRESETS_FILE.read_text(encoding="utf-8-sig")
         data = json.loads(text) if text.strip() else {}
     except Exception as exc:
-        print("[SunsetMale] 预设文件解析失败（未改动）：%s" % exc)
+        logging.debug("[SunsetMale] 预设文件解析失败（未改动）：%s" % exc)
         return {}
     return data if isinstance(data, dict) else {}
 
@@ -1947,14 +1948,14 @@ def _register_routes():
             return web.json_response({"error": "preset_write_failed"}, status=500)
         return web.json_response(data)
 
-    print("[SunsetMale] 预设接口就绪：/luori/male_presets")
+    logging.debug("[SunsetMale] 预设接口就绪：/luori/male_presets")
     return True
 
 
 try:
     _register_routes()
 except Exception as _exc:
-    print("[SunsetMale] 预设接口未注册：%s" % _exc)
+    logging.debug("[SunsetMale] 预设接口未注册：%s" % _exc)
 
 __all__ = [
     "NODE_CLASS_MAPPINGS",

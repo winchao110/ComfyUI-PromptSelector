@@ -193,6 +193,18 @@ data/
 
 ## 九、更新日志
 
+### 1.8.6
+
+- 启动终端不再刷本包的信息：`[SunsetMale] 预设接口就绪`、`[Hub] 路由就绪`、
+  `[Sunset] 词库就绪`、词库统计行，以及 ComfyUI 核心那条
+  `[INFO] Automatically register web folder web for ComfyUI-PromptSelector` 全部静默。
+- 做法：启动成功 / 统计类输出统一降到 `logging.debug`（默认不显示，开 DEBUG 可见），
+  包内所有 `print` 改走 `logging.debug`；核心那条用精确文本过滤器屏蔽，不改 ComfyUI 主程序、
+  不动 `WEB_DIRECTORY` 与 pyproject 的 `web` 声明，前端资源路径照旧。
+- **真错误仍然会报**：词库缺文件、预设写盘失败、路由注册失败等 warning / exception 保留。
+- 浏览器 DevTools 里五套皮肤的「已加载 / 已挂载」提示也降为 `console.debug`（默认级别隐藏）。
+- 节点功能、面板、词库、预设、显示名全部没动，只清掉控制台噪音。
+
 ### 1.8.5
 
 - 两个节点显示名改为「人像」系列：`⚡提示词权威摄影` → **`⚡提示词女性人像`**，`⚡提示词男性角色` → **`⚡提示词男性人像`**。

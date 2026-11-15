@@ -700,4 +700,4 @@ app.registerExtension({
   },
 });
 
-console.log("[PromptPuller] 提示词抽取面板已加载");
+console.debug("[PromptPuller] 提示词抽取面板已加载");

@@ -709,7 +709,7 @@ def _register_routes():
             params = {}
         return web.json_response(render(mode, params, body.get("extra") or ""))
 
-    LOG.info("[Hub] 路由就绪：/hub/schema · /hub/render")
+    LOG.debug("[Hub] 路由就绪：/hub/schema · /hub/render")
     return True
 
 

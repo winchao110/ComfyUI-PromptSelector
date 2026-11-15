@@ -884,7 +884,7 @@ export function mountInlineBox(node, root) {
   setTimeout(() => extract(false), 900);
   setTimeout(() => extract(false), 2200);
 
-  console.log("[SunInline] 即时框已挂到 " + (node.title || node.comfyClass) + " (" + mode + ")");
+  console.debug("[SunInline] 即时框已挂到 " + (node.title || node.comfyClass) + " (" + mode + ")");
   return st;
 }
 
@@ -928,4 +928,4 @@ app.registerExtension({
   },
 });
 
-console.log("[SunInline] 即时提示词框 v" + VERSION + " 已加载");
+console.debug("[SunInline] 即时提示词框 v" + VERSION + " 已加载");

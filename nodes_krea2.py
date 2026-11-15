@@ -49,7 +49,7 @@ def _external_dir(raw):
 
     for c in cands:
         if _looks_like_pack(c):
-            LOG.info("[Sunset] 使用外部词库目录：%s", c)
+            LOG.debug("[Sunset] 使用外部词库目录：%s", c)
             return c
 
     LOG.warning("[Sunset] prompt_dir 指向的位置没找到词库，改用插件自带的 data\\krea2")
@@ -229,8 +229,8 @@ def startup_check():
         cats, stats = PL.load_zimage_categories()
         extra = PL.load_extra_categories()
         split = sum(s.get("split_extra", 0) for s in stats.values())
-        LOG.info("[Sunset] 词库就绪 · %s", PL.data_dir())
-        LOG.info(
+        LOG.debug("[Sunset] 词库就绪 · %s", PL.data_dir())
+        LOG.debug(
             "[Sunset]   Krea2 %d 池 + NSFW %d 条 / 超强 %d 条 / 汇总 %d+%d+%d+%d 条 / "
             "Z-image %d 分类（拆粘接 +%d 条，额外分类 %d 个）",
             len(parts), len(nsfw), super_n, len(hz1), len(hz2), len(sfw), len(p19), len(cats), split, len(extra),

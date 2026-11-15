@@ -548,7 +548,7 @@ function clearStaleDrag(node) {
     if (cv.resizing_node === node) { cv.resizing_node = null; did.push("resizing_node"); }
     if (cv.resizingNode === node) { cv.resizingNode = null; did.push("resizingNode"); }
     if (cv.pointerIsDown === true) { cv.pointerIsDown = false; did.push("pointerIsDown"); }
-    if (did.length) console.log(`[ZImageSkin] 清残留拖拽状态(${did.join("+")})`);
+    if (did.length) console.debug(`[ZImageSkin] 清残留拖拽状态(${did.join("+")})`);
   } catch (e) {  }
 }
 
@@ -1336,7 +1336,7 @@ function ensureWearWidth(node) {
       node.setSize([WEAR_MIN_W, h]);
       node.graph?.setDirtyCanvas?.(true, true);
       node.setDirtyCanvas?.(true, true);
-      console.log(`[ZImageSkin] 穿搭节点宽度 ${w} -> ${WEAR_MIN_W}`);
+      console.debug(`[ZImageSkin] 穿搭节点宽度 ${w} -> ${WEAR_MIN_W}`);
     }
   } catch (e) {  }
 }
@@ -1351,7 +1351,7 @@ function ensureNSWidth(node) {
       node.setSize([NS_MIN_W, h]);
       node.graph?.setDirtyCanvas?.(true, true);
       node.setDirtyCanvas?.(true, true);
-      console.log(`[ZImageSkin] NS节点宽度 ${w} -> ${NS_MIN_W}`);
+      console.debug(`[ZImageSkin] NS节点宽度 ${w} -> ${NS_MIN_W}`);
     }
   } catch (e) {  }
 }
@@ -2036,7 +2036,7 @@ function install(node) {
     try { mountInlineBox(node, node.__zsCtx?.root || root); } catch (e) { /* ignore */ }
   }, ms));
 
-  console.log(`[ZImageSkin] 面板已挂载: ${node.title || cls}`);
+  console.debug(`[ZImageSkin] 面板已挂载: ${node.title || cls}`);
 }
 
 
@@ -2098,4 +2098,4 @@ app.registerExtension({
   },
 });
 
-console.log(`[ZImageSkin] 皮肤脚本已加载 v${SKIN_VERSION}（Z-image 落日三件套 · 霓虹外观）`);
+console.debug(`[ZImageSkin] 皮肤脚本已加载 v${SKIN_VERSION}（Z-image 落日三件套 · 霓虹外观）`);
