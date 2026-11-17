@@ -32,6 +32,8 @@ const CSS = `
   --sun-bg:     var(--component-node-background, #353535);
   --sun-panel:  var(--comfy-menu-bg, #2b2b2b);
   --sun-widget: var(--component-node-widget-background, var(--comfy-input-bg, #353535));
+  /* 输入框底色：直接用原生 .comfy-multiline-input 的同一个变量 */
+  --sun-input:  var(--comfy-input-bg, #222);
   --sun-border: var(--component-node-border, var(--border-color, #4a4a4a));
   --sun-fg:     var(--component-node-foreground, var(--fg-color, #d4d4d4));
   --sun-dim:    var(--component-node-foreground-secondary, #a0a0a0);
@@ -95,9 +97,15 @@ const CSS = `
   border-radius:4px !important;
   color:var(--sun-fg, #d4d4d4) !important;
 }
-.zs-root input, .zs-root select, .zs-root textarea,
-.k2-root input, .k2-root select, .k2-root textarea,
+.zs-root input, .zs-root textarea,
+.k2-root input, .k2-root textarea,
 .sun-right textarea, .sun-hp input {
+  background-color:var(--sun-input, var(--comfy-input-bg, #222)) !important;
+  color:var(--sun-fg, #d4d4d4) !important;
+  border:1px solid var(--sun-border, #4a4a4a) !important;
+  border-radius:4px !important;
+}
+.zs-root select, .k2-root select {
   background-color:var(--sun-panel, #2b2b2b) !important;
   color:var(--sun-fg, #d4d4d4) !important;
   border:1px solid var(--sun-border, #4a4a4a) !important;
@@ -150,38 +158,44 @@ if (!neon) {
 }
 
 /* ==================================================================
- * 1.8.2：提示词框纯黑底 + 按钮立体
+ * 1.8.2：提示词框 + 按钮立体
+ * 1.8.8：提示词框不再写死纯黑，底色/文字/边框全部改用 ComfyUI 主题变量
  * 独立注入，排在原生主题 CSS 之后；两套皮肤下都生效。
  * 想关掉：localStorage.setItem("sunset_3d", "off") 后刷新。
  * ================================================================== */
 const CSS_3D = `
-/* ---------- 提示词框：纯黑底 ---------- */
+/* ---------- 提示词框：跟随 ComfyUI 主题 ----------
+ * 只命中本包自己的面板（.zs-root / .k2-root / .pp-root / .sun-*），
+ * 严禁出现 textarea.comfy-multiline-input 这类全局选择器：
+ * 那个类是 ComfyUI 给「所有节点」的多行输入框用的，
+ * 一旦带 !important 覆盖，全工作流的输入框底色都会被一起改掉。
+ * --comfy-input-bg 就是原生 .comfy-multiline-input 用的变量，
+ * 深色主题 #222（深灰）、浅色主题自动变浅、换主题立刻跟随。
+ * ------------------------------------------------------------------ */
 html body .zs-root.zs-root textarea,
 html body .k2-root.k2-root textarea,
 html body .sun-right.sun-right textarea,
 html body .sun-ta,
 html body .sun-sub textarea,
 html body .sun-hp.sun-hp textarea,
-html body .pp-root.pp-root textarea,
-html body textarea.comfy-multiline-input,
-html body textarea[data-testid="dom-widget-textarea"] {
-  background-color:#000000 !important;
+html body .pp-root.pp-root textarea {
+  background-color:var(--comfy-input-bg, #222) !important;
   background-image:none !important;
-  color:#eaeaea !important;
-  caret-color:#eaeaea !important;
-  border:1px solid #3b3b3b !important;
-  box-shadow:inset 0 2px 6px rgba(0,0,0,.9) !important;
-  scrollbar-color:#4a4a4a #000000 !important;
+  color:var(--input-text, var(--fg-color, #ddd)) !important;
+  caret-color:var(--input-text, var(--fg-color, #ddd)) !important;
+  border:1px solid var(--border-color, #4a4a4a) !important;
+  box-shadow:none !important;
+  scrollbar-color:var(--border-color, #4a4a4a) var(--comfy-input-bg, #222) !important;
 }
 html body .zs-root.zs-root textarea::placeholder,
 html body .k2-root.k2-root textarea::placeholder,
 html body .sun-right.sun-right textarea::placeholder,
-html body .pp-root.pp-root textarea::placeholder { color:#6a6a6a !important; }
+html body .pp-root.pp-root textarea::placeholder { color:var(--descrip-text, #6a6a6a) !important; }
 html body .zs-root.zs-root textarea:focus,
 html body .k2-root.k2-root textarea:focus,
 html body .sun-right.sun-right textarea:focus,
 html body .pp-root.pp-root textarea:focus {
-  border-color:#6b6b6b !important;
+  border-color:var(--fg-color, #6b6b6b) !important;
   outline:none !important;
 }
 
@@ -245,13 +259,13 @@ let flat3d = false;
 try { flat3d = localStorage.getItem("sunset_3d") === "off"; } catch (e) { /* ignore */ }
 if (!flat3d) {
   const st = document.createElement("style");
-  st.id = "sunset-black3d-css";
+  st.id = "sunset-input3d-css";
   st.textContent = CSS_3D;
   document.head.appendChild(st);
 }
 
 console.debug("[SunsetNativeTheme] " + (neon ? "霓虹皮肤（已关闭原生风格）" : "ComfyUI 普通节点样式"));
-console.debug("[SunsetBlack3D] " + (flat3d ? "已关闭" : "提示词框纯黑底 / 按钮立体"));
+console.debug("[SunsetInput3D] " + (flat3d ? "已关闭" : "提示词框跟随主题 / 按钮立体"));
 
 /* ------------------------------------------------------------------
  * 字号归一：三套皮肤里原本混着 8.5 / 9 / 9.5 / 10 / 10.5 / 11 /

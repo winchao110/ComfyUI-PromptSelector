@@ -10,7 +10,7 @@
 
 1. 把整个文件夹放进 `ComfyUI/custom_nodes/`（目录名保持 `ComfyUI-PromptSelector`）。
 2. 重启 ComfyUI。
-3. `Ctrl + F5` 强制刷新浏览器（改了前端面板 / 主题，不刷新看到的还是旧样式；节点默认是普通 ComfyUI 外观，提示词框纯黑底、按钮立体）。
+3. `Ctrl + F5` 强制刷新浏览器（改了前端面板 / 主题，不刷新看到的还是旧样式；节点默认是普通 ComfyUI 外观，提示词框底色跟随 ComfyUI 主题、按钮立体）。
 4. 节点库搜索 → 敲 **taiyang**（大小写不限，由搜索别名命中）→ 拖出需要的节点。
 
 `dependencies = []`，不需要 `pip install` 任何东西，词库随插件一起走。
@@ -192,6 +192,12 @@ data/
 ---
 
 ## 九、更新日志
+
+### 1.8.8
+
+- **修掉「装上本包后，全工作流的节点编辑框底色都变成纯黑」**：`web/native_theme.js` 里给提示词框做「纯黑底」时，顺手写了 `html body textarea.comfy-multiline-input`、`html body textarea[data-testid="dom-widget-textarea"]` 两条**全局选择器**，还带 `!important`。`comfy-multiline-input` 是 ComfyUI 给**所有节点**多行输入框用的公共类名，所以整个工作流的输入框（含原生节点、其它插件的节点）全被刷成 `#000`。这两条已删除，现在只作用于本包自己的面板。
+- 提示词框不再写死纯黑：底色改用原生 `.comfy-multiline-input` 的同一个主题变量 `--comfy-input-bg`（深色主题 `#222` 深灰 / 浅色主题自动变浅），文字用 `--input-text`、边框用 `--border-color`、占位符用 `--descrip-text`，切换 ComfyUI 主题立即跟随；同时去掉原来那层 `inset` 黑色重阴影。
+- 输入框统一走新增的 `--sun-input`（= `var(--comfy-input-bg)`），下拉框仍用 `--sun-panel`。
 
 ### 1.8.7
 
