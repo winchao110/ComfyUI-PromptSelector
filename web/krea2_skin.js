@@ -1,5 +1,6 @@
 import { app } from "../../scripts/app.js";
 import { mountInlineBox } from "./inline_box.js";
+import { createHeightDriver, bootPanelH } from "./layout.js";
 
 const SKIN_VERSION = "3.17";
 
@@ -1542,7 +1543,6 @@ app.registerExtension({
     node.__k2skin = true;
 
     injectCSS();
-    bindPointerWatch();          
     installPainting(node);
     applyTriggerDefault(node);   
 
@@ -1565,13 +1565,17 @@ app.registerExtension({
 
     let domWidget = null;
     if (typeof node.addDOMWidget === "function") {
+      if (!node.__sunPanelH) node.__sunPanelH = bootPanelH(node, 460);
       domWidget = node.addDOMWidget("krea2_deck", "krea2ui", root, {
         serialize: false,     
         hideOnZoom: false,    
-        getHeight: () => panelH,
+        /* 只报内容高度（node.__sunPanelH，由 layout.js 从 body.scrollHeight 算出）。
+           以前这里返回模块级 panelH，而 panelH 又来自 body 实测高度、同时又被
+           computeSize 拿去定控件高度 —— 多个 Krea2 节点会互相踩着往上涨。 */
+        getHeight: () => Math.round(node.__sunPanelH || 0),
       });
       if (domWidget) {
-        domWidget.computeSize = () => [CONFIG.width, panelH];
+        domWidget.computeSize = () => [CONFIG.width, Math.round(node.__sunPanelH || 0)];
         node.__k2dm = domWidget;   
       }
     } else {
@@ -1595,6 +1599,7 @@ app.registerExtension({
         const now = Date.now();
         if (now - last < 60) return;     
         last = now;
+        if (node.__sunSizing) return;      // 自己 setSize 引起的回流，别再套一圈
         fit(false);
       });
       try { ro.observe(body); } catch (e) {  }
@@ -1607,22 +1612,32 @@ app.registerExtension({
       chain(node, "onRemoved", function () { clearInterval(timer); });
     }
 
+    /* 用户拖高度：不跟他抢，等手松开 220ms 再按内容收口。
+       高度已经不在反馈链里，所以就算不收也不会自己往上长。 */
     chain(node, "onResize", function () {
-      lastResizeTs = Date.now();          
-      if (sizing) return;                 
+      if (node.__sunSizing) return;
       bumpCanvas(this);
-      setTimeout(() => fit(false), 0);    
+      clearTimeout(node.__k2ResizeT);
+      node.__k2ResizeT = setTimeout(() => {
+        if (!node.__k2gone && !node.__sunGone) fit(false);
+      }, 220);
     });
 
     chain(node, "onConfigure", function () {
       this.__k2fitted = false;
+      this.__sunHDrv?.reset?.();       // 清熔断状态；高度由下一次 fit 按内容重算
       setTimeout(() => fit(false), 0);
       setTimeout(() => fit(false), 200);   
     });
 
     chain(node, "onRemoved", function () {
       this.__k2gone = true;
+      this.__sunGone = true;
       this.__k2ctx = null;
+      clearTimeout(this.__k2FitTimer);
+      clearTimeout(this.__k2ResizeT);
+      try { this.__sunHDrv?.destroy(); } catch (e) { /* ignore */ }
+      this.__sunHDrv = null;
     });
 
     /* 右侧即时提示词框 + 下方抽取按钮（抽取仍走 Krea2 自己的 pick） */
@@ -1632,153 +1647,37 @@ app.registerExtension({
     }, ms));
 
     booted = true;
-    console.debug("[Krea2Skin] 皮肤已挂载到节点:", node.title || cls, "| 面板高:", panelH);
+    console.debug("[Krea2Skin] 皮肤已挂载到节点:", node.title || cls);
   },
 });
 
-const PAD_TB = 22;      
-const BOX_PAD = 10;     
-const EDGE_GAP = 2;     
+const DECK_NAME = "krea2_deck";
+let wdTimer = null;
 
-let panelH = 460;       
-let sizing  = false;    
-let lastResizeTs = 0;   
-let fitTimer = null;
-let wdTimer = null;     
-
-function contentHeight(body) {
-  if (!body) return panelH;
-  const h = Math.max(body.offsetHeight || 0, body.scrollHeight || 0);
-  return h > 40 ? h : panelH;   
-}
-
-function widgetY(node, root) {
-  const dm = node?.__k2dm;
-  if (dm && typeof dm.y === "number" && dm.y >= 0) return dm.y;
-  try {
-    const cv = app?.canvas, ds = cv?.ds, el = cv?.canvas;
-    if (!ds || !el || !root?.parentElement) return BOX_PAD;
-    const cr = el.getBoundingClientRect();
-    const scale = ds.scale || 1;
-    const nodeTop = cr.top + ((node.pos?.[1] || 0) + (ds.offset?.[1] || 0)) * scale;
-    const boxTop = root.parentElement.getBoundingClientRect().top;
-    const v = Math.round((boxTop - nodeTop) / scale) - BOX_PAD;
-    return v >= 0 ? v : BOX_PAD;
-  } catch (e) { return BOX_PAD; }
-}
-
-function isUserResizing(node) {
-  try {
-    const cv = app?.canvas;
-    if (!cv || !node) return false;
-    return cv.resizing_node === node || cv.resizingNode === node;
-  } catch (e) { return false; }
-}
-
-function pointerIsDown() {
-  try {
-    const cv = app?.canvas;
-    return !!(cv && (cv.pointer_is_down || cv.pointerIsDown));
-  } catch (e) { return false; }
-}
-
-let k2PtrDown = false;      
-let k2PtrDownAt = 0;        
-let k2PtrMoveAt = 0;        
-let k2PtrBound = false;     
-
-function bindPointerWatch() {
-  if (k2PtrBound) return;
-  const up = () => { k2PtrDown = false; };
-  const down = () => { k2PtrDown = true; k2PtrDownAt = Date.now(); k2PtrMoveAt = Date.now(); };
-  const move = () => { k2PtrMoveAt = Date.now(); };
-  try {
-    window.addEventListener("pointerdown", down, true);
-    window.addEventListener("pointermove", move, true);
-    window.addEventListener("pointerup", up, true);
-    window.addEventListener("pointercancel", up, true);
-    window.addEventListener("blur", up, true);
-    document.addEventListener("visibilitychange", () => { if (document.hidden) up(); });
-    k2PtrBound = true;
-  } catch (e) { console.warn("[Krea2Skin] 指针监听挂载失败:", e); }
-}
-
-function dragFlags(node) {
-  try {
-    const cv = app?.canvas;
-    if (!cv) return null;
-    return {
-      marked: cv.resizing_node === node || cv.resizingNode === node,   
-      pressed: !!(cv.pointer_is_down || cv.pointerIsDown),             
-    };
-  } catch (e) { return null; }
-}
-
-function clearStaleDragFlags(node) {
-  if (k2PtrDown) return false;                 
-  try {
-    const cv = app?.canvas;
-    if (!cv) return false;
-    const f = dragFlags(node);
-    if (!f || (!f.marked && !f.pressed)) return false;
-    if (f.marked) { cv.resizing_node = null; cv.resizingNode = null; }
-    cv.pointer_is_down = false;
-    cv.pointerIsDown = false;
-    dbg(node, "清残留拖拽状态(" + (f.marked ? "resizing_node" : "") + (f.pressed ? (f.marked ? "+" : "") + "pointerIsDown" : "") + ")");
-    return true;
-  } catch (e) { return false; }
-}
-
-function isDraggingNow(node) {
-  if (!k2PtrDown) return false;                              
-  if (Date.now() - k2PtrDownAt > 15000) return false;        
-  if (Date.now() - lastResizeTs > 1500) return false;        
-  const f = dragFlags(node);
-  const marked = !!(f && f.marked);                          
-  const moved = (Date.now() - k2PtrMoveAt) < 1500;           
-  return marked || moved;
+/* 高度驱动：面板内容高度 → node.__sunPanelH → computeSize/getHeight → setSize。
+   说明见 layout.js 顶部；这里已经没有模块级 panelH，
+   多个 Krea2 节点各算各的，不会互相把对方顶高。 */
+function driveOf(node, root, body) {
+  if (!node || !root) return null;
+  return createHeightDriver(node, {
+    root,
+    body,
+    width: () => CONFIG.width,
+    tag: "Krea2Skin",
+  });
 }
 
 function relayout(node, root, body) {
-  if (!node || !root || !body || node.__k2gone) return false;
-
-  const need = contentHeight(body) + PAD_TB;              
-  const changed = Math.abs(need - panelH) > 0.5;
-  if (changed) panelH = need;
-
-  const rootH = root.offsetHeight || need;                
+  if (!node || !root || node.__k2gone) return false;
+  const d = driveOf(node, root, body);
+  if (!d) return false;
   if (!CONFIG.autoResize) {
-    if (changed) bumpCanvas(node);
+    if (d.measure()) bumpCanvas(node);      // 不自动改尺寸时，只重画
     return false;
   }
-
-  if (isDraggingNow(node)) { dbg(node, "skip: 指针按着，让位给用户拖"); return false; }
-
-  clearStaleDragFlags(node);
-
-  const wY = widgetY(node, root);
-  let goal = Math.round(rootH + wY + BOX_PAD + EDGE_GAP);       
-  const min = Math.max(120, wY + BOX_PAD + 60);
-  if (goal < min) goal = min;
-
-  const curH = node.size?.[1] || 0;
-  const curW = node.size?.[0] || 0;
-  const targetW = Math.max(curW, CONFIG.width);
-
-  if (changed) bumpCanvas(node);
-
-  if (Math.abs(goal - curH) <= 1 && Math.abs(targetW - curW) <= 1) {
-    dbg(node, `ok ${Math.round(curH)}`);
-    return false;
-  }
-
-  dbg(node, `${goal < curH ? "收回空白" : "撑开"} ${Math.round(curH)}→${goal} (面板 ${rootH} 偏移 ${wY})`);
-  sizing = true;
-  try { node.setSize?.([targetW, goal]); } catch (e) {  }
-  bumpCanvas(node);
-  node.__k2fitted = true;
-  requestAnimationFrame(() => { sizing = false; });
-  return true;
+  const changed = d.refresh();
+  if (changed) node.__k2fitted = true;
+  return changed;
 }
 
 function dbg(node, msg) {
@@ -1792,18 +1691,23 @@ function dbg(node, msg) {
   } catch (e) {  }
 }
 
+/* 巡检只负责「把前端新冒出来的原生控件再藏回去」。
+   高度不再由定时器推进 —— 那是原来每 300ms 长一截的推手，改由 ResizeObserver 驱动。 */
 function startWatchdog() {
   if (wdTimer) return;
   wdTimer = setInterval(() => {
     const nodes = app?.graph?._nodes;
-    if (!Array.isArray(nodes)) return;
+    if (!Array.isArray(nodes) || !CONFIG.hideNative) return;
     for (const n of nodes) {
-      const ctx = n.__k2ctx;
-      if (!ctx || n.__k2gone) continue;
-      try { relayout(n, ctx.root, ctx.body); }
-      catch (e) { console.error("[Krea2Skin] 巡检失败:", e); }
+      if (!n.__k2ctx || n.__k2gone) continue;
+      try {
+        for (const w of n.widgets || []) {
+          if (w?.name === DECK_NAME) continue;
+          hideWidget(w);
+        }
+      } catch (e) { console.error("[Krea2Skin] 巡检失败:", e); }
     }
-  }, 300);
+  }, 600);
 }
 
 function bumpCanvas(node) {
@@ -1812,24 +1716,33 @@ function bumpCanvas(node) {
   try { app?.canvas?.setDirty?.(true, true); } catch (e) {  }
 }
 
+/* 内容变化后的收口：最多再确认 4 轮（应对图片/字体晚到导致的二次长高），
+   每轮都重新量内容高度，所以不会累积。定时器按节点存，不再全局共用一个。 */
 function scheduleFit(node, root, body, force) {
-  if (!node || !root || !body) return;
+  if (!node || !root || !body || node.__k2gone) return;
   void force;
-  clearTimeout(fitTimer);
+  clearTimeout(node.__k2FitTimer);
   let round = 0;
+  let waits = 0;
   const step = () => {
+    if (node.__k2gone || node.__sunGone) return;
+    if (node.__sunSizing) {
+      if (++waits > 40) return;                       // 闸门迟迟不开就别死等
+      node.__k2FitTimer = setTimeout(step, 16);
+      return;
+    }
     let changed = false;
     try { changed = relayout(node, root, body); }
     catch (e) { console.error("[Krea2Skin] 尺寸贴合失败:", e); return; }
     round++;
-    if (round < 5) fitTimer = setTimeout(step, changed ? 60 : 0);
+    if (round < 5 && changed) node.__k2FitTimer = setTimeout(step, 60);
   };
   requestAnimationFrame(step);
 }
 
 function measurePanel(root) {
   const body = root?.querySelector?.(".k2-body");
-  return contentHeight(body);
+  return body ? Math.round(body.scrollHeight || 0) : 0;
 }
 
 console.debug(`[Krea2Skin] 皮肤脚本已加载 v${SKIN_VERSION} (ComfyUI-PromptSelector · TaiYang · 霓虹外观)`);

@@ -1,5 +1,6 @@
 import { app } from "../../scripts/app.js";
 import { mountInlineBox } from "./inline_box.js";
+import { createHeightDriver, bootPanelH } from "./layout.js";
 
 const SKIN_VERSION = "1.3.1";
 
@@ -521,55 +522,22 @@ function injectCSS() {
 }
 
 
-let ptrDown = false;
-let ptrLast = 0;
-
-function bindPointerWatch() {
-  if (bindPointerWatch.done) return;
-  bindPointerWatch.done = true;
-  const win = (t, f) => window.addEventListener(t, f, true);
-  win("pointerdown", () => { ptrDown = true; ptrLast = Date.now(); });
-  win("pointermove", () => { if (ptrDown) ptrLast = Date.now(); });
-  const up = () => { ptrDown = false; };
-  win("pointerup", up);
-  win("pointercancel", up);
-  window.addEventListener("blur", up);
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) ptrDown = false;
-  });
-}
-
-function clearStaleDrag(node) {
-  if (ptrDown) return;
-  try {
-    const cv = app?.canvas;
-    if (!cv) return;
-    const did = [];
-    if (cv.resizing_node === node) { cv.resizing_node = null; did.push("resizing_node"); }
-    if (cv.resizingNode === node) { cv.resizingNode = null; did.push("resizingNode"); }
-    if (cv.pointerIsDown === true) { cv.pointerIsDown = false; did.push("pointerIsDown"); }
-    if (did.length) console.debug(`[ZImageSkin] 清残留拖拽状态(${did.join("+")})`);
-  } catch (e) {  }
-}
-
-function isDragging() {
-  return ptrDown || (Date.now() - ptrLast) < CONFIG.minDragMs;
-}
-
-function widgetY(node) {
-  const w = node.widgets?.find((x) => x.name === DECK);
-  return w ? (w.y ?? 0) : 0;
+/* 高度驱动：面板内容高度是唯一来源，见 layout.js 顶部说明。
+   node.__sunPanelH 由 measurePanelH() 算出来，computeSize / getHeight 只读它，
+   不再读 root.offsetHeight —— 那条路会跟 setSize 形成正反馈（节点无限往下长）。 */
+function driveOf(node, root) {
+  if (!node || !root) return null;
+  const d = createHeightDriver(node, { root, body: root.querySelector?.(".zs-body"), tag: "ZImageSkin" });
+  node.__zsDrv = d;
+  return d;
 }
 
 function relayout(node, root) {
   if (!CONFIG.autoResize) return false;
   if (!node.graph || node.__zsGone) return false;
-  if (!root || !root.offsetHeight) return false;
+  if (!root) return false;
 
-  if (isDragging()) { dbg(node, "skip: 指针按着"); return false; }
-
-  clearStaleDrag(node);
-
+  /* 宽度跟着节点走（只读 node.size[0]，不再参与高度计算） */
   if (node.comfyClass === "SunsetNSPromptSelector") {
     root.style.width =
       Math.max(200, Math.round((Number(node.size?.[0]) || NS_MIN_W) - 12)) + "px";
@@ -579,20 +547,29 @@ function relayout(node, root) {
       Math.max(200, Math.round((Number(node.size?.[0]) || LR_MIN_W) - 12)) + "px";
   }
 
-  const h = root.offsetHeight;
-  const goal = Math.round(h + widgetY(node) + CONFIG.panelPad + CONFIG.edgeGap);
-  const cur = Math.round(node.size?.[1] ?? 0);
-  if (Math.abs(goal - cur) <= 2) { dbg(node, `ok ${cur}`); return true; }
-
-  dbg(node, `set ${cur}->${goal} (面板 ${h} 偏移 ${widgetY(node)})`);
-  try {
-    node.setSize([Math.round(node.size?.[0] ?? CONFIG.width), goal]);
-    node.graph?.setDirtyCanvas?.(true, true);
-    node.setDirtyCanvas?.(true, true);
-  } catch (e) { console.warn("[ZImageSkin] setSize 失败", e); }
-  return true;
+  const d = driveOf(node, root);
+  return d ? d.refresh() : false;
 }
 
+/* 内容变了（折叠展开、增删卡片、切模式……）：只重测内容高度，再单向推一次节点高。
+   ms > 0 时延后执行，同一节点只保留最后一次（用来让过用户拖拽）。
+   走 relayout 而不是直连驱动，是为了顺带同步 NS/LR 节点的面板宽度。 */
+function refit(node, ms = 0) {
+  if (!CONFIG.autoResize || node.__zsGone || node.__sunGone) return;
+  const rootNow = () => node.__zsCtx?.root || node.__zsDrv?.root;
+  if (!rootNow()) return;
+  clearTimeout(node.__zsRefitT);
+  if (!ms) { relayout(node, rootNow()); return; }
+  node.__zsRefitT = setTimeout(() => {
+    const r = rootNow();
+    if (r && !node.__sunGone && !node.__zsGone) relayout(node, r);
+  }, ms);
+}
+
+
+/* 巡检只做「隐藏原生控件」和「宽度下限」这类兜底。
+   高度不再由定时器推进：它只在内容真变（ResizeObserver / 显式 fit）时才更新，
+   否则每 300ms 一次 setSize 就是原来那个无限拉长的推手。 */
 let wdTimer = null;
 
 function startWatchdog() {
@@ -605,10 +582,10 @@ function startWatchdog() {
       if (!ctx || n.__zsGone) continue;
       try {
         ensureHidden(n);
+        ensureWearWidth(n);
         ensureNSWidth(n);
         ensureLRWidth(n);
         if (typeof ctx.sync === "function") ctx.sync();
-        relayout(n, ctx.root);
       } catch (e) { console.error("[ZImageSkin] 巡检失败:", e); }
     }
   }, CONFIG.syncInterval);
@@ -1365,8 +1342,8 @@ function makeFold(title, color, open) {
   g.appendChild(inner);
   h.addEventListener("click", () => {
     g.classList.toggle("closed");
-    setTimeout(() => relayout(node, node.__zsCtx?.root), 0);
-    setTimeout(() => relayout(node, node.__zsCtx?.root), 120);
+    /* 高度交给 body 的 ResizeObserver 去重算（这里拿不到 node，之前那两行
+       relayout(node, …) 一直是抛 ReferenceError 的死代码） */
   });
   return { g, inner };
 }
@@ -1949,7 +1926,6 @@ function install(node) {
 
   injectCSS();
   pinSeedControl(node);
-  bindPointerWatch();
   installPainting(node);
   ensureHidden(node);
   ensureWearWidth(node);
@@ -1985,17 +1961,20 @@ function install(node) {
 
   let dm = null;
   if (typeof node.addDOMWidget === "function") {
+    if (!node.__sunPanelH) node.__sunPanelH = bootPanelH(node, 620);
     dm = node.addDOMWidget(DECK, "zimageui", root, {
       serialize: false,
       hideOnZoom: false,
-      getHeight: () => root.offsetHeight,
+      /* 只报「内容高度」这一个来源：node.__sunPanelH 由 layout.js 从 body.scrollHeight 算出。
+         这里如果读 root.offsetHeight，就成了「面板量自己」，正是无限拉长的根源。 */
+      getHeight: () => Math.round(node.__sunPanelH || 0),
     });
     if (dm) {
       dm.computeSize = () => [cls === "SunsetNSPromptSelector"
         ? Math.max(Number(node.size?.[0]) || CONFIG.width, NS_MIN_W)
         : isLRNode(cls)
           ? Math.max(Number(node.size?.[0]) || CONFIG.width, LR_MIN_W)
-          : CONFIG.width, root.offsetHeight];
+          : CONFIG.width, Math.round(node.__sunPanelH || 0)];
       node.__zsDm = dm;
     }
   } else {
@@ -2014,18 +1993,29 @@ function install(node) {
       const now = Date.now();
       if (now - last < 60) return;
       last = now;
+      if (node.__sunSizing) return;        // 自己 setSize 引起的回流，别再套一圈
       fit();
     });
     try { ro.observe(built.body); } catch (e) {  }
     chain(node, "onRemoved", () => { try { ro.disconnect(); } catch (e) { } });
   }
 
-  chain(node, "onResize", () => { fit(); });
+  /* 用户拖高度：不跟他抢，等手松开 220ms 再按内容收回固定高度。
+     高度已经从"反馈链"里摘出来了，所以就算这里不改回去也不会自己长。 */
+  chain(node, "onResize", () => {
+    if (node.__sunSizing) return;
+    refit(node, 220);                          // 拖拽中会被不断推迟，松手后才收口
+  });
   chain(node, "onRemoved", () => {
     node.__zsGone = true;
+    node.__sunGone = true;
     node.__zsCtx = null;
+    clearTimeout(node.__zsRefitT);
+    try { node.__sunHDrv?.destroy(); } catch (e) { /* ignore */ }
+    node.__sunHDrv = null;
   });
   chain(node, "onConfigure", () => {
+    node.__sunHDrv?.reset?.();             // 清熔断状态；高度由下一次 fit 按内容重算
     setTimeout(() => { built.sync?.(); fit(); }, 30);
     setTimeout(() => { built.sync?.(); fit(); }, 400);
   });

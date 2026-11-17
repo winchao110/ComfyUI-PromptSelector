@@ -487,24 +487,6 @@ async function postRender(mode, params) {
   return await r.json();
 }
 
-/* ------------------------------------------------------------------ 量偏移 */
-/* 皮肤算节点高度时用的是控件自身的 y（dm.y），但前端真正把面板摆下去的位置
-   比它多一个标题栏高度，结果节点总是矮一截、面板底边露在节点外。
-   这里直接从画面坐标量一次真实偏移（画布元素自身有 16px 顶边，别漏掉）。 */
-function measureY(node, root) {
-  try {
-    const cv = app?.canvas || app?.canvas;
-    const ds = cv?.ds;
-    const el = root?.parentElement || root;
-    if (!ds || !el || !cv?.canvas) return null;
-    const scale = ds.scale || 1;
-    const cr = cv.canvas.getBoundingClientRect();
-    const nodeTop = cr.top + ((Number(node.pos?.[1]) || 0) + Number(ds.offset?.[1] || 0)) * scale;
-    const v = (el.getBoundingClientRect().top - nodeTop) / scale;
-    return (isFinite(v) && v > 0 && v < 240) ? v : null;
-  } catch (e) { return null; }
-}
-
 /* ------------------------------------------------------------------ 主挂载 */
 export function mountInlineBox(node, root) {
   const mode = MODE_OF[node?.comfyClass];
@@ -594,20 +576,12 @@ export function mountInlineBox(node, root) {
     clampW();
   };
 
-  /* 高度兜底：副框出现 / 元信息多一行时面板会长高，
-     一旦探出节点底边就把节点撑高。口径和皮肤一致（面板底边留 2px），
-     所以正常情况这里什么都不做，只在皮肤没跟上时才补一刀。 */
-  const fitH = () => {
-    try {
-      if (!node.size || !root.offsetHeight) return;
-      const wY = measureY(node, root);
-      if (wY == null) return;                              // 面板还没摆好位置
-      const need = Math.round(wY + root.offsetHeight + 2);
-      if (Math.round(node.size[1]) >= need) return;
-      node.setSize?.([Math.round(node.size[0]), need]);
-      node.graph?.setDirtyCanvas?.(true, true);
-      node.setDirtyCanvas?.(true, true);
-    } catch (e) { /* ignore */ }
+  /* 高度归皮肤管（layout.js 里的单片高度源）。
+     这里以前有个 fitH()：读 root.offsetHeight 反推节点高度、而且「只涨不缩」，
+     任何 1~2px 的测量误差都会被永久固化，节点就会一路往下慢慢拉长。
+     现在右栏内容变了只通知皮肤重测一次内容高度，绝不在这里改 node.size[1]。 */
+  const refitSkin = () => {
+    try { node.__sunHDrv?.schedule?.(0); } catch (e) { /* ignore */ }
   };
 
   /* 4) 状态渲染（旧画布里存过的开关/历史字段清掉） */
@@ -672,8 +646,9 @@ export function mountInlineBox(node, root) {
     if (mode === "N") showSub("负面提示词", res?.negative);
     else if (mode === "L" || mode === "M") showSub("英文提示词", res?.english);
     else showSub("", "");
-    setTimeout(fitH, 60);
-    setTimeout(fitH, 260);
+    /* 副框/元信息可能让右栏变高：通知皮肤重测内容高度（单向，不会自己推自己） */
+    setTimeout(refitSkin, 60);
+    setTimeout(refitSkin, 260);
   };
 
   /* 5) 抽取 */
@@ -781,16 +756,26 @@ export function mountInlineBox(node, root) {
   watchWidgets();
   const tick = setInterval(() => {
     if (node.__sunBox !== st) { clearInterval(tick); return; }
+    if (node.__sunGone) { clearInterval(tick); return; }
     watchWidgets();
     paintRun();                      // 从工作流恢复过来的开关状态
     clampW();                        // 载入旧工作流时可能带回过窄的宽度
-    fitH();                          // 副框出现后别让面板探出节点底边
     if (st.busy) return;
     const snap = JSON.stringify(collect(node));
     if (snap === st.lastSnap) return;
     st.lastSnap = snap;
     onChanged();
   }, 700);
+
+  /* 节点被删/图重载时把定时器收干净（以前只有 __sunBox 变了才清，节点删掉后
+     interval 会一直空转，而且还会去戳已经不在图里的节点） */
+  const prevRemoved = node.onRemoved;
+  node.onRemoved = function (...a) {
+    clearInterval(tick);
+    clearTimeout(changeTimer);
+    st.gone = true;
+    try { prevRemoved?.apply(this, a); } catch (e) { /* ignore */ }
+  };
 
   /* 7) 按钮 */
   btnGo.addEventListener("click", () => {

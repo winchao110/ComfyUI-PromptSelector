@@ -12,7 +12,7 @@ from .nodes_male import SunsetMalePromptBuilder
 from . import nodes_override
 from .nodes_hub import PromptPuller  # 只为挂上 /hub/render 路由（右侧即时框要用），节点本身不注册
 
-__version__ = "1.8.6"
+__version__ = "1.8.7"
 
 # 给 7 个节点补一个隐藏输入「即时提示词」：右侧框里的字入队时直接当当条输出
 nodes_override.install([
